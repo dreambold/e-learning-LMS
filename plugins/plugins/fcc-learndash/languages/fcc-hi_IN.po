@@ -1,0 +1,2361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontend Course Creation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Jun 13 2016 15:26:14 GMT+0530 (IST)\n"
+"PO-Revision-Date: Thu Jun 23 2016 17:32:01 GMT+0530 (IST)\n"
+"Last-Translator: ketan.vyawahare <ketan.vyawahare@wisdmlabs.com>\n"
+"Language-Team: \n"
+"Language: Hindi\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: hi_IN\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Frontend Course Creation"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wisdmlabs.com/front-end-course-creation-for-learndash"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The plugin creates a user role 'Course Author' with privileges to add a "
+"course, lesson, topic or quiz from the front-end."
+msgstr ""
+
+#. Author of the plugin
+msgid "Wisdmlabs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wisdmlabs.com"
+msgstr ""
+
+#: ../fcc.php:55 ../fcc.php:93
+msgid ""
+"LearnDash LMS plugin is not active. In order to make the 'Frontend Course "
+"Creation' plugin work, you need to install and activate LearnDash LMS first."
+msgstr ""
+
+#: ../fcc.php:66
+msgid ""
+"Please Activate BuddyPress Plugin for Activating Frontend Course Creation "
+"plugin"
+msgstr ""
+
+#: ../fcc.php:75
+msgid "Please Activate BuddyPress Plugin to Run Front End Course Creation"
+msgstr ""
+
+#: ../fcc.php:173
+msgid "Create Course"
+msgstr ""
+
+#: ../fcc.php:187
+msgid "Course List"
+msgstr ""
+
+#: ../fcc.php:201
+msgid "Create Lesson"
+msgstr ""
+
+#: ../fcc.php:215
+msgid "Lesson List"
+msgstr ""
+
+#: ../fcc.php:230
+msgid "Create Topic"
+msgstr ""
+
+#: ../fcc.php:244
+msgid "Topic List"
+msgstr ""
+
+#: ../fcc.php:258
+msgid "Create Quiz"
+msgstr ""
+
+#: ../fcc.php:272
+msgid "Quiz List"
+msgstr ""
+
+#: ../fcc.php:286
+msgid "Create Question"
+msgstr ""
+
+#: ../fcc.php:300
+msgid "Question List"
+msgstr ""
+
+#: ../fcc.php:392
+msgid "Tag already exist"
+msgstr ""
+
+#: ../fcc.php:453 ../fcc.php:465
+msgid "Author"
+msgstr ""
+
+#: ../modules/buddypress/class_ld_buddypress.php:121
+msgid "Listing"
+msgstr ""
+
+#: ../modules/buddypress/class_ld_buddypress.php:268
+msgid "Course"
+msgstr ""
+
+#: ../modules/buddypress/class_ld_buddypress.php:312
+msgid "Lesson"
+msgstr ""
+
+#: ../modules/buddypress/class_ld_buddypress.php:357
+msgid "Topic"
+msgstr ""
+
+#: ../modules/buddypress/class_ld_buddypress.php:401 ..
+#: modules/quiz/wdm_quiz_creation.php:675
+msgid "Quiz"
+msgstr ""
+
+#: ../modules/buddypress/class_ld_buddypress.php:445
+msgid "Question"
+msgstr ""
+
+#: ../modules/includes/class-wdm-wusp-add-data-in-db.php:65
+msgid "Frontend Course Creation License"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:5 ..
+#: modules/lesson/wdm_lesson_creation.php:14 ..
+#: modules/course/wdm_course_creation.php:9 ..
+#: modules/course/wdm_course_creation.php:18 ../modules/quiz/wdm_quiz_creation.
+#: php:6 ../modules/quiz/wdm_quiz_creation.php:15 ..
+#: modules/question/wdm_question_creation.php:16 ..
+#: modules/question/wdm_question_creation.php:25 ..
+#: modules/question/wdm_question_creation.php:35 ..
+#: modules/topic/wdm_topic_creation.php:6 ../modules/topic/wdm_topic_creation.
+#: php:15
+msgid "Sorry, Something went wrong"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:122
+msgid "Lesson Updated Successfully."
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:125
+msgid "Lesson Added Successfully."
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:143 ..
+#: modules/course/wdm_course_creation.php:178 ../modules/quiz/wdm_quiz_creation.
+#: php:291 ../modules/question/wdm_question_creation.php:131 ..
+#: modules/topic/wdm_topic_creation.php:151
+msgid "Back"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:145 ..
+#: modules/course/wdm_course_creation.php:180 ../modules/quiz/wdm_quiz_creation.
+#: php:293 ../modules/topic/wdm_topic_creation.php:153
+msgid "Preview"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:151 ..
+#: modules/lesson/wdm_lesson_creation.php:155 ..
+#: modules/course/wdm_course_creation.php:186 ../modules/quiz/wdm_quiz_creation.
+#: php:300 ../modules/topic/wdm_topic_creation.php:159 ..
+#: modules/topic/wdm_topic_creation.php:163
+msgid "Content"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:153 ..
+#: modules/lesson/wdm_lesson_list.php:15 ../modules/lesson/wdm_lesson_list.php:
+#: 24 ../modules/course/wdm_course_creation.php:188 ..
+#: modules/course/wdm_course_creation.php:388 ../modules/course/wdm_course_list.
+#: php:15 ../modules/quiz/wdm_quiz_list.php:15 ../modules/quiz/wdm_quiz_list.php:
+#: 24 ../modules/quiz/wdm_quiz_creation.php:302 ..
+#: modules/question/wdm_question_list.php:25 ..
+#: modules/question/wdm_question_list.php:35 ..
+#: modules/question/wdm_question_creation.php:155 ..
+#: modules/topic/wdm_topic_creation.php:161 ../modules/topic/wdm_topic_list.php:
+#: 15 ../modules/topic/wdm_topic_list.php:25
+msgid "Title"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:167 ..
+#: modules/course/wdm_course_creation.php:202
+msgid "Categories:"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:176 ..
+#: modules/course/wdm_course_creation.php:213 ../modules/quiz/wdm_quiz_creation.
+#: php:315 ../modules/topic/wdm_topic_creation.php:184
+msgid "Tags:"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:188 ..
+#: modules/course/wdm_course_creation.php:226 ../modules/quiz/wdm_quiz_creation.
+#: php:326 ../modules/topic/wdm_topic_creation.php:195
+msgid "Add Tag"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:190 ..
+#: modules/course/wdm_course_creation.php:349 ..
+#: modules/topic/wdm_topic_creation.php:197
+msgid "Featured Image:"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:195 ..
+#: modules/course/wdm_course_creation.php:228 ../modules/quiz/wdm_quiz_creation.
+#: php:328 ../modules/topic/wdm_topic_creation.php:202
+msgid "Features"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:201 ..
+#: modules/quiz/wdm_quiz_creation.php:356 ../modules/topic/wdm_topic_creation.
+#: php:206
+msgid "Associated Course"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:205 ..
+#: modules/course/wdm_course_creation.php:307 ../modules/quiz/wdm_quiz_creation.
+#: php:360 ../modules/topic/wdm_topic_creation.php:210
+msgid "-- Select a Course --"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:215 ..
+#: modules/quiz/wdm_quiz_creation.php:370 ../modules/topic/wdm_topic_creation.
+#: php:220
+msgid "Associate with a course"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:220
+msgid "Forced Lesson Timer"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:223
+msgid ""
+"Minimum time a user has to spend on Lesson page before it can be marked "
+"complete. Examples: 40 (for 40 seconds), 20s, 45sec, 2m 30s, 2min 30sec, 1h "
+"5m 10s, 1hr 5min 10sec"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:228 ..
+#: modules/topic/wdm_topic_creation.php:252
+msgid "Upload Assignment"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:231 ..
+#: modules/topic/wdm_topic_creation.php:255
+msgid "Check this if you want to make it mandatory to upload assignment"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:236 ..
+#: modules/topic/wdm_topic_creation.php:260
+msgid "Auto Approve Assignment"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:239 ..
+#: modules/topic/wdm_topic_creation.php:263
+msgid "Check this if you want to auto-approve the uploaded assignment"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:244
+msgid "Sample Lesson"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:247
+msgid ""
+"Check this if you want this lesson and all its topics to be available for "
+"free"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:252
+msgid "Make lesson visible X days after sign-up"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:255
+msgid "Make lesson visible ____ days after sign-up"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:260
+msgid "Make lesson visible on specific date"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:263
+msgid "Set the date that you would like this lesson to become available"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_creation.php:270 ..
+#: modules/course/wdm_course_creation.php:347 ../modules/quiz/wdm_quiz_creation.
+#: php:415
+msgid "Settings"
+msgstr ""
+
+#: ../modules/lesson/class_wdm_lesson.php:72 ../modules/lesson/class_wdm_lesson.
+#: php:295 ../modules/course/class_wdm_course.php:76 ..
+#: modules/course/class_wdm_course.php:337 ../modules/quiz/class_wdm_quiz.php:90
+#: ../modules/quiz/class_wdm_quiz.php:440 ../modules/question/class_wdm_question.
+#: php:83 ../modules/question/class_wdm_question.php:349 ..
+#: modules/topic/class_wdm_topic.php:95 ../modules/topic/class_wdm_topic.php:322
+msgid "You do not have sufficient permissions to view this page."
+msgstr ""
+
+#: ../modules/lesson/class_wdm_lesson.php:75 ../modules/lesson/class_wdm_lesson.
+#: php:298 ../modules/course/class_wdm_course.php:79 ..
+#: modules/course/class_wdm_course.php:340 ../modules/quiz/class_wdm_quiz.php:93
+#: ../modules/quiz/class_wdm_quiz.php:443 ../modules/question/class_wdm_question.
+#: php:86 ../modules/question/class_wdm_question.php:352 ..
+#: modules/topic/class_wdm_topic.php:98 ../modules/topic/class_wdm_topic.php:325
+msgid "Please Login to view this page."
+msgstr ""
+
+#: ../modules/lesson/class_wdm_lesson.php:88 ../modules/course/class_wdm_course.
+#: php:102 ../modules/quiz/class_wdm_quiz.php:107 ..
+#: modules/topic/class_wdm_topic.php:111
+msgid "ERROR: Title is Required"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_list.php:11 ../modules/course/wdm_course_list.php:
+#: 11 ../modules/quiz/wdm_quiz_list.php:11 ../modules/question/wdm_question_list.
+#: php:21 ../modules/topic/wdm_topic_list.php:11
+msgid "Add new"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_list.php:16 ../modules/lesson/wdm_lesson_list.php:
+#: 25 ../modules/quiz/wdm_quiz_list.php:16 ../modules/quiz/wdm_quiz_list.php:25 ..
+#: modules/topic/wdm_topic_list.php:16 ../modules/topic/wdm_topic_list.php:26
+msgid "Assigned Course"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_list.php:17 ../modules/lesson/wdm_lesson_list.php:
+#: 26 ../modules/course/wdm_course_list.php:17 ../modules/topic/wdm_topic_list.
+#: php:18 ../modules/topic/wdm_topic_list.php:28
+msgid "Tags"
+msgstr ""
+
+#: ../modules/lesson/wdm_lesson_list.php:18 ../modules/lesson/wdm_lesson_list.php:
+#: 27 ../modules/course/wdm_course_list.php:18 ../modules/quiz/wdm_quiz_list.php:
+#: 18 ../modules/quiz/wdm_quiz_list.php:27 ../modules/question/wdm_question_list.
+#: php:29 ../modules/question/wdm_question_list.php:39 ..
+#: modules/topic/wdm_topic_list.php:19 ../modules/topic/wdm_topic_list.php:29
+msgid "Edit"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:152
+msgid "Course Updated Successfully."
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:154
+msgid "Course Added Successfully."
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:190 ..
+#: modules/quiz/wdm_quiz_creation.php:304
+msgid "Description"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:236
+msgid "Course Materials"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:239
+msgid "Options for Course Materials"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:244
+msgid "Course Price Type"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:248
+msgid "Open"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:249
+msgid "Closed"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:250
+msgid "Free"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:251
+msgid "Buy Now"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:252
+msgid "Recurring"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:255
+msgid "Is it open to all, free join, one time purchase, or a recurring subscription?"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:260
+msgid "Custom Button URL"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:264
+msgid ""
+"Entering a URL in this field will enable the \"Take This Course\" button. The "
+"button will not display if this field is left empty"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:269
+msgid "Price"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:273
+msgid "Enter course price here. Leave empty if the course is free."
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:278
+msgid "Billing Cycle"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:283
+msgid "day(s)"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:284
+msgid "week(s)"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:285
+msgid "month(s)"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:286
+msgid "year(s)"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:289
+msgid "Billing Cycle for the recurring payments in case of a subscription."
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:294
+msgid "Course Access List"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:297
+msgid ""
+"This field is auto-populated with the UserIDs of those who have access to "
+"this course."
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:303
+msgid "Course Prerequisites"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:317
+msgid "Select a course as prerequisites to view this course"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:322
+msgid "Disable Lesson Progression"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:326
+msgid "Disable the feature that allows attempting lessons only in allowed order"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:331 ..
+#: modules/quiz/wdm_quiz_creation.php:395
+msgid "Associated Certificate"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:333 ..
+#: modules/quiz/wdm_quiz_creation.php:399
+msgid "-- Select a Certificate --"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:342
+msgid "Select a certificate to be awarded upon course completion (optional)."
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:355
+msgid "Expire Access"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:359
+msgid "Leave this field unchecked if access never expires"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:364
+msgid "Expire Access After (days)"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:368
+msgid "Enter the number of days a user has access to this course"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:373
+msgid "Delete Course and Quiz Data After Expiration"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:378
+msgid ""
+"Select this option if you want the user's course progress to be deleted when "
+"their access expires"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:383
+msgid "Sort Lesson By"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:387 ..
+#: modules/course/wdm_course_creation.php:402
+msgid "Use Default"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:390
+msgid "Menu Order"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:393 ..
+#: modules/course/wdm_course_creation.php:407
+msgid "Choose the sort order of lessons in this course"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:398
+msgid "Sort Lesson Direction"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:403
+msgid "Ascending"
+msgstr ""
+
+#: ../modules/course/wdm_course_creation.php:404
+msgid "Descending"
+msgstr ""
+
+#: ../modules/course/class_wdm_course.php:205 ../modules/topic/class_wdm_topic.
+#: php:213
+msgid "ERROR: For featured image only .png and .jpg extensions are allowed"
+msgstr ""
+
+#: ../modules/course/wdm_course_list.php:16
+msgid "Categories"
+msgstr ""
+
+#: ../modules/settings/wdm_course_setting.php:35
+msgid "Course Creation Setting"
+msgstr ""
+
+#: ../modules/settings/wdm_course_setting.php:106
+msgid "Select Course Publish Status :"
+msgstr ""
+
+#: ../modules/settings/wdm_course_setting.php:109
+msgid "Publish"
+msgstr ""
+
+#: ../modules/settings/wdm_course_setting.php:111
+msgid "Draft"
+msgstr ""
+
+#: ../modules/settings/wdm_course_setting.php:120
+msgid "Save Settings"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_list.php:17 ../modules/quiz/wdm_quiz_list.php:26 ..
+#: modules/topic/wdm_topic_list.php:17 ../modules/topic/wdm_topic_list.php:27
+msgid "Assigned Lesson"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:268
+msgid "Quiz Updated Successfully."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:270
+msgid "Quiz Added Successfully."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:332
+msgid "Repeats"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:335
+msgid "Number of repeats allowed for quiz"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:340
+msgid "Certificate Threshold"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:343
+msgid "Minimum score required to award a certificate, between 0 and 1 where 1 = 100%"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:348
+msgid "Passing Percentage"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:351
+msgid "Passing percentage required to pass the quiz (number only). e.g. 80 for 80%"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:375 ../modules/topic/wdm_topic_creation.
+#: php:225
+msgid "Associated Lesson"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:380 ../modules/quiz/class_wdm_quiz.php:
+#: 38 ../modules/quiz/class_wdm_quiz.php:68 ../modules/topic/class_wdm_topic.php:
+#: 382
+msgid "-- Select a Lesson or Topic --"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:390
+msgid "Optionally associate a quiz with a lesson or topic"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:409
+msgid "Optionally associate a quiz with a certificate"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:438
+msgid "Hide quiz title"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:443
+msgid "Hide title"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:446 ../modules/quiz/wdm_quiz_creation.
+#: php:464 ../modules/quiz/wdm_quiz_creation.php:499 ..
+#: modules/quiz/wdm_quiz_creation.php:514 ../modules/quiz/wdm_quiz_creation.php:
+#: 528 ../modules/quiz/wdm_quiz_creation.php:562 ..
+#: modules/quiz/wdm_quiz_creation.php:597 ../modules/quiz/wdm_quiz_creation.php:
+#: 636 ../modules/quiz/wdm_quiz_creation.php:664 ..
+#: modules/quiz/wdm_quiz_creation.php:827 ../modules/quiz/wdm_quiz_creation.php:
+#: 848 ../modules/quiz/wdm_quiz_creation.php:893 ..
+#: modules/quiz/wdm_quiz_creation.php:936 ../modules/quiz/wdm_quiz_creation.php:
+#: 984 ../modules/quiz/wdm_quiz_creation.php:1003 ..
+#: modules/quiz/wdm_quiz_creation.php:1027 ../modules/quiz/wdm_quiz_creation.php:
+#: 1051 ../modules/quiz/wdm_quiz_creation.php:1084 ..
+#: modules/quiz/wdm_quiz_creation.php:1108 ../modules/quiz/wdm_quiz_creation.php:
+#: 1132 ../modules/quiz/wdm_quiz_creation.php:1156 ..
+#: modules/quiz/wdm_quiz_creation.php:1180 ../modules/quiz/wdm_quiz_creation.php:
+#: 1211 ../modules/quiz/wdm_quiz_creation.php:1212 ..
+#: modules/quiz/wdm_quiz_creation.php:1213 ../modules/quiz/wdm_quiz_creation.php:
+#: 1214 ../modules/quiz/wdm_quiz_creation.php:1297 ..
+#: modules/quiz/wdm_quiz_creation.php:1326 ../modules/quiz/wdm_quiz_creation.php:
+#: 1339 ../modules/quiz/wdm_quiz_creation.php:1375 ..
+#: modules/quiz/wdm_quiz_creation.php:1453
+msgid "Activate"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:448
+msgid "The title serves as quiz heading"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:455 ../modules/quiz/wdm_quiz_creation.
+#: php:460
+msgid "Hide \"Restart quiz\" button"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:466
+msgid "Hide the \"Restart quiz\" button in the Frontend"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:472 ../modules/quiz/wdm_quiz_creation.
+#: php:477
+msgid "Hide \"View question\" button"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:483
+msgid "Hide the \"View question\" button in the Frontend"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:490 ../modules/quiz/wdm_quiz_creation.
+#: php:495
+msgid "Display question randomly"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:505 ../modules/quiz/wdm_quiz_creation.
+#: php:510
+msgid "Display answers randomly"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:520 ../modules/quiz/wdm_quiz_creation.
+#: php:525
+msgid "Sort questions by category"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:530
+msgid "Also works in conjunction with the \"display randomly question\" option"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:536 ../modules/quiz/wdm_quiz_creation.
+#: php:541
+msgid "Time limit"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:544
+msgid "Seconds"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:546
+msgid "0 = no limit"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:553 ../modules/quiz/wdm_quiz_creation.
+#: php:558
+msgid "Statistics"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:564
+msgid ""
+"Statistics about right or wrong answers. Statistics will be saved by "
+"completed quiz, not after every question. The statistics is only visible "
+"over administration menu. (internal statistics)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:570 ../modules/quiz/wdm_quiz_creation.
+#: php:575
+msgid "Statistics IP-lock"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:579
+msgid "in minutes (recommended 1440 minutes = 1 day)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:581
+msgid ""
+"Protect the statistics from spam. Result will only be saved every X minutes "
+"from same IP. (0 = deactivated)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:588 ../modules/quiz/wdm_quiz_creation.
+#: php:593
+msgid "Execute quiz only once"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:599
+msgid ""
+"If you activate this option, the user can complete the quiz only once. "
+"Afterwards the quiz is blocked for this user."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:602
+msgid "This option applies to:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:605 ../modules/quiz/wdm_quiz_creation.
+#: php:1307
+msgid "all users"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:608 ../modules/quiz/wdm_quiz_creation.
+#: php:1310
+msgid "registered users only"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:611 ../modules/quiz/wdm_quiz_creation.
+#: php:1313
+msgid "anonymous users only"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:615
+msgid "user identification by cookie"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:617
+msgid ""
+"If you activate this option, a cookie is set additionally for unregistered "
+"(anonymous) users. This ensures a longer assignment of the user than the "
+"simple assignment by the IP address."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:627 ../modules/quiz/wdm_quiz_creation.
+#: php:632
+msgid "Show only specific number of questions"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:638
+msgid ""
+"If you enable this option, maximum number of displayed questions will be X "
+"from X questions. (The output of questions is random)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:642
+msgid "How many questions should be displayed simultaneously:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:647
+msgid "in percent"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:655
+msgid "Prerequisites"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:666
+msgid ""
+"If you enable this option, you can choose quiz, which user have to finish "
+"before he can start this quiz"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:669
+msgid ""
+"In all selected quizzes statistic function have to be active. If it is not "
+"it will be activated automatically."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:677
+msgid "Prerequisites (This quiz have to be finished)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:739 ../modules/quiz/wdm_quiz_creation.
+#: php:745 ../modules/quiz/wdm_quiz_creation.php:917 ..
+#: modules/quiz/wdm_quiz_creation.php:941 ../modules/quiz/wdm_quiz_creation.php:
+#: 965 ../modules/quiz/wdm_quiz_creation.php:1008 ..
+#: modules/quiz/wdm_quiz_creation.php:1032 ../modules/quiz/wdm_quiz_creation.php:
+#: 1056 ../modules/quiz/wdm_quiz_creation.php:1089 ..
+#: modules/quiz/wdm_quiz_creation.php:1114 ../modules/quiz/wdm_quiz_creation.php:
+#: 1138 ../modules/quiz/wdm_quiz_creation.php:1162 ..
+#: modules/quiz/wdm_quiz_creation.php:1186 ../modules/quiz/wdm_quiz_creation.php:
+#: 1233 ../modules/quiz/wdm_quiz_creation.php:1241 ..
+#: modules/quiz/wdm_quiz_creation.php:1249 ../modules/quiz/wdm_quiz_creation.php:
+#: 1257 ../modules/quiz/wdm_quiz_creation.php:1410 ..
+#: modules/quiz/wdm_quiz_creation.php:1419 ../modules/quiz/wdm_quiz_creation.php:
+#: 1474 ../modules/quiz/wdm_quiz_creation.php:1484 ..
+#: modules/quiz/wdm_quiz_creation.php:1490 ..
+#: modules/question/wdm_question_creation.php:931 ..
+#: modules/question/wdm_question_creation.php:939
+msgid "Demo"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:791
+msgid "Admin e-mail notification"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:800
+msgid "Deactivate"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:803
+msgid "for registered users only"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:806
+msgid "for all users"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:808
+msgid ""
+"If you enable this option, you will be informed if a user completes this "
+"quiz."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:811 ../modules/quiz/wdm_quiz_creation.
+#: php:832
+msgid "E-Mail settings can be edited in global settings."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:818 ../modules/quiz/wdm_quiz_creation.
+#: php:823
+msgid "User e-mail notification"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:829
+msgid ""
+"If you enable this option, an email is sent with his quiz result to the user."
+" (only registered users)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:839 ../modules/quiz/wdm_quiz_creation.
+#: php:844
+msgid "Autostart"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:850
+msgid ""
+"If you enable this option, the quiz will start automatically after the page "
+"is loaded."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:857 ../modules/quiz/wdm_quiz_creation.
+#: php:862
+msgid "Only registered users are allowed to start the quiz"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:878
+msgid "Question-Options"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:884
+msgid "Show points"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:895
+msgid "Shows in quiz, how many points are reachable for respective question."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:927 ../modules/quiz/wdm_quiz_creation.
+#: php:932
+msgid "Hide correct- and incorrect message"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:938
+msgid ""
+"If you enable this option, no correct- or incorrect message will be "
+"displayed."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:951 ../modules/quiz/wdm_quiz_creation.
+#: php:956
+msgid "Correct and incorrect answer mark"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:975 ../modules/quiz/wdm_quiz_creation.
+#: php:980
+msgid "Force user to answer each question"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:986
+msgid "If you enable this option, the user is forced to answer each question."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:987
+msgid ""
+"If the option \"Question overview\" is activated, this notification will "
+"appear after end of the quiz, otherwise after each question."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1042
+msgid "Display category"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1053
+msgid "If you enable this option, category will be displayed in the question."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1069
+msgid "Result-Options"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1075 ../modules/quiz/wdm_quiz_creation.
+#: php:1080
+msgid "Show average points"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1086
+msgid "Statistics-function must be enabled."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1099 ../modules/quiz/wdm_quiz_creation.
+#: php:1104
+msgid "Show category score"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1110
+msgid ""
+"If you enable this option, the results of each category is displayed on the "
+"results page."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1123 ../modules/quiz/wdm_quiz_creation.
+#: php:1128
+msgid "Hide correct questions - display"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1134
+msgid ""
+"If you select this option, no longer the number of correctly answered "
+"questions are displayed on the results page."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1147 ../modules/quiz/wdm_quiz_creation.
+#: php:1152
+msgid "Hide quiz time - display"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1158
+msgid ""
+"If you enable this option, the time for finishing the quiz won't be "
+"displayed on the results page anymore."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1171 ../modules/quiz/wdm_quiz_creation.
+#: php:1176
+msgid "Hide score - display"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1182
+msgid ""
+"If you enable this option, final score won't be displayed on the results "
+"page anymore."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1198
+msgid "Quiz-Mode (required)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1203
+msgid "Normal"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1204
+msgid "Normal + Back-Button"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1205
+msgid "Check -&gt; continue"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1206
+msgid "Questions below each other"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1218
+msgid ""
+"Displays all questions sequentially, \"right\" or \"false\" will be displayed at "
+"the end of the quiz."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1221
+msgid "Allows to use the back button in a question."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1224
+msgid "Shows \"right or wrong\" after each question."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1227
+msgid ""
+"If this option is activated, all answers are displayed below each other, i.e."
+" all questions are on a single page."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1269
+msgid "How many questions to be displayed on a page:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1272
+msgid "(0 = All on one page)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1280
+msgid "Leaderboard (optional)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1283
+msgid ""
+"The leaderboard allows users to enter results in public list and to share "
+"the result this way."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1286
+msgid "The leaderboard works independent from internal statistics function."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1292
+msgid "Leaderboard"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1302
+msgid "Who can sign up to the list"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1315
+msgid ""
+"Not registered users have to enter name and e-mail (e-mail won't be "
+"displayed)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1321
+msgid "insert automatically"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1328
+msgid ""
+"If you enable this option, logged in users will be automatically entered "
+"into leaderboard"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1334
+msgid "display captcha"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1341
+msgid ""
+"If you enable this option, additional captcha will be displayed for users "
+"who are not registered."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1344
+msgid "This option requires additional plugin:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1347
+msgid "Plugin is not installed."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1353
+msgid "Sort list by"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1358
+msgid "best user"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1361
+msgid "newest entry"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1364
+msgid "oldest entry"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1369
+msgid "Users can apply multiple times"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1379
+msgid "User can apply after:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1380
+msgid "minute"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1386
+msgid "How many entries should be displayed"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1392
+msgid "Entries"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1398
+msgid "Automatically display leaderboard in quiz result"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1402
+msgid "Where should leaderboard be displayed:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1405
+msgid "don't display"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1408
+msgid "below the \"result text\""
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1417
+msgid "in a button"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1432
+msgid "Custom fields"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1435
+msgid ""
+"You can create custom fields, e.g. to request the name or the e-mail address "
+"of the users."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1438
+msgid "The statistic function have to be enabled."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1444 ../modules/quiz/wdm_quiz_creation.
+#: php:1449
+msgid "Custom fields enable"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1455
+msgid "If you enable this option, custom fields are enabled."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1462 ../modules/quiz/wdm_quiz_creation.
+#: php:1467
+msgid "Display position"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1469
+msgid "Where should the fields be displayed:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1472
+msgid "On the quiz startpage"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1482
+msgid "At the end of the quiz (before the quiz result)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1505
+msgid "Field name"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1506
+msgid "Type"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1507
+msgid "Required?"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1541 ../modules/quiz/wdm_quiz_creation.
+#: php:1577
+msgid "Delete"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1542 ../modules/quiz/wdm_quiz_creation.
+#: php:1578 ../modules/question/wdm_question_creation.php:580 ..
+#: modules/question/wdm_question_creation.php:627 ..
+#: modules/question/wdm_question_creation.php:694 ..
+#: modules/question/wdm_question_creation.php:748 ..
+#: modules/question/wdm_question_creation.php:827 ..
+#: modules/question/wdm_question_creation.php:885
+msgid "Move"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1626
+msgid "Add field"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1633
+msgid "Results text (optional)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1636
+msgid ""
+"This text will be displayed at the end of the quiz (in results). (this text "
+"is optional)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1640
+msgid "Activate graduation"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1646
+msgid "Hint:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1648
+msgid "Maximal 15 levels"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1650
+msgid ""
+"Percentages refer to the total score of the quiz. (Current total 0 points in "
+"0 questions."
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1652
+msgid "Values can also be mixed up"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1653
+#, php-format
+msgid "10,15% or 10.15% allowed (max. two digits after the decimal point)"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1663 ../modules/quiz/wdm_quiz_creation.
+#: php:1680
+msgid "from:"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1663 ../modules/quiz/wdm_quiz_creation.
+#: php:1680
+msgid "percent (Will be displayed, when result-percent is &gt;= "
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1663 ../modules/quiz/wdm_quiz_creation.
+#: php:1680
+msgid "Delete graduation"
+msgstr ""
+
+#: ../modules/quiz/wdm_quiz_creation.php:1693
+msgid "Add graduation"
+msgstr ""
+
+#: ../modules/question/wdm_question_list.php:26 ..
+#: modules/question/wdm_question_list.php:36
+msgid "Assigned Quiz"
+msgstr ""
+
+#: ../modules/question/wdm_question_list.php:27 ..
+#: modules/question/wdm_question_list.php:37
+msgid "Category"
+msgstr ""
+
+#: ../modules/question/wdm_question_list.php:28 ..
+#: modules/question/wdm_question_list.php:38 ..
+#: modules/question/wdm_question_creation.php:169 ..
+#: modules/question/wdm_question_creation.php:564 ..
+#: modules/question/wdm_question_creation.php:611 ..
+#: modules/question/wdm_question_creation.php:678 ..
+#: modules/question/wdm_question_creation.php:733 ..
+#: modules/question/wdm_question_creation.php:792 ..
+#: modules/question/wdm_question_creation.php:853
+msgid "Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:48
+msgid "Please Create Quiz"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:116
+msgid "Question Updated Successfully."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:122
+msgid "Question Added Successfully."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:137
+msgid "Select Quiz:"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:158
+msgid "The title is used for overview, it is not visible in quiz"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:163
+msgid "Points (required)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:167
+msgid "Points for this question (Standard is 1 point)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:171
+msgid "This points will be rewarded, only if the user closes the question correctly"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:176
+msgid "Different points for each answer"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:178
+msgid "If you enable this option, you can enter different points for every answer"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:183
+msgid "Show reached points in the correct- and incorrect message?"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:188
+msgid "Category (optional)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:191
+msgid ""
+"You can assign classify category for a question. Categories are e.g. visible "
+"in statistics function."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:193
+msgid "You can manage categories in global settings."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:196
+msgid "--- Create new category ----"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:197
+msgid "--- No category ---"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:211
+msgid "Create new category"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:213
+msgid "Create"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:221
+msgid "Question (required)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:238
+msgid "Message with the correct / incorrect answer"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:240
+msgid "Deactivated in quiz settings."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:244
+msgid "Message with the correct answer (optional)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:247
+msgid ""
+"This text will be visible if answered correctly. It can be used as "
+"explanation for complex questions. The message \"Right\" or \"Wrong\" is always "
+"displayed automatically."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:250
+msgid "Same text for correct- and incorrect-message?"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:269
+msgid "Message with the incorrect answer (optional)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:272
+msgid ""
+"This text will be visible if answered incorrectly. It can be used as "
+"explanation for complex questions. The message \"Right\" or \"Wrong\" is always "
+"displayed automatically."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:283
+msgid "Hint (optional)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:286
+msgid "Here you can enter solution hint."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:289
+msgid "Activate hint for this question?"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:304
+msgid "Answer type"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:308
+msgid "Single choice"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:311
+msgid "Multiple choice"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:314
+msgid "\"Free\" choice"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:317
+msgid "\"Sorting\" choice"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:320
+msgid "\"Matrix Sorting\" choice"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:323
+msgid "Cloze"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:326
+msgid "Assessment"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:329
+msgid "Essay / Open Answer"
+msgstr "निबंध / ओपन उत्तर"
+
+#: ../modules/question/wdm_question_creation.php:334
+msgid "Single choice options"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:337
+msgid ""
+"If \"Different points for each answer\" is activated, you can activate a "
+"special mode.<br> This changes the calculation of the points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:340
+msgid "Different points - modus 2 activate"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:343
+msgid "Disables the distinction between correct and incorrect."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:347
+msgid "disable correct and incorrent"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:350
+msgid "Explanation of points calculation"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:360 ..
+#: modules/question/wdm_question_creation.php:364
+msgid "\"Different points for each answer\" enabled"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:362
+msgid "\"Different points - mode 2\" disable"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:366
+msgid "\"Different points - mode 2\" enabled"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:370
+msgid "Question - Single Choice - 3 Answers - Diff points mode"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:372 ..
+#: modules/question/wdm_question_creation.php:382
+msgid "A=3 Points [correct]"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:373 ..
+#: modules/question/wdm_question_creation.php:383
+msgid "B=2 Points [incorrect]"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:374 ..
+#: modules/question/wdm_question_creation.php:384
+msgid "C=1 Point [incorrect]"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:376
+msgid "= 6 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:380
+msgid "Question - Single Choice - 3 Answers - Modus 2"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:386
+msgid "= 3 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:391 ..
+#: modules/question/wdm_question_creation.php:406
+msgid "~~~ User 1: ~~~"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:393 ..
+#: modules/question/wdm_question_creation.php:408
+msgid "A=checked"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:394 ..
+#: modules/question/wdm_question_creation.php:409 ..
+#: modules/question/wdm_question_creation.php:454 ..
+#: modules/question/wdm_question_creation.php:469 ..
+#: modules/question/wdm_question_creation.php:484 ..
+#: modules/question/wdm_question_creation.php:499
+msgid "B=unchecked"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:395 ..
+#: modules/question/wdm_question_creation.php:410 ..
+#: modules/question/wdm_question_creation.php:425 ..
+#: modules/question/wdm_question_creation.php:440 ..
+#: modules/question/wdm_question_creation.php:485 ..
+#: modules/question/wdm_question_creation.php:500
+msgid "C=unchecked"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:397 ..
+#: modules/question/wdm_question_creation.php:412 ..
+#: modules/question/wdm_question_creation.php:427 ..
+#: modules/question/wdm_question_creation.php:442 ..
+#: modules/question/wdm_question_creation.php:457 ..
+#: modules/question/wdm_question_creation.php:472 ..
+#: modules/question/wdm_question_creation.php:487 ..
+#: modules/question/wdm_question_creation.php:502
+msgid "Result:"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:398
+msgid "A=correct and checked (correct) = 3 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:399 ..
+#: modules/question/wdm_question_creation.php:459 ..
+#: modules/question/wdm_question_creation.php:489
+msgid "B=incorrect and unchecked (correct) = 2 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:400 ..
+#: modules/question/wdm_question_creation.php:430 ..
+#: modules/question/wdm_question_creation.php:490
+msgid "C=incorrect and unchecked (correct) = 1 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:402
+msgid "= 6 / 6 Points 100%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:413
+msgid "A=checked = 3 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:414 ..
+#: modules/question/wdm_question_creation.php:474 ..
+#: modules/question/wdm_question_creation.php:504
+msgid "B=unchecked = 0 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:415 ..
+#: modules/question/wdm_question_creation.php:445 ..
+#: modules/question/wdm_question_creation.php:505
+msgid "C=unchecked = 0 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:417
+msgid "= 3 / 3 Points 100%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:421 ..
+#: modules/question/wdm_question_creation.php:436
+msgid "~~~ User 2: ~~~"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:423 ..
+#: modules/question/wdm_question_creation.php:438 ..
+#: modules/question/wdm_question_creation.php:453 ..
+#: modules/question/wdm_question_creation.php:468 ..
+#: modules/question/wdm_question_creation.php:483 ..
+#: modules/question/wdm_question_creation.php:498
+msgid "A=unchecked"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:424 ..
+#: modules/question/wdm_question_creation.php:439
+msgid "B=checked"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:428 ..
+#: modules/question/wdm_question_creation.php:458 ..
+#: modules/question/wdm_question_creation.php:488
+msgid "A=correct and unchecked (incorrect) = 0 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:429
+msgid "B=incorrect and checked (incorrect) = 0 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:432
+msgid "= 1 / 6 Points 16.67%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:443 ..
+#: modules/question/wdm_question_creation.php:473 ..
+#: modules/question/wdm_question_creation.php:503
+msgid "A=unchecked = 0 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:444
+msgid "B=checked = 2 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:447
+msgid "= 2 / 3 Points 66,67%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:451 ..
+#: modules/question/wdm_question_creation.php:466
+msgid "~~~ User 3: ~~~"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:455 ..
+#: modules/question/wdm_question_creation.php:470
+msgid "C=checked"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:460
+msgid "C=incorrect and checked (incorrect) = 0 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:462
+msgid "= 2 / 6 Points 33.33%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:475
+msgid "C=checked = 1 Points"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:477
+msgid "= 1 / 3 Points 33,33%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:481 ..
+#: modules/question/wdm_question_creation.php:496
+msgid "~~~ User 4: ~~~"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:492
+msgid "= 3 / 6 Points 50%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:507
+msgid "= 0 / 3 Points 0%"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:515
+msgid "Answers (required)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:520
+msgid "correct answers (one per line) (answers will be converted to lower case)"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:534
+msgid ""
+"Please sort the answers in right order with the \"Move\" - Button. The answers "
+"will be displayed randomly."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:544 ..
+#: modules/question/wdm_question_creation.php:591 ..
+#: modules/question/wdm_question_creation.php:649 ..
+#: modules/question/wdm_question_creation.php:709 ..
+#: modules/question/wdm_question_creation.php:778 ..
+#: modules/question/wdm_question_creation.php:840
+msgid "Options"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:546 ..
+#: modules/question/wdm_question_creation.php:593 ..
+#: modules/question/wdm_question_creation.php:651 ..
+#: modules/question/wdm_question_creation.php:711
+msgid "Answer"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:557 ..
+#: modules/question/wdm_question_creation.php:604 ..
+#: modules/question/wdm_question_creation.php:671 ..
+#: modules/question/wdm_question_creation.php:727 ..
+#: modules/question/wdm_question_creation.php:809 ..
+#: modules/question/wdm_question_creation.php:816 ..
+#: modules/question/wdm_question_creation.php:868 ..
+#: modules/question/wdm_question_creation.php:874
+msgid "Allow HTML"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:576 ..
+#: modules/question/wdm_question_creation.php:623 ..
+#: modules/question/wdm_question_creation.php:690 ..
+#: modules/question/wdm_question_creation.php:744 ..
+#: modules/question/wdm_question_creation.php:823 ..
+#: modules/question/wdm_question_creation.php:881
+msgid "Delete answer"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:578 ..
+#: modules/question/wdm_question_creation.php:625 ..
+#: modules/question/wdm_question_creation.php:692 ..
+#: modules/question/wdm_question_creation.php:746 ..
+#: modules/question/wdm_question_creation.php:825 ..
+#: modules/question/wdm_question_creation.php:883
+msgid "Add Media"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:636 ..
+#: modules/question/wdm_question_creation.php:755 ..
+#: modules/question/wdm_question_creation.php:891
+msgid "Add new answer"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:664 ..
+#: modules/question/wdm_question_creation.php:721
+msgid "Correct"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:759
+msgid ""
+"In this mode, not a list have to be sorted, but elements must be assigned to "
+"matching criterion."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:761
+msgid ""
+"You can create sort elements with empty criteria, which can't be assigned by "
+"user."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:764
+msgid "Percentage width of criteria table column:"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:767
+msgid ""
+"Allows adjustment of the left column's width, and the right column will auto-"
+"fill the rest of the available space. Increase this to allow accommodate "
+"longer criterion text. Defaults to 20%."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:780 ..
+#: modules/question/wdm_question_creation.php:842
+msgid "Criterion"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:782 ..
+#: modules/question/wdm_question_creation.php:844
+msgid "Sort elements"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:895
+msgid ""
+"Enclose the searched words with { } e.g. \"I {play} soccer\". Capital and "
+"small letters will be ignored."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:897
+msgid ""
+"You can specify multiple options for a search word. Enclose the word with [ "
+"] e.g. "
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:897
+msgid ""
+" \"I {[play][love][hate]} soccer\" </span>. In this case answers play, love OR "
+"hate are correct."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:899
+msgid ""
+"If mode \"Different points for every answer\" is activated, you can assign "
+"points with |POINTS. Otherwise 1 point will be awarded for every answer."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:901
+msgid ""
+"e.g. \"I {play} soccer, with a {ball|3}\" - \"play\" gives 1 point and \"ball\" 3 "
+"points."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:923
+msgid "Here you can create an assessment question."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:925
+msgid "Enclose a assesment with {}. The individual assessments are marked with []."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:926
+msgid "The number of options in the maximum score."
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:928
+msgid "Examples:"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:929
+msgid "* less true { [1] [2] [3] [4] [5] } more true"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:937
+msgid "* less true { [a] [b] [c] } more true"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:1015
+msgid "Save"
+msgstr ""
+
+#: ../modules/commission/commission.php:71 ../modules/commission/commission.php:71
+msgid "Course Author Commission"
+msgstr ""
+
+#: ../modules/commission/commission.php:95
+msgid "Commission Report"
+msgstr ""
+
+#: ../modules/commission/commission.php:153
+msgid "Invalid percentage"
+msgstr ""
+
+#: ../modules/commission/commission.php:170
+msgid "Name"
+msgstr ""
+
+#: ../modules/commission/commission.php:174
+msgid "User email"
+msgstr ""
+
+#: ../modules/commission/commission.php:178
+msgid "Commission %"
+msgstr ""
+
+#: ../modules/commission/commission.php:182 ../modules/commission/commission.php:
+#: 206
+msgid "Update"
+msgstr ""
+
+#: ../modules/commission/commission.php:237
+msgid "Updated successfully"
+msgstr ""
+
+#: ../modules/commission/commission.php:239 ../modules/commission/commission.php:
+#: 628 ../modules/commission/commission.php:632 ../modules/commission/commission.
+#: php:643 ../modules/commission/commission.php:647 ..
+#: modules/commission/commission.php:651 ../modules/commission/commission.php:
+#: 658 ../modules/commission/commission.php:667
+msgid "Oops something went wrong"
+msgstr ""
+
+#: ../modules/commission/commission.php:340 ../modules/commission/commission.php:
+#: 799
+msgid "No Course Author found"
+msgstr ""
+
+#: ../modules/commission/commission.php:348 ../modules/commission/commission.php:
+#: 842
+msgid "Select Course Author:"
+msgstr ""
+
+#: ../modules/commission/commission.php:415
+msgid "Please Enter amount"
+msgstr ""
+
+#: ../modules/commission/commission.php:416
+msgid "Please enter amount less than amount to be paid"
+msgstr ""
+
+#: ../modules/commission/commission.php:417
+msgid "Record added successfully"
+msgstr ""
+
+#: ../modules/commission/commission.php:522 ../modules/commission/commission.php:
+#: 573 ../modules/commission/commission.php:746
+msgid "Paid Earnings"
+msgstr ""
+
+#: ../modules/commission/commission.php:532 ../modules/commission/commission.php:
+#: 582 ../modules/commission/commission.php:755
+msgid "Unpaid Earnings"
+msgstr ""
+
+#: ../modules/commission/commission.php:540 ../modules/commission/commission.php:
+#: 604
+msgid "Pay"
+msgstr ""
+
+#: ../modules/commission/commission.php:563
+msgid "Transaction"
+msgstr ""
+
+#: ../modules/commission/commission.php:591
+msgid "Enter amount"
+msgstr ""
+
+#: ../modules/commission/commission.php:722 ../modules/commission/commission.php:
+#: 1081
+msgid "No data found"
+msgstr ""
+
+#: ../modules/commission/commission.php:846
+msgid "All"
+msgstr ""
+
+#: ../modules/topic/wdm_topic_creation.php:129
+msgid "Topic Updated Successfully."
+msgstr ""
+
+#: ../modules/topic/wdm_topic_creation.php:132
+msgid "Topic Added Successfully."
+msgstr ""
+
+#: ../modules/topic/wdm_topic_creation.php:229 ../modules/topic/class_wdm_topic.
+#: php:38 ../modules/topic/class_wdm_topic.php:71 ..
+#: modules/topic/class_wdm_topic.php:352
+msgid "-- Select a Lesson --"
+msgstr ""
+
+#: ../modules/topic/wdm_topic_creation.php:239
+msgid "Optionally associate a topic with a lesson"
+msgstr ""
+
+#: ../modules/topic/wdm_topic_creation.php:244
+msgid "Forced Topic Timer"
+msgstr ""
+
+#: ../modules/topic/wdm_topic_creation.php:247
+msgid ""
+"Minimum time a user has to spend on Topic page before it can be marked "
+"complete. Examples: 40 (for 40 seconds), 20s, 45sec, 2m 30s, 2min 30sec, 1h "
+"5m 10s, 1hr 5min 10sec"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:34
+msgid "No response from server. Please try again later."
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:41
+msgid ""
+"License Activation Failed. Please try again or contact support on "
+"support@wisdmlabs.com"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:49
+msgid "Please enter license key."
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:56
+msgid "Your license key is activated."
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:70
+msgid "Your license key has Expired. Please, Renew it."
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:77
+msgid "Your license key is Disabled."
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:91
+msgid "Please enter valid license key."
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:105
+msgid "Site inactive(Press Activate license to activate plugin)"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:112
+msgid "License Key is deactivated"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:120
+msgid "Frontend Course Creation License Options"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:127
+msgid "License Key"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:153
+msgid "License Status"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:158 ../modules/templates/lPage_display.
+#: php:174
+msgid "Active"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:164 ../modules/templates/lPage_display.
+#: php:169 ../modules/templates/lPage_display.php:179 ..
+#: modules/templates/lPage_display.php:185
+msgid "Not Active"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:196 ../modules/templates/lPage_display.
+#: php:217 ../modules/templates/lPage_display.php:250
+msgid "Activate License"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:205 ../modules/templates/lPage_display.
+#: php:234
+msgid "Deactivate License"
+msgstr ""
+
+#: ../modules/templates/lPage_display.php:223 ../modules/templates/lPage_display.
+#: php:239
+msgid "Renew License"
+msgstr ""
+
+#: ../modules/question/wdm_question_creation.php:973
+msgid "Text Box"
+msgstr "पाठ बॉक्स"
+
+#: ../modules/question/wdm_question_creation.php:974
+msgid "Upload"
+msgstr "अपलोड"
+
+#: ../modules/question/wdm_question_creation.php:977
+msgid "Not Graded, No Points Awarded"
+msgstr "श्रेणीबद्ध नहीं, कोई अंक से सम्मानित"
+
+#: ../modules/question/wdm_question_creation.php:978
+msgid "Not Graded, Full Points Awarded"
+msgstr "नहीं वर्गीकृत , पूर्ण अंक से सम्मानित"
+
+#: ../modules/question/wdm_question_creation.php:979
+msgid "Graded, Full Points Awarded"
+msgstr "श्रेणीबद्ध , पूर्ण अंक से सम्मानित"
+
+#: ../modules/question/wdm_question_creation.php:982
+msgid "How should the user submit their answer?"
+msgstr "कैसे उपयोगकर्ता उनके जवाब प्रस्तुत करना चाहिए ?"
+
+#: ../modules/question/wdm_question_creation.php:994 ..
+#: modules/question/wdm_question_creation.php:995
+msgid ""
+"This is a question that can be graded and potentially prevent a user from "
+"progressing to the next step of the course."
+msgstr ""
+"यह एक प्रश्न है कि वर्गीकृत किया जा सकता है और संभवतः पाठ्यक्रम के अगले चरण "
+"के लिए प्रगति से एक उपयोगकर्ता को रोकने है ।"
+
+#: ../modules/question/wdm_question_creation.php:996
+msgid ""
+"The user can only progress if the essay is marked as \"Graded\" and if the "
+"user has enough points to move on."
+msgstr ""
+"उपयोगकर्ता केवल प्रगति कर सकते हैं , तो निबंध के रूप में वर्गीकृत है \"\" और "
+"आगे बढ़ने के लिए अगर उपयोगकर्ता पर्याप्त अंक है चिह्नित है"
+
+#: ../modules/question/wdm_question_creation.php:997
+msgid ""
+"How should the answer to this question be marked and graded upon quiz "
+"submission?"
+msgstr "कैसे इस सवाल का जवाब चिह्नित और प्रश्नोत्तरी जमा पर वर्गीकृत किया जाना चाहिए?"
+
+#: ../modules/question/wdm_question_creation.php:999
+msgid "--Select--"
+msgstr "--चुनते हैं--"
+
+#: ../fcc.php:161 ../modules/commission/commission.php:90
+msgid "Course Author"
+msgstr "कोर्स लेखक"
+
+#: ../modules/buddypress/class_ld_buddypress.php:130
+msgid "Commission"
+msgstr "आयोग"
+
+#: ../modules/buddypress/class_ld_buddypress.php:179
+msgid "Report"
+msgstr "रिपोर्ट"
+
+#: ../modules/buddypress/class_ld_buddypress.php:211 ..
+#: modules/commission/commission.php:97
+msgid "Export"
+msgstr "निर्यात"
+
+#: ../modules/lesson/wdm_lesson_creation.php:278 ..
+#: modules/course/wdm_course_creation.php:419 ../modules/quiz/wdm_quiz_creation.
+#: php:1733 ../modules/commission/commission.php:366 ..
+#: modules/commission/commission.php:882 ../modules/topic/wdm_topic_creation.php:
+#: 275
+msgid "Submit"
+msgstr "जमा करें"
+
+#: ../modules/lesson/class_wdm_lesson.php:41 ../modules/lesson/class_wdm_lesson.
+#: php:62 ../modules/course/class_wdm_course.php:44 ..
+#: modules/course/class_wdm_course.php:66 ../modules/quiz/class_wdm_quiz.php:50 .
+#: ./modules/quiz/class_wdm_quiz.php:80 ../modules/topic/class_wdm_topic.php:52 ..
+#: modules/topic/class_wdm_topic.php:85
+msgid "Please Enter Title"
+msgstr "कृपया शीर्षक दर्ज करें"
+
+#: ../modules/lesson/class_wdm_lesson.php:46 ../modules/lesson/class_wdm_lesson.
+#: php:67 ../modules/course/class_wdm_course.php:49 ..
+#: modules/course/class_wdm_course.php:71 ../modules/quiz/class_wdm_quiz.php:55 .
+#: ./modules/quiz/class_wdm_quiz.php:85 ../modules/topic/class_wdm_topic.php:57 ..
+#: modules/topic/class_wdm_topic.php:90
+msgid "Please Enter Tag"
+msgstr "कृपया टैग दर्ज"
+
+#: ../modules/lesson/class_wdm_lesson.php:47 ../modules/lesson/class_wdm_lesson.
+#: php:68 ../modules/course/class_wdm_course.php:50 ..
+#: modules/course/class_wdm_course.php:72 ../modules/quiz/class_wdm_quiz.php:56 .
+#: ./modules/quiz/class_wdm_quiz.php:86 ../modules/topic/class_wdm_topic.php:58 ..
+#: modules/topic/class_wdm_topic.php:91
+msgid "Tag added successfully"
+msgstr "टैग को सफलता पूर्वक जोड़"
+
+#: ../modules/lesson/class_wdm_lesson.php:245 ../modules/lesson/class_wdm_lesson.
+#: php:272 ../modules/course/class_wdm_course.php:289 ..
+#: modules/course/class_wdm_course.php:315 ../modules/quiz/class_wdm_quiz.php:
+#: 392 ../modules/quiz/class_wdm_quiz.php:417 ..
+#: modules/question/class_wdm_question.php:299 ..
+#: modules/question/class_wdm_question.php:326 ../modules/commission/commission.
+#: php:131 ../modules/commission/commission.php:393 ..
+#: modules/commission/commission.php:809 ../modules/topic/class_wdm_topic.php:
+#: 272 ../modules/topic/class_wdm_topic.php:299
+msgid "No data available in table"
+msgstr "तालिका में आंकड़े उपलब्ध नहीं"
+
+#: ../modules/lesson/class_wdm_lesson.php:246 ../modules/lesson/class_wdm_lesson.
+#: php:273 ../modules/course/class_wdm_course.php:290 ..
+#: modules/course/class_wdm_course.php:316 ../modules/quiz/class_wdm_quiz.php:
+#: 393 ../modules/quiz/class_wdm_quiz.php:418 ..
+#: modules/question/class_wdm_question.php:300 ..
+#: modules/question/class_wdm_question.php:327 ../modules/commission/commission.
+#: php:132 ../modules/commission/commission.php:394 ..
+#: modules/commission/commission.php:810 ../modules/topic/class_wdm_topic.php:
+#: 273 ../modules/topic/class_wdm_topic.php:300
+msgid "Previous"
+msgstr "पिछला"
+
+#: ../modules/lesson/class_wdm_lesson.php:247 ../modules/lesson/class_wdm_lesson.
+#: php:274 ../modules/course/class_wdm_course.php:291 ..
+#: modules/course/class_wdm_course.php:317 ../modules/quiz/class_wdm_quiz.php:
+#: 394 ../modules/quiz/class_wdm_quiz.php:419 ..
+#: modules/question/class_wdm_question.php:301 ..
+#: modules/question/class_wdm_question.php:328 ../modules/commission/commission.
+#: php:133 ../modules/commission/commission.php:395 ..
+#: modules/commission/commission.php:811 ../modules/topic/class_wdm_topic.php:
+#: 274 ../modules/topic/class_wdm_topic.php:301
+msgid "Next"
+msgstr "अगला"
+
+#: ../modules/lesson/class_wdm_lesson.php:248 ../modules/lesson/class_wdm_lesson.
+#: php:275 ../modules/course/class_wdm_course.php:292 ..
+#: modules/course/class_wdm_course.php:318 ../modules/quiz/class_wdm_quiz.php:
+#: 395 ../modules/quiz/class_wdm_quiz.php:420 ..
+#: modules/question/class_wdm_question.php:302 ..
+#: modules/question/class_wdm_question.php:329 ../modules/commission/commission.
+#: php:134 ../modules/commission/commission.php:396 ..
+#: modules/commission/commission.php:812 ../modules/topic/class_wdm_topic.php:
+#: 275 ../modules/topic/class_wdm_topic.php:302
+msgid "Search"
+msgstr "खोज"
+
+#: ../modules/lesson/class_wdm_lesson.php:249 ../modules/lesson/class_wdm_lesson.
+#: php:276 ../modules/course/class_wdm_course.php:293 ..
+#: modules/course/class_wdm_course.php:319 ../modules/quiz/class_wdm_quiz.php:
+#: 396 ../modules/quiz/class_wdm_quiz.php:421 ..
+#: modules/question/class_wdm_question.php:303 ..
+#: modules/question/class_wdm_question.php:330 ../modules/commission/commission.
+#: php:135 ../modules/commission/commission.php:397 ..
+#: modules/commission/commission.php:813 ../modules/topic/class_wdm_topic.php:
+#: 276 ../modules/topic/class_wdm_topic.php:303
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "0 0 की प्रविष्टियों को 0 दिखा"
+
+#: ../modules/lesson/class_wdm_lesson.php:251 ../modules/lesson/class_wdm_lesson.
+#: php:278 ../modules/course/class_wdm_course.php:295 ..
+#: modules/course/class_wdm_course.php:321 ../modules/quiz/class_wdm_quiz.php:
+#: 398 ../modules/quiz/class_wdm_quiz.php:423 ..
+#: modules/question/class_wdm_question.php:305 ..
+#: modules/question/class_wdm_question.php:332 ../modules/commission/commission.
+#: php:137 ../modules/commission/commission.php:399 ..
+#: modules/commission/commission.php:815 ../modules/topic/class_wdm_topic.php:
+#: 278 ../modules/topic/class_wdm_topic.php:305
+#, php-format
+msgid "Showing %s to %s of %s entries"
+msgstr "% S प्रविष्टियों में से % s % s दिखा"
+
+#: ../modules/lesson/class_wdm_lesson.php:257 ../modules/lesson/class_wdm_lesson.
+#: php:284 ../modules/course/class_wdm_course.php:301 ..
+#: modules/course/class_wdm_course.php:327 ../modules/quiz/class_wdm_quiz.php:
+#: 404 ../modules/quiz/class_wdm_quiz.php:429 ..
+#: modules/question/class_wdm_question.php:311 ..
+#: modules/question/class_wdm_question.php:338 ../modules/commission/commission.
+#: php:143 ../modules/commission/commission.php:405 ..
+#: modules/commission/commission.php:821 ../modules/topic/class_wdm_topic.php:
+#: 284 ../modules/topic/class_wdm_topic.php:311
+#, php-format
+msgid "Show %s entries"
+msgstr "प्रविष्टियों %s दिखाएँ"
+
+#: ../modules/lesson/class_wdm_lesson.php:260 ../modules/lesson/class_wdm_lesson.
+#: php:287 ../modules/course/class_wdm_course.php:304 ..
+#: modules/course/class_wdm_course.php:330 ../modules/quiz/class_wdm_quiz.php:
+#: 432 ../modules/question/class_wdm_question.php:314 ..
+#: modules/question/class_wdm_question.php:341 ../modules/commission/commission.
+#: php:146 ../modules/commission/commission.php:408 ..
+#: modules/commission/commission.php:824 ../modules/topic/class_wdm_topic.php:
+#: 287 ../modules/topic/class_wdm_topic.php:314
+msgid "No matching records found"
+msgstr "कोई मिलान रिकॉर्ड पाया"
+
+#: ../modules/lesson/class_wdm_lesson.php:261 ../modules/lesson/class_wdm_lesson.
+#: php:288 ../modules/course/class_wdm_course.php:305 ..
+#: modules/course/class_wdm_course.php:331 ../modules/quiz/class_wdm_quiz.php:
+#: 433 ../modules/question/class_wdm_question.php:315 ..
+#: modules/question/class_wdm_question.php:342 ../modules/commission/commission.
+#: php:147 ../modules/commission/commission.php:409 ..
+#: modules/commission/commission.php:825 ../modules/topic/class_wdm_topic.php:
+#: 288 ../modules/topic/class_wdm_topic.php:315
+#, php-format
+msgid "(filtered from %s total entries)"
+msgstr "(कुल प्रविष्टियां %s छाना हुआ)"
+
+#: ../modules/lesson/wdm_lesson_list.php:19 ../modules/lesson/wdm_lesson_list.php:
+#: 28 ../modules/course/wdm_course_creation.php:389 ..
+#: modules/course/wdm_course_list.php:19 ../modules/quiz/wdm_quiz_list.php:19 ..
+#: modules/quiz/wdm_quiz_list.php:28 ../modules/quiz/wdm_quiz_creation.php:1526 .
+#: ./modules/quiz/wdm_quiz_creation.php:1562 ../modules/topic/wdm_topic_list.php:
+#: 20 ../modules/topic/wdm_topic_list.php:30
+msgid "Date"
+msgstr "तारीख"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1518 ../modules/quiz/wdm_quiz_creation.
+#: php:1554
+msgid "Text"
+msgstr "टेक्स्ट"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1519 ../modules/quiz/wdm_quiz_creation.
+#: php:1555
+msgid "Textarea"
+msgstr "पाठ क्षेत्र"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1520 ../modules/quiz/wdm_quiz_creation.
+#: php:1556
+msgid "Checkbox"
+msgstr "चेकबॉक्स"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1521 ../modules/quiz/wdm_quiz_creation.
+#: php:1557
+msgid "Drop-Down menu"
+msgstr "ड्रॉप डाउन मेनू"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1522 ../modules/quiz/wdm_quiz_creation.
+#: php:1558
+msgid "Radio"
+msgstr "रेडियो"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1523 ../modules/quiz/wdm_quiz_creation.
+#: php:1559
+msgid "Number"
+msgstr "संख्या"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1524 ../modules/quiz/wdm_quiz_creation.
+#: php:1560
+msgid "Email"
+msgstr "ईमेल"
+
+#: ../modules/quiz/wdm_quiz_creation.php:1525 ../modules/quiz/wdm_quiz_creation.
+#: php:1561
+msgid "Yes/No"
+msgstr "हाॅं / नही"
+
+#: ../modules/commission/commission.php:428 ../modules/commission/commission.php:
+#: 931
+msgid "Order ID"
+msgstr "आदेश आईडी"
+
+#: ../modules/commission/commission.php:432 ../modules/commission/commission.php:
+#: 939
+msgid "Product / Course Name"
+msgstr "उत्पाद / कोर्स का नाम"
+
+#: ../modules/commission/commission.php:436 ../modules/commission/commission.php:
+#: 943
+msgid "Actual Price"
+msgstr "वास्तविक कीमत"
+
+#: ../modules/commission/commission.php:440 ../modules/commission/commission.php:
+#: 947
+msgid "Commission Price"
+msgstr "आयोग की कीमत"
+
+#: ../modules/commission/commission.php:865
+msgid "Start Date:"
+msgstr "आरंभ करने की तिथि:"
+
+#: ../modules/commission/commission.php:873
+msgid "End Date:"
+msgstr "अंतिम तिथि:"
+
+#: ../modules/commission/commission.php:920 ../modules/commission/commission.php:
+#: 1044
+msgid "Export CSV"
+msgstr "निर्यात सीएसवी"
+
+#: ../modules/commission/commission.php:935
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"

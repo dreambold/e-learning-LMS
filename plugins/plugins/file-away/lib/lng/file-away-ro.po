@@ -1,0 +1,655 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: File Away\n"
+"POT-Creation-Date: 2014-10-06 13:20-0600\n"
+"PO-Revision-Date: 2014-10-06 13:20-0600\n"
+"Last-Translator: File Away <fileaway.plugin@gmail.com>\n"
+"Language-Team: File Away <fileaway.plugin@gmail.com>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/cls/class.attachaway.php:81 lib/inc/inc.thead.php:18
+msgctxt "File Name Column"
+msgid "File&nbsp;Name"
+msgstr "Nume@nbsp;Fisier"
+
+#: lib/cls/class.attachaway.php:85 lib/cls/class.attachaway.php:88
+#: lib/cls/class.attachaway.php:92 lib/cls/class.attachaway.php:95
+#: lib/cls/class.attachaway.php:98 lib/inc/inc.stataway-tables.php:5
+#: lib/inc/inc.thead.php:34 lib/inc/inc.thead.php:47 lib/inc/inc.thead.php:73
+#: lib/inc/inc.thead.php:78 lib/inc/inc.thead.php:81
+msgctxt "Column Sort Message"
+msgid "Click to Sort"
+msgstr "Click pentru a sorta"
+
+#: lib/cls/class.attachaway.php:86 lib/inc/inc.thead.php:33
+msgctxt "File Type Column"
+msgid "Type"
+msgstr "Scrieti"
+
+#: lib/cls/class.attachaway.php:99 lib/inc/inc.thead.php:82
+msgctxt "File Size Column"
+msgid "Size"
+msgstr "Marime"
+
+#: lib/cls/class.feedaway.php:25
+msgid "Every 15 Minutes"
+msgstr ""
+
+#: lib/cls/class.feedaway.php:26
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: lib/cls/class.feedaway.php:27
+msgid "Every 45 Minutes"
+msgstr ""
+
+#: lib/cls/class.feedaway.php:28
+msgid "Every 6 Hours"
+msgstr ""
+
+#: lib/cls/class.feedaway.php:29
+msgid "Once Weekly"
+msgstr ""
+
+#: lib/cls/class.feedaway.php:30
+msgid "Every Two Weeks"
+msgstr ""
+
+#: lib/cls/class.fileaframe.php:23
+#, php-format
+msgid ""
+"Please assign your fileaframe shortcode a unique name, using %s, and assign "
+"the same name to its corresponding %s shortcode, using %s"
+msgstr ""
+"Va rog sa atribuiti un nume unic pentru shortcode-ul fileframe-ului, "
+"folosind %s si sa atribuiti acelasi nume unic shotcode-ului corespunzator "
+"%s, folosind %s"
+
+#: lib/cls/class.fileaframe.php:25
+msgctxt "File-a-Frame No Source Error Message"
+msgid "Please specify a source page."
+msgstr "Va rog sa specificati o pagina sursa."
+
+#: lib/cls/class.fileaway.php:114 lib/inc/inc.stataway-lists.php:107
+#, php-format
+msgctxt "For List Types: *Date* at *Time*"
+msgid "Last modified %s at %s"
+msgstr "Ultima modificare efectuata in %s la %s"
+
+#: lib/cls/class.fileaway.php:243 lib/cls/class.fileaway_management.php:376
+#: lib/inc/inc.directories.php:117
+msgid "Rename"
+msgstr "Redenumiti"
+
+#: lib/cls/class.fileaway.php:244 lib/cls/class.fileaway_management.php:377
+#: lib/inc/inc.bulk-action-content.php:17 lib/inc/inc.directories.php:118
+msgid "Delete"
+msgstr "Stergeti"
+
+#: lib/cls/class.fileaway_attributes.php:1821
+msgid "Select CSV"
+msgstr "Selectati fisierul CSV"
+
+#: lib/cls/class.fileaway_management.php:342
+msgid "That directory name already exists in this location."
+msgstr "Numele acestui director exista deja in aceasta locatie."
+
+#: lib/cls/class.fileaway_management.php:358 lib/inc/inc.directories.php:107
+msgctxt "abbrv. of *directory*"
+msgid "dir"
+msgstr "dir"
+
+#: lib/cls/class.fileaway_management.php:384
+msgid "Your sub-directories have been successfully created."
+msgstr "Sub-directoarele dumneavoastra au fost create."
+
+#: lib/cls/class.fileaway_management.php:390
+msgid "Sorry, there was a problem creating that directory for you."
+msgstr "Ne pare rau, a fost o problema in crearea directorului dumneavoastra."
+
+#: lib/cls/class.fileaway_management.php:417
+msgid "That directory already exists."
+msgstr "Acest director exista deja."
+
+#: lib/cls/class.fileaway_management.php:418
+msgid "The directory you're trying to rename could not be found."
+msgstr "Directorul pe care incercati sa-l redenumiti exista deja."
+
+#: lib/cls/class.fileaway_management.php:479
+msgid ""
+"We tried to move the files into the newly-named directory but none of them "
+"would budge."
+msgstr ""
+"Am incercat sa mutam noul-numit director dar nu a dorit sa fie clintit."
+
+#: lib/cls/class.fileaway_management.php:485
+msgid ""
+"We tried to move the files into the newly-named directory, but there were "
+"some stragglers, so we couldn't remove the old directory."
+msgstr ""
+"Am incercat sa mutam fisierele in noul-numit director, dar unele s-au "
+"ratacit, asa ca nu am putut inlatura vechiul director."
+
+#: lib/cls/class.fileaway_management.php:497
+msgid "An unspecified error occurred."
+msgstr "S-a ivit o eroare nespecificata."
+
+#: lib/cls/class.fileaway_management.php:510
+msgid "The directory marked for deletion could not be found."
+msgstr "Directorul marcat pentru stergere nu a fost gasit."
+
+#: lib/cls/class.fileaway_management.php:537
+#: lib/cls/class.fileaway_management.php:602
+#: lib/cls/class.fileaway_management.php:764
+#: lib/cls/class.fileaway_prints.php:86
+msgctxt "plural"
+msgid "files"
+msgstr "fisiere"
+
+#: lib/cls/class.fileaway_management.php:537
+#: lib/cls/class.fileaway_management.php:602
+#: lib/cls/class.fileaway_prints.php:85
+msgctxt "singular"
+msgid "file"
+msgstr "fisier"
+
+#: lib/cls/class.fileaway_management.php:538
+#: lib/cls/class.fileaway_management.php:603
+msgid "and"
+msgstr "si"
+
+#: lib/cls/class.fileaway_management.php:543
+#: lib/cls/class.fileaway_management.php:609
+msgctxt "plural"
+msgid "sub-directories"
+msgstr "sub-directoare"
+
+#: lib/cls/class.fileaway_management.php:543
+#: lib/cls/class.fileaway_management.php:609
+msgctxt "singular"
+msgid "sub-directory"
+msgstr "sub-director"
+
+#: lib/cls/class.fileaway_management.php:546
+#, php-format
+msgctxt "Do not put a space between *directory* and the %s variable"
+msgid ""
+"You are about to delete 1 directory%s from the server. This action is "
+"permanent and cannot be undone. Are you sure you wish to proceed?"
+msgstr ""
+"Sunteti pe cale sa stergeti un director%s de pe server. Aceasta actiune este "
+"permanenta si nu poate fii descos . Sunteti sigur ca doriti sa continuati cu "
+"procedura?"
+
+#: lib/cls/class.fileaway_management.php:603
+#: lib/cls/class.fileaway_management.php:610
+msgid "of"
+msgstr "de"
+
+#: lib/cls/class.fileaway_management.php:605
+#, php-format
+msgid "and %d files"
+msgstr "si %d fisiere"
+
+#: lib/cls/class.fileaway_management.php:612
+#, php-format
+msgctxt "Do not put a space between *directory* and the %s variable"
+msgid "%d of 1 directory%s have been removed from the server."
+msgstr "%d din un directoar%s au fost inlaturate de pe server."
+
+#: lib/cls/class.fileaway_management.php:620
+msgid "Sorry, but there was an error attempting to remove this directory."
+msgstr ""
+"Ne pare rau, dar a fost o eroare incercand sa inlaturam acest director."
+
+#: lib/cls/class.fileaway_management.php:672
+msgid "The file was not renamed."
+msgstr "Fisierul nu fost redenumit."
+
+#: lib/cls/class.fileaway_management.php:818
+msgid ""
+"There was a problem copying the files. Please consult your local pharmacist."
+msgstr ""
+"A fost o problema incercand sa copiez fisierele. Va rug sa va consultati "
+"farmacitul."
+
+#: lib/cls/class.fileaway_management.php:820
+#, php-format
+msgid "One file was copied to %s and it no longer feels special."
+msgstr "Un fisier a fost copiat in %s si nu se mai simte special."
+
+#: lib/cls/class.fileaway_management.php:822
+#, php-format
+msgid ""
+"%d of %d files were successfully cloned and delivered in a black caravan to "
+"%s."
+msgstr ""
+"%d din %d fisiere au fost clonate si livrate intr-o caravana neagra in %s."
+
+#: lib/cls/class.fileaway_management.php:881
+msgid ""
+"There was a problem moving the files. Please consult your local ouija "
+"specialist."
+msgstr ""
+"A fost o problema incercand sa mut fisierele. Va rog sa consultati un "
+"specialist in ouija."
+
+#: lib/cls/class.fileaway_management.php:883
+#, php-format
+msgid "One lonesome file was forced to leave all it knew and move to %s."
+msgstr ""
+"Un fisier singuratic a fost fortat sa paraseasca tot ce a stiut si sa sa se "
+"mute in %s."
+
+#: lib/cls/class.fileaway_management.php:885
+#, php-format
+msgid "%d of %d files were magically transported to %s."
+msgstr "%d din %d fisiere au fost transporate miraculos in %s."
+
+#: lib/cls/class.fileaway_management.php:904
+#: lib/cls/class.fileaway_management.php:1058
+msgid ""
+"There was a problem deleting the files. Please try pressing your delete "
+"button emphatically and repeatedly."
+msgstr ""
+"O problema s-a ivit in stergerea fisierelor. Va rog sa incercati sa apasati "
+"butonul delete intr-un mod repetat si precis."
+
+#: lib/cls/class.fileaway_management.php:906
+msgid ""
+"A million fewer files in the world is a victory. One less file, a tragedy. "
+"Farewell, file. Au revoir. Auf Wiedersehen. Adieu."
+msgstr ""
+"Un milion de fisiere mai putine in lume este o victorie. Un fisier mai "
+"putin, este o tragedie. Adio, fisier. Au revoir. Auf Wiedersehen. Adieu."
+
+#: lib/cls/class.fileaway_management.php:908
+#, php-format
+msgid ""
+"%d of %d files were sent plummeting to the nether regions of cyberspace."
+msgstr ""
+"%d din %d fisiere au fost trimise napusting in regiunile adancuri ale "
+"spatiului cibernetic."
+
+#: lib/cls/class.fileaway_management.php:1061
+msgid "The file specified does not exist in this location."
+msgstr "Fisierul specificat nu exista in aceasta locatie."
+
+#: lib/cls/class.fileaway_management.php:1072
+msgid "A file by that name already exists in this directory."
+msgstr "Un fisier cu acelasi denumire exista deja in acest director."
+
+#: lib/cls/class.fileaway_management.php:1099
+#, php-format
+msgid "Sorry. There was a problem creating %s"
+msgstr "Scuze. A fost o problema in crearea fisierului %s"
+
+#: lib/cls/class.fileaway_management.php:1117
+#: lib/cls/class.fileaway_management.php:1118
+#: lib/cls/class.fileaway_management.php:1155
+#: lib/cls/class.fileaway_management.php:1169
+#: lib/cls/class.fileaway_management.php:1192
+#: lib/cls/class.fileaway_management.php:1215
+#: lib/cls/class.fileaway_management.php:1241
+msgid "Sorry about that, but your changes could not be saved."
+msgstr "Scuze pentru asta, dar schimbarile tale nu au putut fii salvate."
+
+#: lib/cls/class.fileaway_management.php:1255
+msgid "Sorry about that, but a backup could not be successfully saved."
+msgstr "Scuze pentru asta, dar o rezerva nu a putut fii salvata cu succes."
+
+#: lib/cls/class.fileaway_prints.php:77
+msgid "Nothing found."
+msgstr "Nimic gasit."
+
+#: lib/cls/class.fileaway_prints.php:78
+msgid "Cancel"
+msgstr "Anuleaza"
+
+#: lib/cls/class.fileaway_prints.php:79
+msgid "Save"
+msgstr "Salveaza"
+
+#: lib/cls/class.fileaway_prints.php:80
+msgctxt "verb"
+msgid "Proceed"
+msgstr "Continua"
+
+#: lib/cls/class.fileaway_prints.php:81
+msgid "Delete?"
+msgstr "Sterge?"
+
+#: lib/cls/class.fileaway_prints.php:82
+msgid "OK"
+msgstr "OK"
+
+#: lib/cls/class.fileaway_prints.php:83
+msgctxt "i.e., Confirm"
+msgid "I'm Sure"
+msgstr "Sunt sigur"
+
+#: lib/cls/class.fileaway_prints.php:84
+msgctxt "i.e., Cancel"
+msgid "Nevermind"
+msgstr "Nu mai conteza"
+
+#: lib/cls/class.fileaway_prints.php:87
+#, php-format
+msgid ""
+"You are about to permanently delete %s. Are you sure you're OK with that?"
+msgstr "Esti pe cale sa stergi de tot %s. Esti OK cu asta?"
+
+#: lib/cls/class.fileaway_prints.php:88
+msgid "Sorry, there was a problem verifying the correct path to the files."
+msgstr "Scuze, s-a ivit o problema in verificarea caii corecte catre fisiere."
+
+#: lib/cls/class.fileaway_prints.php:89
+msgid ""
+"There was an error completing your request. The path to the directory has "
+"not been properly defined."
+msgstr ""
+"A fost o eroare in completarea cererii dumneavoastra. Calea catre director "
+"nu a fost definita in mod corespunzator."
+
+#: lib/cls/class.fileaway_prints.php:90
+msgid "Sorry, but the name you specified cannot be processed."
+msgstr "Scuze, dar numele specificat nu poate fii procesat."
+
+#: lib/cls/class.fileaway_prints.php:91
+msgid "An error has been triggered."
+msgstr "O eroare a fost declansata."
+
+#: lib/cls/class.fileaway_prints.php:92
+msgid ""
+"No files have been selected. Click on the table rows of the files you wish "
+"to select."
+msgstr ""
+"Nici un fisier nu a fost selectat. Faceti click pe randul tabelei cu "
+"fisierele pe care doriti sa le selectati."
+
+#: lib/cls/class.fileaway_prints.php:93
+msgid "No files have been chosen."
+msgstr "Nici un fisier nu a fost selectat."
+
+#: lib/cls/class.fileaway_prints.php:94
+msgid "No action has been selected."
+msgstr "Nu a fost aleasa nici o actiune."
+
+#: lib/cls/class.fileaway_prints.php:95
+msgid "No destination directory has been selected."
+msgstr "Nici o destianati pentru director nu a fost selectat."
+
+#: lib/cls/class.fileaway_prints.php:96
+msgid "You did not specify a name for your sub-directory."
+msgstr "Nu ati specificat nici un nume pentru sub-director."
+
+#: lib/cls/class.fileaway_prints.php:97
+msgid "Sorry, a file you have specified could not be read."
+msgstr "Scuze, un fisier pe care l-ai specificat nu poate fii citit."
+
+#: lib/cls/class.fileaway_prints.php:98
+msgid "Please build the path to your destination directory."
+msgstr "Va rugam sa creati calea catre directorul adresa."
+
+#: lib/cls/class.fileaway_prints.php:99
+msgid "Your browser does not support the File Upload API. Please update."
+msgstr ""
+"Browser-ul dumneavoastra nu suporta API-ul lui File Upload. Va rugam sa "
+"actualizati."
+
+#: lib/cls/class.fileaway_prints.php:100
+#, php-format
+msgid "This file exceeds the %s max file size."
+msgstr "Fisierul depaseste marimea maxima pentru fisier a %s-ului."
+
+#: lib/cls/class.fileaway_prints.php:101
+msgid "This file type is not permitted."
+msgstr "Tipul de fisier nu este permis."
+
+#: lib/cls/class.fileaway_prints.php:102
+msgid "View all permitted file types."
+msgstr "Vizualizati toate tipurile de fisiere."
+
+#: lib/cls/class.fileaway_prints.php:103
+msgid "View all prohibited file types."
+msgstr "Vizualizati toate topurile de fisiere interzise."
+
+#: lib/cls/class.fileaway_prints.php:104
+msgid ""
+"You may not use double dots or attempt to override the upload directory."
+msgstr ""
+"Nu aveti voie sa folositi puncte duble sau sa incercati sa treceti de "
+"directorul upload."
+
+#: lib/cls/class.fileaway_prints.php:105
+msgid "You may not use double dots in the filename."
+msgstr "Nu aveti voie sa folositi puncte duble in numele fisierului."
+
+#: lib/cls/class.fileaway_prints.php:106
+msgid "Sub-directory creation is disabled."
+msgstr "Crearea sub-directorului este "
+
+#: lib/cls/class.fileaway_prints.php:107
+msgid "You may not attempt to override the upload directory."
+msgstr "Nu aveti voie sa incercati sa treceti de directorul upload."
+
+#: lib/cls/class.fileaway_prints.php:108
+msgid "You may not specify a script filetype prior to a non-script filetype."
+msgstr ""
+"Nu aveti voie sa specificati un fisier tip script inainte de un fisier tip "
+"non-script."
+
+#: lib/cls/class.fileaway_prints.php:109
+#, php-format
+msgid "Sorry about that, but %s could not be uploaded."
+msgstr "Ne cerem scuze, dar %s nu a putut fi incarcat oe server."
+
+#: lib/cls/class.fileaway_prints.php:110
+msgid "Rename Column"
+msgstr "Redenumiti Coloana"
+
+#: lib/cls/class.fileaway_prints.php:111
+msgid "Delete Column"
+msgstr "Stergeti Coloana"
+
+#: lib/cls/class.fileaway_prints.php:112
+msgid "Insert New Column Before"
+msgstr "Introduceti o Noua Coloana Inainte"
+
+#: lib/cls/class.fileaway_prints.php:113
+msgid "Insert New Column After"
+msgstr "Introduceti o Nou Coloana Dupa"
+
+#: lib/cls/class.fileaway_prints.php:114
+msgid "Insert New Row"
+msgstr "Introduceti un Rand Nou"
+
+#: lib/cls/class.fileaway_prints.php:115
+msgid "Delete Row"
+msgstr "Stergeti Randul"
+
+#: lib/cls/class.fileaway_prints.php:116
+msgid "Save Backup"
+msgstr "Salvati o Rezerva"
+
+#: lib/cls/class.fileaway_prints.php:117
+msgid "New Column Name"
+msgstr "Nume Nou Pentru Coloana"
+
+#: lib/cls/class.fileaway_prints.php:118
+msgid "There must be at least one column at all times."
+msgstr "Trebiu sa fie cel putin o coloana tot timpul."
+
+#: lib/cls/class.fileaway_prints.php:119
+msgid "There must be at least one row at all times."
+msgstr "Trebuie sa fie cel putin un rand tot timpul."
+
+#: lib/cls/class.fileaway_prints.php:120
+msgid "Next"
+msgstr "Urmatorul/ea"
+
+#: lib/cls/class.fileaway_prints.php:121
+msgid "Create"
+msgstr "Creati"
+
+#: lib/cls/class.fileaway_prints.php:122
+msgid "New File Name"
+msgstr "Nume Nou Pentru Fisier"
+
+#: lib/cls/class.fileaway_prints.php:123
+msgid "You must specify a file name."
+msgstr "Trebuie sa specificati un nume pentru fisier."
+
+#: lib/cls/class.fileaway_prints.php:124
+msgid "You must specify at least one column name."
+msgstr "Trebuie sa specificati macar un nume pentru o coloana."
+
+#: lib/cls/class.fileaway_prints.php:125
+msgid "Column Names, Comma-separated"
+msgstr "Numele Coloanelor, Separate prin virgula"
+
+#: lib/cls/class.fileaway_stats.php:127
+msgid "No downloads were recorded during this period. Bummer."
+msgstr ""
+
+#: lib/cls/class.fileaway_stats.php:134 lib/inc/inc.stataway-tables.php:27
+msgid "Guest"
+msgstr ""
+
+#: lib/cls/class.fileaway_stats.php:145
+msgid "TOTAL DOWNLOADS:"
+msgstr ""
+
+#: lib/cls/class.fileup.php:82
+msgid "+ Add File"
+msgstr "+ Adaugati Un Fisier"
+
+#: lib/cls/class.fileup.php:82
+msgid "+ Add Files"
+msgstr "+ Adaugati Fisiere"
+
+#: lib/cls/class.fileup.php:83
+msgid "File Up &#10138;"
+msgstr "File Up &#10138;"
+
+#: lib/cls/class.fileup.php:126
+msgid "File Up Admin Notice: The initial directory specified does not exist:"
+msgstr ""
+"Notificare de la Admin File Up: Directorul specificat initial nu exista."
+
+#: lib/cls/class.fileup.php:133 lib/inc/inc.bulk-action-content.php:33
+msgid "Destination Directory"
+msgstr "Adresa Directorului"
+
+#: lib/inc/inc.bulk-action-content.php:6
+msgid "Bulk Action Mode:"
+msgstr "Actiunea Modul in Masa:"
+
+#: lib/inc/inc.bulk-action-content.php:7 lib/inc/inc.bulk-action-content.php:8
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: lib/inc/inc.bulk-action-content.php:7
+msgid "Enabled"
+msgstr "Activat"
+
+#: lib/inc/inc.bulk-action-content.php:12
+msgid "Select Action"
+msgstr "Selectati Actiunea"
+
+#: lib/inc/inc.bulk-action-content.php:14
+#: lib/inc/inc.bulk-download-content.php:11
+msgid "Download"
+msgstr "Descarcare"
+
+#: lib/inc/inc.bulk-action-content.php:15
+msgid "Copy"
+msgstr "Copiati"
+
+#: lib/inc/inc.bulk-action-content.php:16
+msgid "Move"
+msgstr "Mutati"
+
+#: lib/inc/inc.bulk-action-content.php:19
+msgctxt "Bulk Action Submit Button"
+msgid "File Away"
+msgstr "File Away"
+
+#: lib/inc/inc.bulk-action-content.php:24
+#: lib/inc/inc.bulk-action-content.php:25
+#: lib/inc/inc.bulk-download-content.php:8
+#: lib/inc/inc.bulk-download-content.php:10
+msgid "Select All"
+msgstr "Selectati Tot"
+
+#: lib/inc/inc.bulk-action-content.php:24
+#: lib/inc/inc.bulk-download-content.php:8
+msgid "Clear All"
+msgstr "Curatati Tot"
+
+#: lib/inc/inc.directories.php:27
+msgid "new"
+msgstr "nou"
+
+#: lib/inc/inc.directories.php:31
+msgid "Name Your Sub-Directory"
+msgstr "Numiti-va Sub-Directorul"
+
+#: lib/inc/inc.precontent.php:21
+msgid "SEARCH"
+msgstr "CAUTATI"
+
+#: lib/inc/inc.stataway-tables.php:9
+msgid "Timestamp"
+msgstr ""
+
+#: lib/inc/inc.stataway-tables.php:10
+msgid "file"
+msgstr "fisier"
+
+#: lib/inc/inc.stataway-tables.php:11
+msgid "User ID"
+msgstr ""
+
+#: lib/inc/inc.stataway-tables.php:12
+msgid "Username"
+msgstr ""
+
+#: lib/inc/inc.stataway-tables.php:13
+msgid "Email"
+msgstr ""
+
+#: lib/inc/inc.stataway-tables.php:14
+msgid "IP Address"
+msgstr ""
+
+#: lib/inc/inc.stataway-tables.php:15
+msgid "User Agent"
+msgstr ""
+
+#: lib/inc/inc.thead.php:17
+msgctxt "File and Directory Name Column"
+msgid "Drawer/File"
+msgstr "Cabinet/Fisier"
+
+#: lib/inc/inc.thead.php:19
+msgctxt "Date Modified Column"
+msgid "Date&nbsp;Modified"
+msgstr "Data&nbsp;Modificata"
+
+#: lib/inc/inc.thead.php:84
+msgctxt "Manager Column"
+msgid "Manage"
+msgstr "Gestionati"

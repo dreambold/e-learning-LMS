@@ -1,0 +1,520 @@
+/*
+ * Alka Chat's main style
+ */
+[v-cloak] {
+  display: none;
+}
+#alka-chat-wrapper{
+  $border: 40px;
+  $color: #5e616e;
+  $colored: #337ab7;
+  z-index: 1000;
+  &.is-open{
+    #alka-chat-conversations-wrapper{
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      display: block;
+      background: -moz-linear-gradient(top, rgba(55,58,73,0) 80%, rgba(55,58,73,.4) 100%);
+      background: -webkit-linear-gradient(top, rgba(55,58,73,0) 80%,rgba(55,58,73,.4) 100%);
+      background: linear-gradient(to bottom, rgba(55,58,73,0) 80%,rgba(55,58,73,.4) 100%);
+      transition: opacity 0.4s cubic-bezier(0.29, 1.18, 1, 1);
+    }
+  }
+  #alka-chat-conversations-wrapper{
+    opacity: 0;
+    z-index: 1001;
+    display: none;
+    left: 0;
+    top: 0;
+    position: fixed;
+    transition: opacity 0.2s ease-out;
+    .alka-chat-modal{
+      width: 40%;
+      margin-left: -20%;
+      position: absolute;
+      left: 50%;
+      background: #FFF;
+      box-shadow: 0 2px 40px rgba(0,0,0,.10);
+      border-radius: 10px;
+      top: 20vh;
+      height: 50vh;
+      &#custom-tab{
+        .alka-chat-modal-body{
+          height: calc(100% - 70px);
+          font-size: 1.2em;
+          p{
+            font-size: 1.2em
+          }
+          a{
+            color: #FFF;
+            border: 0;
+          }
+        }
+      }
+      &#single-conversation{
+        .alka-chat-modal-footer a.btn.btn-default{
+          width: 30%;
+        }
+      }
+      .alka-chat-modal-inner{
+        position: relative;
+        height: 100%;
+      }
+      .alka-chat-modal-header,
+      .alka-chat-modal-body,
+      .alka-chat-modal-footer{
+        padding: 20px 20px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+      }
+      .alka-chat-modal-header{
+        border-bottom: 1px solid lighten($color, 50%);
+        padding: 20px 20px 10px 20px;
+        border-radius: 10px 10px 0 0;
+        background: #FFF;
+        top: 0;
+        height: 68px;
+        h3{
+          margin: 0;
+          text-align: left;
+          font-weight: 300;
+          text-transform: inherit;
+          margin-right: 10px;
+          i.fa{
+            padding-right: 10px;
+            opacity: .6;
+          }
+        }
+        a{
+          font-size: 2em;
+          line-height: initial;
+          opacity: .2;
+          &:hover{
+            opacity: 1;
+          }
+          i{
+            vertical-align: top;
+          }
+        }
+      }
+      .alka-chat-modal-body{
+        top: 68px;
+        height: calc(100% - 160px);
+        overflow-y: scroll;
+        .messages-empty{
+          margin-top: 30px;
+          i.fa{
+            display: block;
+            margin-bottom: 20px;
+            opacity: .2;
+            color: $colored;
+          }
+          span{
+            font-size: 1.2em;
+          }
+        }
+        label{
+          margin-bottom: 0;
+          font-weight: 300;
+        }
+        .conversations-participant{
+          list-style-type: none;
+          margin: 20px 0 0 0;
+          padding: 0;
+          li{
+            display: inline-block;
+            padding: 4px 8px;
+            background: $color;
+            border-radius: 3px;
+            color: #FFF;
+            margin: 0 10px 10px 0;
+            font-size: .9em;
+            a{
+              padding-left: 10px;
+              color: #FFF;
+            }
+          }
+        }
+        .potential-participants{
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          box-shadow: 0px 2px 3px rgba(0,0,0,.2);
+          border-radius: 4px;
+          li{
+            padding: 10px;
+            border-top: 1px solid lighten($color, 50%);
+            &:last-child{
+              border-top: 0;
+            }
+            &:hover{
+              opacity: .8;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .alka-chat-modal-footer{
+        border-top: 1px solid lighten($color, 50%);
+        bottom: 0;
+        background: #FFF;
+        border-radius: 0 0 10px 10px;
+        a.btn.btn-default{
+          color: #FFF;
+          border: 0;
+          padding: 10px;
+          font-weight: bold;
+          display: block;
+          width: 80%;
+          margin: auto;
+          font-size: 1.2em;
+          i.fa{
+            padding-right: 10px;
+            font-size: 1.5em;
+            vertical-align: sub;
+            position: relative;
+            bottom: 1px;
+          }
+        }
+        .alka-chat-new-message-wrapper{
+          width: calc(70% - 20px);
+          textarea{
+            margin: 0;
+            height: 46px;
+            padding-right: 40px;
+            border: 1px solid #e4e4e8 !important;
+          }
+        }
+      }
+      .alka-chat-messages-holder{
+        .alka-chat-messages-pagination{
+          a.btn.btn-default{
+            background: #e4e4e8 !important;
+            border: 0;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            display: block;
+            &:hover{
+              opacity: .8;
+            }
+          }
+        }
+        li.alka-chat-message{
+          margin-bottom: 15px;
+          min-height: 50px;
+          position: relative;
+          div.alka-chat-message-content{
+            margin-left: 80px;
+            margin-top: 8px;
+            textarea{
+              margin-top: 0;
+            }
+            p {
+              padding: 8px;
+              margin-bottom: 0;
+              box-shadow: 0 1px 6px rgba(0,0,0,.03);
+              display: inline-block;
+              border-radius: 3px;
+              &:not(.woffice-colored-bg){
+                background: rgb(228, 228, 232);
+              }
+            }
+          }
+          div.alka-chat-message-thumb{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50px;
+            height: 50px;
+            img{
+              max-height: 100%;
+              border-radius: 50px;
+            }
+          }
+          &.current-user{
+            div.alka-chat-message-thumb{
+              left: initial;
+              right: 0;
+            }
+            div.alka-chat-message-content {
+              margin-left: 0;
+              margin-right: 80px;
+              float: right;
+              text-align: right;
+              p {
+                color: #FFF;
+              }
+              &:hover{
+                opacity: .9;
+                cursor: pointer;
+              }
+            }
+          }
+          div.alka-chat-message-actions{
+            margin-top: 10px;
+            ul{
+              li{
+                font-size: .9em;
+                color: $color;
+                a{
+                  color: $color;
+                  &:hover{
+                    color: $colored;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #alka-chat-conversations{
+      position: fixed;
+      bottom: 100px;
+      right: $border + 180px;
+      z-index: 1003;
+      ul{
+        margin: 0;
+        li.single-conversation,
+        li.conversation-pagination{
+          margin-left: 30px;
+          float: left;
+          position: absolute;
+          right: 0;
+          transition: right .1s ease-in;
+          .conversation-close {
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 1;
+            color: #444;
+            opacity: .7;
+            position: absolute;
+            top: -8px;
+            z-index: 10;
+            right: 0;
+            cursor: pointer;
+            &:hover{
+              opacity: 1;
+            }
+          }
+          a{
+            position: relative;
+            width: 60px;
+            height: 60px;
+            display: block;
+            i.fa.page-switcher{
+              color: #FFF;
+              font-size: 30px;
+              display: block;
+              text-align: center;
+              line-height: 60px;
+              height: 60px;
+              border: 1px solid rgba(255, 255, 255, 0.3);
+              border-radius: 60px;
+            }
+            &:hover{
+              i.fa.page-switcher{
+                border: 1px solid rgba(255, 255, 255, 1);
+              }
+            }
+            span.conversation-label {
+              border-radius: 30px;
+              position: absolute;
+              bottom: 0;
+              color: #FFF;
+              font-weight: bold;
+              padding: 2px 6px;
+              font-size: 10px;
+              &.participants{
+                left: 0;
+                background: #359bc2;
+              }
+              &.new{
+                left: 0;
+                top: 0;
+                bottom: initial;
+                padding: 2px 5px;
+                color: #c23535;
+                background: #c23535;
+              }
+            }
+            &:hover{
+              img{
+                box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+              }
+            }
+            img{
+              max-width: 100%;
+              max-height: 100%;
+              border-radius: 50%;
+              box-shadow: 0 2px 10px rgba(0,0,0,.20);
+            }
+          }
+        }
+      }
+    }
+  }
+  #alka-chat-alerts{
+    position: fixed;
+    right: 0;
+    top: $border;
+    min-height: 40px;
+    margin: 20px 40px;
+    width: calc(100% - 80px);
+    .tiny-alert{
+      position: relative;
+      top: 0;
+      left: initial;
+      box-shadow: 0 2px 10px rgba(0,0,0,.2);
+      border-radius: 30px;
+      width: initial;
+      text-align: left;
+      margin-left: 0;
+      display: inline-block;
+      padding: 6px 15px;
+    }
+  }
+  #alka-chat-actions{
+    right: $border;
+    bottom: $border;
+    position: fixed;
+    z-index: 1002;
+    ul{
+      text-align: right;
+      margin-bottom: 110px;
+      li{
+        a{
+          margin: 6px 0;
+          display: inline-block;
+          background: #FFF;
+          font-weight: bold;
+          padding: 4px 10px;
+          border-radius: 30px;
+          color: $color;
+          box-shadow: 0 2px 10px rgba(0,0,0,.20);
+          &:hover{
+            color: lighten($color, 10%);
+          }
+        }
+      }
+    }
+    #alka-chat-main{
+      font-size: 30px;
+      width: 60px;
+      height: 60px;
+      display: block;
+      line-height: 60px;
+      text-align: center;
+      right: $border;
+      bottom: $border;
+      position: fixed;
+      border-radius: 60px;
+      color: $white;
+      box-shadow: 0 2px 10px rgba(0,0,0,.16);
+      i.fa{
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+  // Animations
+  .slide-fade-right-enter-active,
+  .slide-fade-bottom-enter-active,
+  .slide-fade-top-enter-active{
+    transition: all .3s cubic-bezier(0.51, 1.24, 1, 1);
+  }
+  .slide-fade-right-leave-active,
+  .slide-fade-bottom-leave-active,
+  .slide-fade-top-leave-active{
+    transition: all .3s cubic-bezier(0.51, 1.24, 1, 1);
+  }
+  .slide-fade-right-enter,
+  .slide-fade-right-leave-to {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  .slide-fade-bottom-enter,
+  .slide-fade-bottom-leave-to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  .slide-fade-top-enter,
+  .slide-fade-top-leave-to {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  // Responsive
+  @media (max-width: 1200px) {
+    #alka-chat-conversations-wrapper {
+      .alka-chat-modal{
+        width: 60%;
+        margin-left: -30%;
+      }
+      #alka-chat-conversations{
+        right: 130px;
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    #alka-chat-actions {
+      bottom: 120px;
+      ul{
+        margin-bottom: 0;
+        li{
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  @media (max-width: 650px) {
+    #alka-chat-conversations-wrapper {
+      .alka-chat-modal{
+        width: 90%;
+        margin-left: -45%;
+      }
+    }
+  }
+}
+
+
+.conversation-meta{
+  .conversation-participants{
+    margin-bottom: 10px;
+    a{
+      display: block;
+      opacity: 1;
+      span{
+        opacity: 1;
+      }
+      img{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+      }
+    }
+  }
+  hr{
+    margin: 10px -14px 10px -14px;
+  }
+  a.btn{
+    font-size: 1em;
+    opacity: 1;
+    i.fa{
+      padding-right: 8px;
+    }
+  }
+  ul:not(.conversation-participants){
+    li{
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-right: 10px;
+      color: $color;
+      i.fa{
+        padding-right: 4px;
+      }
+    }
+  }
+}

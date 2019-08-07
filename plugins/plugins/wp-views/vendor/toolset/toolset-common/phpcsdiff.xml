@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="Toolset-Common-phpcsdiff">
+    <description>Toolset Common Coding Standards for phpcs-diff</description>
+
+    <rule ref="Toolset"/>
+
+    <exclude-pattern>*/autoload_classmap.php</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/lib/*</exclude-pattern>
+</ruleset>

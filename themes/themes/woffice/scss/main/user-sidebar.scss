@@ -1,0 +1,248 @@
+/*---------------------------------------------------------
+**
+** USER SIDEBAR
+**
+----------------------------------------------------------*/
+.logged-in.admin-bar #user-sidebar{
+  top: 32px;
+}
+#user-sidebar{
+  position: fixed;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  width: 35%;
+  min-width: 250px;
+  z-index: 21;
+  padding-bottom: 40px;
+  right: -50%;
+  height: 100%;
+  top: 0;
+  display: inline-block;
+  -webkit-transition: right 0.4s, padding-top 0.4s;
+  -moz-transition: right 0.4s, padding-top 0.4s;
+  transition: right 0.4s, padding-top 0.4s;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+  -ms-box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+  -o-box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+  box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+  &.active{
+    right: 0;
+    -webkit-transition: right 0.4s;
+    -moz-transition: right 0.4s;
+    transition: right 0.4s;
+  }
+}
+#user-cover{
+  padding: 20px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  a{
+    z-index: 15;
+    position: relative;
+    text-decoration: none;
+    &:hover{
+      opacity: .5;
+    }
+    img{
+      width: 75px;
+      height: 75px;
+      margin-right: 20px;
+      float: left;
+      border-radius: 50%;
+      z-index: 15;
+      position: relative;
+    }
+    span{
+      color: #FFF;
+      display: block;
+      margin-top: 30px;
+      font-size: 1.2em;
+      z-index: 15;
+      position: relative;
+      span.woffice-welcome{
+        font-weight:bold;
+        font-style:italic;
+        display: inline !important;
+      }
+    }
+  }
+}
+.user-cover-layer{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(130, 130, 145, 0.52);
+}
+/*Cover image extension*/
+button.btn-cover-upload{
+  opacity: .8;
+  right: 0;
+  position: absolute;
+  top: 0;
+  border: 0;
+  background-color: rgba(0,0,0,.2);
+  padding: 10px 20px;
+  font-size: 1.6em;
+  color: #FFF;
+  border-radius: 0 0 0 $border-radius !important;
+  margin: 0 !important;
+  &:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+#woffice-cover-process, .woffice-ajax-main{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: none;
+  left: 0;
+  top: 0;
+  font-size: 4em;
+  text-align: center;
+  padding: 20%;
+  background-color: rgba(255,255,255,.6);
+}
+#woffice-cover-message i.fa,
+.woffice-ajax-main i.fa{
+  display: block;
+  font-size: 3em;
+  margin: 0 auto 30px auto;
+  color: #109E00;
+}
+#woffice-coverprogressOuter{border-radius: 10px;}
+/*End*/
+#user-sidebar{
+  nav ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    li {
+      a{
+        padding: 20px;
+        display: block;
+        background: $white;
+        text-decoration: none;
+        position: relative;
+
+        i{
+          padding-right: 10px;
+        }
+
+        span.count,
+        span.no-count{
+          color: #FFF;
+          padding: 1px 8px;
+          border-radius: 10px;
+          margin-left: 10px;
+          display: inline-block;
+          line-height: normal;
+          font-weight: bold;
+          font-size: .9em;
+        }
+      }
+
+      &.menu-child a{
+        padding-left: 40px;
+      }
+
+      &#messages-personal-li > a::before{ content: "\f086"; }
+      &#friends-personal-li > a::before{ content: "\f164"; }
+      &#groups-personal-li > a::before{ content: "\f0c0"; }
+      &#settings-personal-li > a::before{ content: "\f013"; }
+      &#courses-personal-li > a::before{ content: "\f02d"; }
+      &#forums-personal-li > a::before{ content: "\f0e8"; }
+      &#logout-li > a::before{ content: "\f2f5"; }
+      &#activity-personal-li > a::before{ content: "\f1ea"; }
+      &#xprofile-personal-li > a::before{ content: "\f007"; }
+      &#event-personal-li > a::before{ content: "\f073"; }
+    }
+  }
+}
+#user-sidebar nav ul li.menu-parent > a:before,
+#user-sidebar nav ul li#event-personal-li > a:before,
+#user-sidebar nav ul li#logout-li > a:before{
+  font-family: $font-icon-solid;
+  padding-right: 10px;
+  font-weight: initial;
+  font-size: 1.2em;
+}
+#user-sidebar #dropdown-user-menu li > a:before {
+  padding-right: 10px;
+  font-size: 1.2em;
+}
+#user-sidebar nav ul li#notifications-personal-li > a::before{
+  content: "\f024";
+  /*ADDING THIS OTHERWISE WE GOT AN ISSUE ON SUB MENU SETTINGS*/
+  font-family: $font-icon-solid;
+}
+#user-sidebar nav ul.sub-menu  li#notifications-personal-li > a::before{ content: ""; }
+/*SUBMENUS INSIDE THE USER MENU*/
+#user-sidebar {
+  nav {
+    ul {
+      li.menu-parent {
+        ul {
+          display: none;
+        }
+        > a {
+          &::after {
+            font-family: $font-icon-solid;
+            content: "\f0d7";
+            right: 40px;
+            top: 18px;
+            position: absolute;
+            font-size: 1.2em;
+          }
+        }
+      }
+      li {
+        position: relative;
+      }
+      li.menu-parent.dropdownOn {
+        >a {
+          &::after {
+            content: "\f0d8";
+          }
+        }
+      }
+    }
+  }
+  #dropdown-user-menu {
+    li {
+      a.fa{
+        &:before{
+          font-family: $font-icon-solid;
+        }
+      }
+    }
+    li.menu-item-has-children {
+      ul {
+        display: none;
+      }
+      > a {
+        &:after {
+          font-family: $font-icon-solid;
+          content: "\f0d7";
+          right: 40px;
+          top: 18px;
+          position: absolute;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+/*---------------------------------------------------------
+**
+** PRINT STYLESHEET
+**
+----------------------------------------------------------*/
+@media print {
+  body {
+    background: white;
+    color: black;
+    margin: 0;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  #content-container #content{
+    top: 0;
+    margin: 0;
+    width: 100%!important;
+  }
+  #left-content{
+    width: 100%!important;
+  }
+  #navigation,
+  #main-header,
+  #right-sidebar,
+  #main-footer,
+  #scroll-top-container,
+  .blog-next-page {
+    display: none;
+  }
+  #main-content {
+    padding: 0!important;
+    width: 100%;
+  }
+  #featuredbox {
+    height: auto !important;
+    border: 0 !important;
+    .featured-background {
+      background: none;
+      display: none;
+      .featured-layer {
+        display: none;
+      }
+    }
+    .pagetitle {
+      position: relative;
+      height: initial !important;
+      padding: 60px 0;
+      text-align: center;
+      color: #2f2f2f;
+      //border-bottom: 1px solid #DDD;
+      > h1 {
+        font-size: 45px!important;
+        font-weight: bold!important;
+      }
+      .title-box-buttons {
+        display: none!important;
+      }
+    }
+    &.has-search form {
+      display: none;
+    }
+  }
+
+  // Blog Pages
+  #content-container {
+    .blog-button,
+    .frontend-wrapper,
+    .intern-thumbnail,
+    .blog-authorbox,
+    .blog-next-page,
+    .comment-respond,
+    .comment-author img,
+    .reply {
+      display: none;
+    }
+    .intern-box {
+      padding: 15px 0;
+    }
+    .intern-padding {
+      padding: 30px 0;
+    }
+    .heading {
+      h2 {
+        font-weight: bold!important;
+      }
+    }
+    .comment-content {
+      padding: 30px 0;
+    }
+  }
+
+  // Wiki Pages
+  #content-container {
+    #wiki-bottom,
+    #wiki-nav,
+    .edit-link {
+      display: none;
+    }
+  }
+
+  // BuddyPress Pages
+  #buddypress {
+    #woffice_cover_upload,
+    #item-nav,
+    .item-list-tabs,
+    #members-extra,
+    #search-members-form {
+      display: none;
+    }
+    ul.item-list {
+      height: auto!important;
+    }
+    ul#members-list li,
+    ul#groups-list li {
+      margin: 30px 0!important;
+      position: relative!important;
+      display: block!important;
+      width: 100%!important;
+      float: none!important;
+      clear: both!important;
+      left: 0!important;
+    }
+  }
+
+  // Projects Pages
+  #content-container {
+    #woffice-project-date-filters,
+    #woffice-project-archive-filters,
+    .btn,
+    #project-nav {
+      display: none;
+    }
+  }
+
+  // Directory Pages
+  #map-directory,
+  #directory-search {
+    display: none;
+  }
+
+  .bottom-map-location {
+    text-align: left;
+  }
+  
+}

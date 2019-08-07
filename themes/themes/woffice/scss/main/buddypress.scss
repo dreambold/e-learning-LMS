@@ -1,0 +1,1618 @@
+
+#buddypress #woffice-bp-sidebar {
+  background: $white;
+  border-radius: $border-radius;
+  box-shadow: 0 0.4rem 2rem rgba(0,0,0,.05);
+
+  #item-header{
+    text-align: center;
+    margin: 0;
+    background-image: none !important;
+    border-bottom: 1px solid $border-color;
+
+    a{
+      text-align: center;
+
+      img{
+        border-radius: 100%;
+        margin: 0;
+        padding: 1rem;
+        float: none;
+        width: 140px;
+        height: 140px;
+      }
+    }
+
+    .bp-feedback{
+      margin: 1rem !important;
+    }
+
+    #item-header-content{
+      padding-left: 0;
+      float: none;
+      text-align: center;
+      width: 100%;
+      margin: 0;
+
+      h2{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 1.5rem;
+      }
+
+      .group-status{
+        font-size: 1rem;
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+
+      .item-meta {
+        margin: 0;
+        padding: 0 0 .5rem 0;
+      }
+
+      .bp-feedback{
+        display: none;
+      }
+
+      .action{
+        text-align: center;
+        padding-bottom: 1rem;
+
+        div.generic-button{
+          margin: 0 auto;
+          display: block;
+          float: none;
+          width: 80%;
+
+          a{
+            @extend .btn;
+            padding: .3rem !important;
+            font-size: .7rem !important;
+            margin: .3rem 0 !important;
+
+            &:before {
+              font-family: $font-icon-solid;
+              margin-right: .4rem;
+            }
+
+            &.mention{
+              background: $brand-info !important;
+
+              &:before {
+                content: "\f1fa";
+              }
+            }
+
+            &.send-message{
+              &:before {
+                content: "\f0e0";
+              }
+            }
+          }
+
+          button {
+            display: block;
+            width: 100%;
+            padding: .3rem !important;
+            font-size: .7rem !important;
+            margin: .3rem 0;
+
+            &:before {
+              font-family: $font-icon-solid;
+              margin-right: .4rem;
+            }
+
+            &.not_friends{
+              background: $brand-info;
+
+              &:before {
+                content: "\f234";
+              }
+            }
+
+            &.is_friend{
+              background: $brand-danger;
+
+              &:before {
+                content: "\f235";
+              }
+            }
+
+            &.pending_friend{
+              background: $brand-danger;
+
+              &:before {
+                content: "\f4fd";
+              }
+            }
+          }
+        }
+      }
+
+      .activity{
+        font-style: italic;
+        @extend .text-light;
+      }
+
+      .woffice-member-social{
+        margin-top: 1rem;
+
+        li {
+          float: none;
+          display: inline-block !important;
+
+          a{
+            @extend .text-light;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #item-actions {
+
+    .moderators-title{
+      @extend .text-light;
+    }
+
+    ul{
+      padding: 0;
+
+      img.avatar {
+        padding: 0 !important;
+        width: 30px !important;
+        height: 30px !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  .desc-wrap{
+    background: 0;
+    border-top: 1px solid $border-color;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 0;
+    margin: 0;
+
+    .group-description{
+      box-shadow: none;
+      background: transparent;
+      text-align: center;
+    }
+  }
+
+  .group-item-actions{
+    margin: 0;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-navs{
+
+    ul li {
+      float: none;
+      border-bottom: 1px solid $border-color;
+
+      .count{
+        border: 0;
+        color: $white;
+        font-weight: bold;
+        border-radius: 1rem;
+        padding: .2rem .5rem;
+      }
+
+      a{
+        padding: .6rem 1rem;
+
+        &:hover{
+          text-decoration: none;
+        }
+
+        &:before{
+          font-family: $font-icon-solid;
+          width: 2rem;
+          font-size: 1.2rem;
+          display: inline-block;
+          text-align: left;
+        }
+
+        &:not(.has-icon){
+          &::before{
+            content: "\f061";
+          }
+        }
+      }
+
+      &:not(.selected) a:hover{
+        background: #F8F8F8;
+        border-radius: 0 0 $border-radius $border-radius;
+      }
+
+      &:last-child{
+        border-bottom: 0;
+
+        a{
+          border-radius: 0 0 $border-radius $border-radius;
+        }
+      }
+
+      &.current{
+        a {
+          color: $white;
+          &:before{
+            color: $white;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+#buddypress .bp-wrap{
+  &.woffice-profile--horizontal{
+    #woffice-bp-sidebar{
+      margin-bottom: 2rem;
+
+      #item-header{
+        #item-header-content {
+          h2 {
+            margin-top: 1rem;
+          }
+
+          .action div.generic-button{
+            display: inline-block;
+            float: none;
+            width: auto;
+            margin: 0 .2rem;
+          }
+        }
+
+        #item-header-avatar{
+          margin-top: -3rem;
+        }
+        a img{
+          padding: 0;
+          box-shadow: 0 0 0 1rem $white;
+          width: 100px;
+          height: 100px;
+        }
+      }
+
+      .main-navs ul {
+        text-align: center;
+        padding: 1rem;
+
+        li{
+          display: inline-block;
+          border-bottom: 0;
+
+          a{
+            border-radius: $border-radius;
+          }
+        }
+      }
+    }
+  }
+}
+
+[data-bp-tooltip]:after{
+  font-weight: bold;
+  border: 0;
+  color: $white;
+  background: $text-color;
+  border-radius: $border-radius;
+  max-width: 300px;
+  bottom: 110%;
+  top: initial;
+}
+
+#main-content #buddypress #item-body{
+  background: $white;
+  border-radius: $border-radius;
+  margin: 0;
+  box-shadow: 0 0.4rem 2rem rgba(0,0,0,.05);
+  padding: 2rem;
+
+  .notifications-order-actions,
+  .notification-actions{
+    a{
+      span.dashicons {
+        &:before{
+          font-family: $font-icon-solid;
+          font-size: 1rem;
+          vertical-align: text-bottom;
+        }
+
+        &.dashicons-hidden:before{ content: "\f070"; }
+        &.dashicons-visibility:before{ content: "\f06e"; }
+        &.dashicons-dismiss:before{ content: "\f057"; color: $text-color !important; }
+        &.dashicons-arrow-up:before{ content: "\f106"; }
+        &.dashicons-arrow-down:before{ content: "\f107"; }
+      }
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .bp-invites-content #send-invites-editor {
+    ul {
+      padding-left: 0;
+    }
+  }
+
+  #members-list,
+  #groups-list{
+    li {
+      width: 100%;
+
+      .item{
+        padding: 1rem 0 0 0;
+      }
+
+      .action{
+        text-align: center;
+
+        div.generic-button{
+          display: inline-block;
+          margin: 0;
+        }
+
+        button,
+        a{
+          @extend .btn;
+          padding: .5rem !important;
+          font-size: .9rem !important;
+        }
+      }
+
+      .group-desc {
+        border: 0;
+        float: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      &.item-entry {
+        width: 46.2%;
+
+        .item-avatar{
+          margin: auto;
+
+          a img{
+            bottom: 0;
+          }
+        }
+
+        .list-title{
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .field-visibility-settings{
+    button{
+      margin-top: 1rem;
+    }
+  }
+
+  h3.screen-heading{
+    font-size: 1.1rem;
+  }
+
+  h2.screen-heading{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  div.editfield{
+    border-radius: $border-radius;
+    border-color: $border-color;
+    background: $white;
+  }
+
+  div.submit{
+    text-align: center;
+
+    input{
+      width: 45%;
+
+      &.bp-secondary-action{
+        background: $border-color !important;
+        color: $text-color !important;
+      }
+    }
+  }
+
+  ul.button-nav{
+    padding-left: 0;
+
+    li{
+      float: none;
+    }
+  }
+
+  .bp-list{
+    .action{
+      text-align: left;
+    }
+  }
+
+  ul.item-list{
+    border: 0;
+
+    li{
+      border: 0;
+      box-shadow: none;
+
+      &.item-entry{
+        padding: 1rem;
+
+        .item{
+          .item-block{
+            float: none;
+            width: initial;
+          }
+
+          .list-title{
+            float: none;
+          }
+
+          .item-meta{
+            float: none;
+            display: block;
+            margin: 0;
+          }
+        }
+
+        .list-wrap{
+          width: 100%;
+        }
+
+        .item-avatar{
+          margin-top: .4rem;
+          background: transparent;
+          max-width: 100px;
+          max-height: 100px;
+        }
+      }
+    }
+  }
+
+  button{
+    margin: 0;
+    &.accept{
+      background: $brand-success !important;
+    }
+    &.reject{
+      background: $brand-danger !important;
+    }
+  }
+}
+
+#main-content #buddypress{
+
+  .bp-wrap{
+    &:after, &:before {
+      display: none !important;
+    }
+  }
+
+  div#message{
+    color: $white !important;
+    a{
+      text-decoration: underline;
+      color: $white !important;
+    }
+  }
+
+  .form-group{
+    .description{
+      @extend .text-light;
+      font-style: italic;
+    }
+  }
+
+  .bp-pagination {
+    float: none;
+    margin: 1rem 0;
+
+    p{
+      @extend .text-light;
+    }
+  }
+
+  .select-wrap {
+    position: relative;
+
+    select {
+      margin: 0;
+      box-shadow: none;
+      background: $white;
+      border-radius: $border-radius;
+      height: 2.5rem;
+      position: relative;
+      z-index: 1;
+      text-indent: 0;
+      padding: .5rem !important;
+    }
+
+    span.select-arrow{
+      position: absolute;
+      right: 0.7rem;
+      top: 50%;
+      margin-top: -1rem;
+      z-index: 2;
+      line-height: 1;
+      background: $white;
+
+      &:before{
+        font-size: 2rem;
+        content: "\f107";
+        font-family: $font-icon-solid;
+      }
+    }
+  }
+
+  form{
+    margin: 0;
+
+    &.standard-form{
+      .select-wrap{
+        margin-right: 1rem;
+        border: 0;
+      }
+    }
+
+    .description{
+      background: transparent;
+    }
+
+    .groups-members-search input[type=search],
+    .groups-members-search input[type=text],
+    [data-bp-search] input[type=search],
+    [data-bp-search] input[type=text],
+    input[type=color],
+    input[type=date],
+    input[type=datetime-local],
+    input[type=datetime],
+    input[type=email],
+    input[type=month],
+    input[type=number],
+    input[type=password],
+    input[type=range],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=time],
+    input[type=url],
+    input[type=week],
+    select,
+    textarea {
+      background: transparent;
+      border-radius: $border-radius / 2;
+
+      @extend .form-control;
+    }
+  }
+
+  .register-page .submit{
+    text-align: center;
+  }
+
+  .bp-subnavs,
+  .dir-navs {
+    margin: 0;
+    border: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+
+    ul.component-navigation{
+      li {
+        a{
+          width: 160px;
+        }
+      }
+    }
+
+    ul{
+      width: 100%;
+      li{
+        float: none;
+        display: inline-block;
+        margin: .3rem;
+
+        &#change-avatar-personal-li{
+          a{
+            width: 190px;
+          }
+        }
+
+        &.no-count{
+          a .count{
+            display: none;
+          }
+        }
+
+        &.current,
+        &.selected{
+          a{
+            font-weight: bold;
+          }
+        }
+
+        &:not(.current),
+        &:not(.selected) {
+          a:before{
+            @extend .text-light;
+          }
+        }
+
+        a{
+          background: $white;
+          color: $text-color;
+          border-radius: $border-radius;
+          padding: .8rem;
+          width: 140px;
+          border: 1px solid $border-color;
+          box-shadow: 0 0.1rem 0.05rem rgba(0,0,0,.1);
+          position: relative;
+
+          .count{
+            color: $white;
+            padding: .2rem .6rem;
+            border-radius: 1rem;
+            position: absolute;
+            font-weight: bold;
+            top: 1.6rem;
+            left: 50%;
+            margin-left: 1rem;
+            font-size: .6rem;
+            border: 3px solid $white;
+          }
+
+          &:before{
+            font-family: $font-icon-solid;
+            font-size: 1.6rem;
+            display: block;
+            margin-bottom: .4rem;
+            content: "\f07b";
+          }
+
+          &:hover{
+            text-decoration: none;
+
+            &:before{
+              opacity: .8;
+            }
+          }
+        }
+      }
+    }
+
+    .subnav-filters{
+      margin: 0;
+      padding-left: 0;
+    }
+  }
+
+  .subnav-filters{
+    background: $border-color;
+    margin: 0;
+    border-radius: $border-radius;
+    padding: .5rem;
+
+    ul{
+      margin-bottom: 0;
+      padding: 0;
+    }
+
+    .feed{
+      a:before{
+        line-height: 1.7;
+        font-size: 1.6rem;
+      }
+    }
+
+    .group-invites-search{
+      margin-bottom: 0;
+    }
+
+    .bp-search{
+      margin-top: 0;
+
+      form{
+        min-width: 20rem;
+
+        &:hover{
+          border: 0;
+          box-shadow: none;
+        }
+      }
+
+      input[type="search"] {
+        @extend .form-control;
+        height: 40px;
+        background: $white;
+        margin: 0;
+        width: initial !important;
+        border-radius: $border-radius 0 0 $border-radius;
+      }
+
+      button[type="submit"] {
+        margin: 0;
+        height: 40px;
+        padding: 0;
+        border-radius: 0 $border-radius $border-radius 0;
+
+        span.dashicons{
+          line-height: 1;
+
+          &:before{
+            font-family: $font-icon-solid;
+            content: '\f002';
+          }
+        }
+      }
+    }
+  }
+
+  .activity-update-form{
+    border: 0;
+    margin: 0 0 2rem 0;
+    box-shadow: none;
+
+    img{
+      border-radius: $border-radius;
+      margin: .5rem 0;
+    }
+
+    #whats-new-content{
+      margin-left: 14%;
+    }
+
+    #whats-new-post-in-box{
+      text-align: center;
+
+      #whats-new-post-in{
+        margin: 0;
+        display: inline-block;
+        width: 200px;
+      }
+    }
+
+    #whats-new-submit{
+      float: none;
+      text-align: center;
+      margin-top: 0;
+
+      input{
+        margin: 0 !important;
+        width: 40%;
+      }
+    }
+  }
+
+  img.avatar{
+    border-radius: $border-radius;
+  }
+
+  .bp-invites-content{
+    .item-list{
+      li {
+        .item-avatar{
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+
+        .action{
+          button {
+            padding: 0 1rem !important;
+            margin: 0 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .activity-list.item-list.bp-list{
+    background: transparent;
+    padding: 0;
+    border: 0;
+
+    .activity-item{
+      padding: 0;
+      box-shadow: none;
+      border: 0;
+
+      &.mini{
+        .activity-avatar {
+          margin-left: 0;
+          text-align: center;
+
+          img.avatar{
+            max-width: 60%;
+          }
+        }
+      }
+
+      .activity-read-more a{
+        background: transparent;
+        border: 0;
+        padding: 0;
+      }
+    }
+
+    .activity-content{
+      border-radius: $border-radius;
+      padding: 1rem;
+      float: left;
+      width: 80%;
+      position: relative;
+      background: $border-color;
+
+      &:after {
+        right: 100%;
+        top: 1rem;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(136, 183, 213, 0);
+        border-right-color: $border-color;
+        border-width: 12px;
+      }
+
+      .activity-inner{
+        padding: 0;
+        background: transparent;
+      }
+
+      .activity-header{
+        font-weight: bold;
+
+        p {
+          word-break: break-word;
+        }
+      }
+
+      .activity-meta.action{
+        text-align: right;
+        background: transparent;
+
+        a.button{
+          @extend .btn;
+          padding: .3rem .8rem !important;
+
+          .comment-count{
+            padding: .1rem .4rem;
+            color: $white;
+            border-radius: 1rem;
+            margin-left: .2rem;
+            font-size: .8rem;
+          }
+
+          &:before{
+            font-size: 0.8rem;
+            font-family: $font-icon-solid;
+          }
+
+          &.view:before{ content: "\f086"; }
+          &.acomment-reply:before{ content: "\f075"; }
+          &.fav:before{ content: "\f005"; }
+          &.delete-activity:before{ content: "\f2ed"; }
+          &.unfav:before{
+            content: "\f005";
+            color: $yellow;
+          }
+        }
+      }
+    }
+
+    .activity-comments{
+      margin: 0 0 0 20%;
+      background: $white;
+
+      .comment-item{
+        padding-bottom: .5rem;
+
+        .acomment-content{
+          border-radius: 0;
+          border-left: 4px solid $border-color;
+        }
+
+        input[type="submit"] {
+          margin: 0 0 0 1rem;
+          float: right;
+        }
+
+        button.ac-reply-cancel{
+          float: right;
+          margin-right: .4rem;
+          margin-top: 0;
+          background: $border-color !important;
+          color: $text-color !important;
+        }
+
+        .action{
+          text-align: right;
+
+          .generic-button{
+            .bp-primary-action,
+            .bp-secondary-action{
+              @extend .btn;
+              padding: .4rem .8rem !important;
+            }
+            .bp-secondary-action{
+              background: $border-color !important;
+              color: $text-color !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tabbed-links{
+    ol, ul{
+      text-align: center;
+      padding: 0;
+      border: 0;
+      margin-top: 0;
+
+      li{
+        padding: .5rem;
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 0;
+        border: 0;
+        display: inline-block;
+        float: none;
+
+        a:hover{
+          background: transparent;
+          text-decoration: none;
+        }
+
+        &.current{
+          border-radius: $border-radius;
+          background: $border-color;
+        }
+
+        &:not(.current) {
+          @extend .text-light;
+        }
+      }
+    }
+  }
+
+  div.bp-avatar-status,
+  div.bp-cover-image-status{
+    p {
+      &.warning,
+      &.success {
+        border: 0;
+        color: $white;
+        border-radius: $border-radius;
+        text-transform: initial;
+        font-weight: bold;
+        padding: 1rem;
+      }
+
+      &.success{
+        background: $brand-success;
+      }
+      &.warning{
+        background: $brand-warning;
+      }
+    }
+  }
+
+  #previous-next{
+    text-align: center;
+
+    input{
+      margin: 0 .5rem;
+    }
+  }
+
+  &.buddypress-wrap.bp-dir-hori-nav:not(.bp-vertical-navs) nav:not(.tabbed-links) {
+    box-shadow: none;
+    border: 0;
+  }
+
+  .profile.public .profile-group-title{
+    border-bottom: 0;
+  }
+
+  .bp-tables-user{
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem 0 1rem 0;
+
+    thead{
+      tr{
+        th{
+          padding: 1em;
+          &:nth-child(2) {
+            border-top-left-radius: $border-radius;
+          }
+          &:last-child {
+            border-top-right-radius: $border-radius;
+          }
+        }
+      }
+    }
+
+    tbody{
+      tr{
+        background: transparent;
+
+        td{
+          padding: 1em;
+        }
+        &:last-child{
+          &:first-child {
+            border-bottom-left-radius: $border-radius;
+          }
+          &:last-child {
+            border-bottom-right-radius: $border-radius;
+          }
+        }
+      }
+    }
+  }
+
+  .bp-feedback{
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,.1);
+    border-radius: $border-radius;
+    border: 0;
+
+    &.custom-homepage-info{
+      padding: 1rem;
+
+      button{
+        $size: 33px;
+        position: absolute !important;
+        padding: 0 !important;
+        border-radius: $border-radius;
+        width: $size;
+        height: $size;
+        line-height: $size;
+
+        span.dashicons{
+          padding-top: 2px;
+          width: initial;
+          height: initial;
+        }
+      }
+    }
+
+    span.bp-icon{
+      padding: 1rem;
+      border-radius: $border-radius 0 0 $border-radius;
+    }
+
+    p, .bp-help-text{
+      padding: 1rem;
+      font-weight: bold;
+    }
+  }
+
+  #avatar-crop-actions{
+    margin: 1rem 0 0;
+  }
+
+  #members-map{
+    width: 100%;
+    height: 400px;
+    display: none;
+    position: relative;
+    border-radius: $border-radius;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+  #members-map-localize{
+    position: absolute;
+    display: none;
+    top: 320px;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+  }
+  &.has-map{
+    #members-map-localize{
+      display: block;
+    }
+    #members-directory-form{
+      margin-top: 300px;
+    }
+  }
+
+  #bp-invites-next-page{
+    color: $white !important;
+    border: none;
+    border-radius: .4rem;
+    margin-top: 0.2rem;
+    display: inline-block;
+
+    .dashicons-arrow-right::before{
+       content: "\f061";
+       font-family: $font-icon-solid;
+    }
+    .dashicons-arrow-left::before{
+      content: "\f060";
+      font-family: $font-icon-solid;
+    }
+  }
+
+  #members-list,
+  #groups-list{
+    li.item-entry {
+      border-radius: $border-radius;
+      border: 1px solid $border-color !important;
+      padding: 0;
+      width: 31.2%;
+      margin: 20px 1%;
+      display: inline-block;
+      background: $white;
+      box-shadow: 0 .2rem 1rem rgba(0,0,0,.05) !important;
+      transition: all .2s ease-in;
+
+      &:hover{
+        box-shadow: 0 0.4rem 2rem rgba(0,0,0,.2);
+        transition: all .4s ease-in;
+      }
+
+      div.item-avatar {
+        float: none;
+        margin-right: 0;
+
+        &.has-cover {
+          background-color: transparent;
+          background-position: center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+        .badge {
+          position: absolute;
+          right: .8rem;
+          top: .8rem;
+          z-index: 2;
+        }
+
+        a {
+          $size: 100px;
+
+          img {
+            width: $size;
+            height: $size;
+            position: relative;
+            border-radius: 100%;
+            box-shadow: 0 0 0 0.6rem $white;
+            bottom: -($size/2);
+            opacity: 1 !important;
+            background: $white;
+
+            &:hover {
+              -webkit-transform: rotate(360deg);
+              -ms-transform: rotate(360deg);
+              transform: rotate(360deg);
+              -webkit-transition-duration: 0.4s;
+              -moz-transition-duration: 0.4s;
+              transition-duration: 0.4s;
+            }
+          }
+        }
+      }
+
+      .item {
+        padding: 1rem;
+
+        .item-block {
+          margin: 0;
+          width: 100%;
+
+          .item-meta.group-details {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0;
+          }
+
+          .list-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            float: none;
+            margin-bottom: 0;
+            word-break: break-word;
+            margin-top: 3rem;
+            text-align: center;
+
+            a {
+              color: $text-color;
+            }
+          }
+
+          .last-activity {
+            float: none;
+            width: 100%;
+            text-align: center;
+            margin-top: 0;
+            font-style: italic;
+          }
+
+          .woffice-xprofile-list {
+            span {
+              font-size: .8rem;
+              line-height: 2rem;
+              display: block;
+              word-break: break-all;
+
+              &.field-icon {
+                display: inline-block;
+                margin-right: 5px;
+              }
+
+              i {
+                font-size: 1.1rem;
+                display: inline-block;
+                margin-right: 0.5rem;
+                width: 1.3rem;
+                position: relative;
+                top: 3px;
+              }
+            }
+          }
+
+          .action{
+            margin: .8rem 0;
+            padding: .4rem 0;
+            text-align: center;
+            border-top: 1px solid $border-color;
+            border-bottom: 1px solid $border-color;
+
+            li, div{
+              max-width: 60%;
+              display: inline-block;
+              margin: 0;
+
+              button, a{
+                @extend .btn;
+                margin: 0 .4rem !important;
+                font-size: .7rem !important;
+                padding: .4rem .6rem !important;
+                display: inline-block;
+              }
+
+              .friendship-button{
+                color: $white;
+                background: $brand-info;
+
+                &.pending_friend{
+                  background: $brand-warning !important;
+                }
+                &.is_friend{
+                  color: $text-color !important;
+                  background: $border-color;
+                }
+              }
+            }
+          }
+
+          .btn.btn-primary{
+            font-size: .9rem;
+          }
+        }
+
+        .group-desc{
+          padding: 0;
+          border: 0;
+          text-align: center;
+          width: 100%;
+        }
+
+        .groups-meta.action {
+          margin-top: .5rem;
+          width: 100%;
+
+          .generic-button{
+            display: block;
+            width: 100%;
+            margin: 0;
+
+            button, a {
+              @extend .btn;
+              font-size: .9rem !important;
+              color: $white !important;
+              margin: 0 !important;
+              width: 100%;
+              display: block;
+
+              &.leave-group{
+                background: $brand-danger !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bp-list{
+    border-top: 0;
+  }
+
+  #woffice-members-advanced-search{
+    display: none;
+
+    label.option-label{
+      margin-right: 1rem;
+
+      input {
+        margin-right: .5rem;
+      }
+    }
+  }
+
+  .bp-messages-content {
+    #bp-message-thread-header,
+    #thread-preview {
+      h2:first-child{
+        margin: 2rem 0;
+        padding: 1rem;
+        background-color: $border-color;
+        border-radius: $border-radius;
+      }
+    }
+
+    #message-threads {
+      li {
+        .thread-from .user-name{
+          font-weight: bold;
+        }
+      }
+    }
+
+    #bp-message-thread-list li{
+      padding: .6rem 0;
+    }
+
+    .thread-participants ul{
+      padding-left: 0;
+    }
+
+    .message-metadata,
+    .actions{
+      border: 0;
+      box-shadow: none;
+
+      button, a{
+        padding: .2rem .5rem !important;
+
+        &.message-action-star::before{
+          color: $white !important;
+        }
+
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+
+    .message-action-delete:before,
+    .message-action-star:before,
+    .message-action-unstar:before,
+    .message-action-view:before {
+      font-family: $font-icon-solid;
+    }
+
+    .message-action-delete:before  { content: "\f2ed"; }
+    .message-action-star:before    { content: "\f005"; }
+    .message-action-unstar:before  { content: "\f005"; }
+    .message-action-view:before    { content: "\f360"; }
+
+    #thread-preview{
+      border-radius: $border-radius;
+
+      .preview-thread-title{
+        margin: 0 !important;
+      }
+      .preview-content{
+        margin: 1rem;
+
+        .preview-message{
+          background: none;
+        }
+      }
+    }
+  }
+}
+
+.widget_woffice_usersmap {
+  #members-map-widget {
+    display: block;
+    position: relative;
+    height: 200px;
+    border-radius: 5px;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+
+    h3{
+      margin: 5px 0;
+      font-size: 1.3em;
+    }
+  }
+}
+
+#members-map {
+  .gm-style-iw {
+    height: auto !important;
+  }
+  .item-avatar {
+    float: none;
+    margin-right: 0;
+    background: $avater-bg;
+    text-align: center;
+    border-radius: 5px;
+    span.badge {
+      position: absolute;
+      right: 1.9rem;
+      top: .8rem;
+    }
+
+    a {
+      text-align: center;
+
+      img {
+        border-radius: 100% !important;
+        margin: 0;
+        padding: 1rem;
+        float: none;
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+  .item {
+    h2 {
+      margin-bottom: 10px !important;
+      .profile-link {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        .fa-link {
+          font-size: 15px;
+          padding-right: 5px;
+        }
+      }
+    }
+    a.btn {
+      padding: 5px 18px !important;
+      margin-bottom: 3px;
+    }
+    .location {
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .woffice-xprofile-list {
+      float: left;
+      .row {
+        padding-top: 10px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+#content-container ul li{
+  &#activity-all > a::before                                    { content: "\f0c0" !important; }
+  &#activity-friends > a::before                                { content: "\f500" !important; }
+  &#activity-groups > a::before                                 { content: "\f097" !important; }
+  &#activity-mentions > a::before                               { content: "\f064" !important; }
+  &#activity-favorites > a::before                              { content: "\f005" !important; }
+  &#groups-all > a::before                                      { content: "\f0c0" !important; }
+  &#group-create-nav > a::before                                { content: "\f0fe" !important; }
+  &#groups-personal > a::before                                 { content: "\f004" !important; }
+  &#forums-personal-li > a::before                              { content: "\f0e8" !important; }
+  &#nav-forum-groups-li > a::before                             { content: "\f0e8" !important; }
+  &#nav-experiences-groups-li > a::before                       { content: "\f19d" !important; }
+  &#rtmedia-media-nav-groups-li > a::before                     { content: "\f1c5" !important; }
+  &#home-groups-li > a::before                                  { content: "\f015" !important; }
+  &#members-groups-li > a::before                               { content: "\f0c0" !important; }
+  &#invite-groups-li > a::before                                { content: "\f234" !important; }
+  &#admin-groups-li > a::before                                 { content: "\f085" !important; }
+  &#woffice-chat-trigger-li > a::before                         { content: "\f27b" !important; }
+  &#nav-group-projects-groups-li > a::before                    { content: "\f1b3" !important; }
+  &#notifications-my-notifications-personal-li > a::before      { content: "\f07c" !important; }
+  &#read-personal-li > a::before                                { content: "\f07b" !important; }
+  &#public-personal-li > a::before                              { content: "\f2bd" !important; }
+  &#edit-personal-li > a::before                                { content: "\f4ff" !important; }
+  &#change-avatar-personal-li > a::before                       { content: "\f030" !important; }
+  &#just-me-personal-li > a::before                             { content: "\f406" !important; }
+  &#activity-groups-personal-li > a::before                     { content: "\f0c0" !important; }
+  &#activity-friends-personal-li > a::before                    { content: "\f500" !important; }
+  &#activity-mentions-personal-li > a::before                   { content: "\f27a" !important; }
+  &#activity-favs-personal-li > a::before                       { content: "\f005" !important; }
+  &#notifications-personal-li > a::before                       { content: "\f0e0" !important; }
+  &#general-personal-li > a::before                             { content: "\f4fe" !important; }
+  &#invites-personal-li > a::before                             { content: "\f0c0" !important; }
+  &#profile-personal-li > a::before                             { content: "\f2a8" !important; }
+  &#data-personal-li > a::before                                { content: "\f381" !important; }
+  &#friends-my-friends-personal-li > a::before                  { content: "\f500" !important; }
+  &#requests-personal-li > a::before                            { content: "\f2b6" !important; }
+  &#inbox-personal-li > a::before                               { content: "\f01c" !important; }
+  &#starred-personal-li > a::before                             { content: "\f005" !important; }
+  &#sentbox-personal-li > a::before                             { content: "\f0e0" !important; }
+  &#compose-personal-li > a::before                             { content: "\f044" !important; }
+  &#groups-my-groups-personal-li > a::before                    { content: "\f187" !important; }
+  &#activity-all > a::before                                    { content: "\f0c0" !important; }
+  &#activity-friends > a::before                                { content: "\f500" !important; }
+  &#activity-favorites > a::before                              { content: "\f005" !important; }
+  &#activity-mentions > a::before                               { content: "\f122" !important; }
+  &#front-personal-li > a::before                               { content: "\f015" !important; }
+  &#activity-personal-li > a::before                            { content: "\f1ea" !important; }
+  &#xprofile-personal-li > a::before                            { content: "\f007" !important; }
+  &#notifications-personal-li > a::before                       { content: "\f024" !important; }
+  &#messages-personal-li > a::before                            { content: "\f086" !important; }
+  &#friends-personal-li > a::before                             { content: "\f500" !important; }
+  &#groups-personal-li > a::before                              { content: "\f0c0" !important; }
+  &#settings-personal-li > a::before                            { content: "\f013" !important; }
+  &#courses-personal-li > a::before                             { content: "\f19d" !important; }
+  &#calendar-personal-li > a::before                            { content: "\f073" !important; }
+  &#media-personal-li > a::before                               { content: "\f1c5" !important; }
+  &#notes-personal-li > a::before                               { content: "\f044" !important; }
+  &#forums-personal-li > a::before                              { content: "\f0e8" !important; }
+  &#buddydrive-personal-li > a::before                          { content: "\f0a0" !important; }
+  &#members-all > a::before                                     { content: "\f0c0" !important; }
+  &#members-personal > a::before                                { content: "\f500" !important; }
+  &#members-advanced-search > a::before                         { content: "\f002" !important; }
+  &#members-advanced-search.active > a::before                  { content: "\f057" !important; }
+  &#members-map-trigger > a::before                             { content: "\f57d" !important; }
+  &#members-map-trigger.active > a::before                      { content: "\f057" !important; }
+  &#groups-create > a::before                                   { content: "\f0fe" !important; }
+  &#edit-details-groups-li > a::before                          { content: "\f05a" !important; }
+  &#group-settings-groups-li > a::before                        { content: "\f085" !important; }
+  &#group-avatar-groups-li > a::before                          { content: "\f030" !important; }
+  &#group-cover-image-groups-li > a::before                     { content: "\f03e" !important; }
+  &#manage-members-groups-li > a::before                        { content: "\f509" !important; }
+  &#forum-groups-li > a::before                                 { content: "\f0e8" !important; }
+  &#delete-group-groups-li > a::before                          { content: "\f2ed" !important; }
+  &#members-personal-li > a::before                             { content: "\f0c0" !important; }
+  &#files-personal-li > a::before                               { content: "\f233" !important; }
+  &#activity-groups > a::before                                 { content: "\f0e8" !important; }
+  &#members-group_leader > a::before                            { content: "\f509" !important; }
+  &#members-group_leader > a::before                            { content: "\f509" !important; }
+  &#members-student > a::before                                 { content: "\f501" !important; }
+}
+
+body {
+  &.activity-permalink {
+    .activity-list .activity-avatar{
+      left: 0;
+      top: 0;
+    }
+  }
+}

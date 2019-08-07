@@ -1,0 +1,69 @@
+#woffice-alerts-wrapper {
+  .container{
+    position: relative;
+    max-width: 100%
+  }
+  .woffice-main-alert{
+    padding: 30px;
+    color: #ffffff;
+    position: relative;
+    &.woffice-alert-success{
+      background: $brand-success;
+      border: 1px solid darken($brand-success, 0%);
+    }
+    &.woffice-alert-info,&.woffice-alert-updated{
+      background: $brand-info;
+      border: 1px solid darken($brand-info, 0%);
+    }
+    &.woffice-alert-error, &.woffice-alert-alert{
+      background: $brand-danger;
+      border: 1px solid darken($brand-danger, 0%);
+    }
+    &.woffice-alert-notice {
+      background: $brand-notice;
+      border: 1px solid darken($brand-notice, 0%);
+    }
+    a.woffice-alert-close{
+      position: absolute;
+      right: 30px;
+      font-size: 24px;
+      top: 0px;
+      color: #ffffff;
+      line-height: 1;
+    }
+    p{
+      color: #ffffff;
+      margin-bottom: 0;
+      font-weight: bold;
+      i{
+        font-size: 2.2em;
+        margin-right: 15px;
+        opacity: 1;
+        position: relative;
+        top: 3px;
+        vertical-align: sub;
+      }
+    }
+    ul{
+      margin-bottom: 0;
+      margin-top: 10px;
+      li{
+        font-size: 14px;
+        line-height: 1.8em;
+      }
+    }
+  }
+}
+
+/*
+ * We remove all default the BP alerts
+ */
+#buddypress #message.bp-template-notice{
+  display: none !important;
+}
+
+body.menu-is-horizontal #woffice-alerts-wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}

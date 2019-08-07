@@ -1,0 +1,255 @@
+/*---------------------------------------------------------
+**
+** CSS FOR WOFFICE 2.5+ that overrides the old one :
+**
+----------------------------------------------------------*/
+$new_grey: #EBECF0;
+
+body.woffice-2-5{
+  #dashboard .widget .box-title{
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-bottom: 12px;
+    h3 {
+      &:after, &:before {
+        display: none;
+      }
+    }
+  }
+  .widget .intern-box.box-title,
+  #content-container .masonry-layout .box .box-title{
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: left;
+    &::after{
+      display: none;
+    }
+    h3{
+      padding: 0;
+    }
+  }
+  #right-sidebar{
+    .widget .intern-box.box-title{
+      text-align: center;
+    }
+  }
+  .widget.buddypress div.item-options a{
+    border-radius: 4px;
+    padding: 3px 5px;
+    width: initial;
+    margin: 4px 5px;
+    border: 1px solid $new_grey !important;
+    color: darken($new_grey, 20%) !important;
+    &:hover{
+      text-decoration: none !important;
+      background: darken($new_grey, 30%);
+      border: 1px solid darken($new_grey, 30%) !important;
+      color: #FFF !important;
+    }
+  }
+  #user-sidebar nav ul li.menu-parent>a::after{
+    opacity: .3;
+  }
+  #buddypress ul#groups-list,
+  #buddypress ul#members-list{
+    li div.item-title h3,
+    li div.item-title h3{
+      display: block;
+      text-align: center;
+      margin-top: 25px;
+    }
+  }
+  #content-container .infobox{
+    margin: 30px 0 20px 0;
+  }
+  #content-container .heading>*{
+    padding: 0;
+    font-weight: 300;
+    text-transform: none;
+    font-size: 2em;
+  }
+  #content-container #buddypress #item-nav.intern-box div.item-list-tabs ul{
+    padding-top: 20px;
+    li{
+      margin: 0 10px 20px 10px;
+      &.current,&.selected{
+        a{
+          border: 1px solid #ececef !important;
+          color: #ffffff;
+          &:hover{
+            color: #FFF;
+          }
+        }
+      }
+      a{
+        border-radius: 5px;
+        color: #84858d;
+        box-shadow: 0px 2px 1px rgba(0,0,0,.03);
+        &:hover{
+          color: darken(#84858d, 20%);
+        }
+      }
+    }
+  }
+  #main-content #buddypress{
+    div.intern-padding{
+      form{
+        margin: 0;
+      }
+      h2{
+        text-transform: none;
+        font-weight: 300;
+        margin-bottom: 30px;
+        margin-top: 0;
+      }
+      ul.button-nav {
+        margin: 40px 0;
+      }
+    }
+    .standard-form input[type=text],
+    .standard-form input[type=tel],
+    #buddypress .standard-form textarea {
+      margin: 10px 0;
+    }
+    .standard-form .datebox select{
+      height: 40px;
+    }
+    .field-visibility-settings-toggle{
+      button{
+        margin: 0 0 0 10px;
+        padding: 4px 10px;
+      }
+    }
+  }
+  #buddypress{
+    .standard-form p.description,
+    .field-visibility-settings,
+    .field-visibility-settings-notoggle,
+    .field-visibility-settings-toggle{
+      color: darken(#ececef, 40%);
+    }
+  }
+  a#scroll-top {
+    color: rgba(0,0,0,.1)!important;
+  }
+  #content-container .intern-box#project-nav,
+  #content-container .intern-box#wiki-nav{
+    padding: 20px;
+    a{
+      border-radius: 6px;
+    }
+  }
+
+  /*#content-container{
+      #buddypress #item-nav.intern-box{
+        padding: 20px;
+        div{
+          color: #84858d;
+          box-shadow: 0 2px 1px rgba(0,0,0,.03);
+        }
+      }
+  }*/
+
+  #content-container {
+    div.item-list-tabs#subnav ul li{
+      margin: 0 0;
+      &.last{
+        margin-right: 5px;
+        &:after{
+          top: 16px;
+          font-size: 1.2em;
+        }
+      }
+      a{
+        border: 0;
+        box-shadow: none;
+      }
+    }
+    div.item-list-tabs ul li,
+    div.item-list-tabs-project ul li,
+    div.item-list-tabs-wiki ul li{
+      margin: 5px 10px;
+      &.active{
+        a{
+          color: #ffffff;
+        }
+      }
+      a{
+        border: 1px solid #ececef;
+        border-radius: 5px;
+        color: #84858d;
+        box-shadow: 0px 2px 1px rgba(0,0,0,.03);
+        &:hover{
+          color: darken(#84858d, 20%);
+        }
+      }
+    }
+  }
+  #woffice-project-todo .woffice-task header label input{
+    margin-top: 0;
+  }
+  #widgets{
+    -webkit-box-shadow: inset 0 0 40px rgba(0,0,0,.2);
+    -ms-box-shadow: inset 0 0 40px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 0 40px rgba(0,0,0,.2);
+    box-shadow: inset 0 0 40px rgba(0,0,0,.2);
+    .widget {
+      border-color: #4b4d5b !important;
+    }
+  }
+  .post-metadatas{
+    text-align: left;
+  }
+  #content-container .heading{
+    text-align: left;
+    margin-bottom: 0;
+    &.text-center{
+      text-align: center !important;
+    }
+    h2{
+      margin: 0;
+      padding: 0;
+      text-transform: none;
+      font-weight: 300;
+    }
+    &::before{
+      display: none;
+    }
+  }
+  #content-container .private-post .heading h2{
+    text-align: center;
+    margin: 10px 0 20px 0;
+    display: block;
+  }
+  #directory-create{
+    margin-top: -80px;
+  }
+
+  .woffice-users-suggest .woffice-users-suggest_members-list li{
+    border-radius: 4px;
+    border: 1px solid $new_grey;
+    a{
+      color: darken($new_grey, 30%) !important;
+    }
+  }
+
+  .progress.project-progress .progress-bar,
+  #woffice-poll-result .woffice-poll-result-answer .progress-bar{
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.10) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.10) 50%,rgba(255,255,255,.10) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.10) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.10) 50%,rgba(255,255,255,.10) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.10) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.10) 50%,rgba(255,255,255,.10) 75%,transparent 75%,transparent);
+    -webkit-background-size: 35px 35px;
+    background-size: 35px 35px;
+  }
+
+  // file away
+  span.ssfa-bulk-action-engage, span.ssfa-bulk-download-engage, a.stataway-csv{
+    background: #dbdce3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+
+}

@@ -1,0 +1,29 @@
+#fileaway-saving, #fileaway-settings-saved { 
+	font-size:24px!important;
+	font-family:'Open Sans', Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif!important;
+}
+.fileaway-help-content > h4 {
+	font-size: 20px!important;
+	font-family: 'Open Sans', Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif!important;
+}
+div.fileaway-tabs-panel label
+{
+	font-size:18px!important;
+	font-family:'Open Sans', Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif!important;
+}
+div.fileaway-tabs-panel label {	font-size: 14px!important; }
+.fileaway-accordion dt label,
+.fileaway-tabs-panel h4 {
+    font-family:'Open Sans', Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif!important;
+    font-size: 1.4em!important;
+}
+.fileaway-tabs-panel h3 {
+	font-size: 26px!important;
+	font-family:'Open Sans', Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif!important;
+	line-height: 25px!important;
+}
+div.fileaway-file-away h3 {
+	font-size: 26px!important;
+	font-family:'Open Sans', Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif!important;
+	line-height: 25px!important;
+}

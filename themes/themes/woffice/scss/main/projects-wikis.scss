@@ -1,0 +1,797 @@
+/*---------------------------------------------------------
+**
+** WIKI AND PROJECTS
+**
+----------------------------------------------------------*/
+
+/**
+** We define some variables for this file
+ */
+$color: #5e616e;
+#content-container .intern-box#wiki-nav,
+#content-container .intern-box#project-nav{
+  padding: 0;
+  border-radius: 5px 5px 0 0;
+  border-top: 0 !important;
+}
+#content-container .intern-box#wiki-nav a,
+#content-container .intern-box#project-nav a{
+  min-width: 120px;
+  position: relative;
+}
+#content-container .intern-box#wiki-nav a:hover,
+#content-container .intern-box#project-nav a:hover{text-decoration: none !important;}
+#content-container #wiki-content-comments .box,
+#content-container #project-content-comments .box{box-shadow: none!important;}
+#wiki-content-comments .intern-padding,
+#project-content-comments .intern-padding{padding: 0 !important;}
+/*WORDPRESS EDITOR */
+body #main-content .wp-core-ui{
+  #insert-media-button{
+    padding: 0 10px !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    color: #7e7d7d !important;
+  }
+  .quicktags-toolbar input[type="button"] {
+    background-color: #fafafa !important;
+    margin-right: 5px !important;
+  }
+  .tmce-active .switch-tmce {
+    color: #333;
+  }
+  button {
+    padding: 8px !important;
+    margin: 0 !important;
+    color: #333 !important;
+    background: inherit !important;
+  }
+  .wp-editor-area {
+    background: #FFF !important;
+    border-radius: 0 !important;
+  }
+  .quicktags-toolbar input.button.button-small {
+    text-transform: initial !important;
+    margin: inherit !important;
+    color: #333 !important;
+    padding: 0 10px !important;
+  }
+}
+#postcontent_ifr{height: 300px !important;}
+/*LOADING*/
+.woffice-loader{
+  text-align: center;
+  font-size: 3em;
+}
+.woffice-loader i{
+  position: relative;
+  animation: rotation 1s infinite ease-in-out;
+  -webkit-animation: rotation 1s infinite ease-in-out;
+}
+@-webkit-keyframes rotation {
+  0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(359deg);transform: rotate(359deg);}
+}
+@keyframes rotation {
+  0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(359deg);transform: rotate(359deg);}
+}
+#page-wrapper #wiki-bottom a.btn{margin: 20px 10px;}
+/* PROJECTS mAIN PAGE */
+ul#projects-list{
+  margin: 0;
+  padding: 0 !important;
+  list-style-type: none;
+
+  li {
+    position: relative;
+
+    &.project-archived {
+      opacity: 0.75;
+      background-color: #f0f0f0;
+      overflow: hidden;
+
+      .project-archived-label {
+        position: absolute;
+        --padding: 80px 100px 20px;
+
+        .project-archived-label--background {
+          position: absolute;
+          top: -130px;
+          left: -160px;
+          width: 200px;
+          height: 200px;
+          background: #82b440;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+        a {
+          position: relative;
+          display: block;
+          margin-top: -20px;
+          margin-left: -20px;
+          color: #fff;
+          font-size: 36px;
+        }
+      }
+    }
+  }
+
+  &.masonry-layout {
+    li {
+      .project-title {
+        font-size: 1.3em;
+      }
+
+      &.project-archived {
+        .project-archived-label {
+          a {
+            margin-top: -15px;
+            margin-left: -10px;
+            font-size: 22px;
+          }
+          .project-archived-label--background {
+            top: -155px;
+            left: -155px;
+          }
+        }
+      }
+    }
+  }
+}
+.project-excerpt{margin: 0;}
+a.project-head{
+  text-align: center;
+  display: block;}
+a.project-head span{
+  padding-right: 10px;
+  font-size: 1.2em;
+  font-style: italic;}
+a.project-head span:last-child{padding-right: 0;}
+a.project-head:hover{
+  text-decoration: none !important;
+  opacity: .6;}
+a.project-head:hover h2{opacity: .6 !important;}
+a.project-head span i{padding-right: 5px;}
+#projects-list li{border-bottom: 1px solid;}
+#projects-list li:last-child{border-bottom: none;}
+.progress.project-progress{
+  margin: 10px 0 20px 0;
+  height: 30px;
+  box-shadow: none;
+  border-radius: 20px;}
+.progress.project-progress .progress-bar{
+  box-shadow: none;
+  min-width: 12%;
+  color: #FFF;}
+.progress.project-progress  span.progress-current{
+  text-align: left;
+  padding-left: 10px;}
+/*PROJECT FILTERS*/
+#woffice-projects-filter-btn .fa-caret-down{margin-left: 10px;}
+#woffice-projects-status-filter-btn .fa-caret-down{margin-left: 10px;}
+.woffice-project-filter {
+  display: inline-block;
+  margin: 20px 10px;
+  &:focus{
+    outline: none;
+  }
+}
+#content-container #woffice-projects-date-filter-btn, 
+#content-container #woffice-projects-done-filter-btn,
+#content-container #woffice-projects-status-filter-btn {
+  margin-bottom:0 !important;
+  margin-top:0 !important;
+  i {
+    margin-left:10px;
+  }
+}
+#woffice-projects-filter-date-form, 
+#woffice-projects-filter-done-form,
+#woffice-projects-filter-status-form {
+  margin-bottom: 0
+}
+#content-container #woffice-projects-filter-btn,
+#content-container #woffice-projects-status-filter-btn{
+  margin: 0 !important;
+}
+
+#content-container .project-status {
+  padding: 5px 15px;
+  color: white;
+}
+
+#content-container {
+  .project-status{
+    font-size: 1rem;
+    font-style: initial;
+     &.done {
+       background-color: green;
+     }
+    &.planned {
+      background-color: #17a2b8;
+    }
+    &.archived {
+      background-color: #6c757d;
+    }
+    &.in_review {
+      background-color: $yellow;
+    }
+    &.in_progress {
+      background-color: #0062cc;
+    }
+  }
+}
+
+/*SINGLE PROJECT PAGE*/
+#project-meta{
+  padding: 20px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;}
+#project-meta .progress.project-progress{background: #FFF;}
+#project-meta .col-md-4{border-right: 1px solid;}
+#project-meta .col-md-4:last-child{border-right: none;}
+ul.project-meta-list{
+  padding-left: 0px;
+  list-style-type: none;
+  position: relative;
+  margin: 0 0 10px;
+}
+ul.project-meta-list li{
+  position: relative;
+  padding: 5px 0 5px 40px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+ul.project-meta-list li::before{
+  font-family: $font-icon-solid;
+  left: 0;
+  top: -5px;
+  font-weight: initial;
+  position: absolute;
+  font-size: 1.5em;
+  line-height: 1.9em;
+  content: "\f061";}
+
+ul.project-meta-list li.project-meta-archived{
+  font-weight: 600;
+
+  &:before {
+    content: "\f046";
+  }
+}
+ul.project-meta-list li.project-meta-date::before{content: "\f073";}
+ul.project-meta-list li.project-meta-category::before{content: "\f02c";}
+ul.project-meta-list li.project-meta-users::before{content: "\f0c0";}
+ul.project-meta-list li.project-meta-links::before{content: "\f0c1";}
+.project-members img{
+  border-radius: 50%;
+  margin: 5px;
+  width: 45px;
+  height: 45px;}
+#project-content-todo iframe{border: 0;}
+#project-links{
+  padding-left: 0;
+  list-style-type: none;}
+#project-links li{margin-bottom: 5px;}
+#project-links li:last-child{margin-bottom: 0px;}
+#project-links li i{
+  font-size: 1.4em;
+  padding-right: 20px;
+}
+#ssfa-flightbox-shadow,
+#ssfa-flightbox {
+  z-index: 9999999;
+}
+
+.woffice-users-suggest {
+  .ui-autocomplete-input {
+    &.ui-autocomplete-loading {
+      -webkit-animation: opacity-blink 1s infinite;
+      -moz-animation:    opacity-blink 1s infinite;
+      -o-animation:      opacity-blink 1s infinite;
+      animation:         opacity-blink 1s infinite;
+    }
+  }
+
+  .woffice-users-suggest_members-list {
+    padding: 0;
+    list-style: none;
+    margin: 10px 0;
+
+    li {
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 0 5px;
+      border-radius: 50px;
+      border: 1px solid #ccc;
+    }
+
+  }
+}
+
+/* To-do */
+#woffice-project-todo{
+  margin: 0;
+  position: relative;
+  padding: 30px 0 20px 0;
+  .special-404{
+    font-size: 4em;
+    margin-bottom: 30px;
+    h2{
+      font-size: 30px;
+      text-transform: none;
+      font-weight: 400;
+      color: #757575;
+    }
+  }
+  .woffice-task{
+    margin-bottom: 20px;
+    &.is-done{
+
+      header {
+        opacity: .5;
+
+        label .checkbox-style:before {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          height: 10px;
+          border-top-style: none;
+          border-right-style: none;
+        }
+      }
+
+    }
+    &.has-note.unfolded header{
+      border-radius: 5px 5px 0 0;
+    }
+    header{
+      overflow: hidden;
+      position: relative;
+      border-radius: 5px;
+      padding: 20px;
+      -webkit-box-shadow: 0px 1px 10px rgba(0,0,0,.03);
+      -moz-box-shadow: 0px 1px 10px rgba(0,0,0,.03);
+      -ms-box-shadow: 0px 1px 10px rgba(0,0,0,.03);
+      box-shadow: 0px 1px 10px rgba(0,0,0,.03);
+      border: 1px solid #e8e8e8;
+      .drag-handle{
+        position: absolute;
+        font-size: 2em;
+        left: 15px;
+        top: 12px;
+        opacity: .1;
+        cursor: move;
+      }
+      &:hover:before{cursor: move;}
+      label{
+        display: inline;
+        text-transform: none;
+        font-size: 1.2em;
+        font-weight: bold;
+        position: relative;
+        margin-left: 35px;
+        input{
+          position: relative;
+          cursor: pointer;
+          margin-right: 15px;
+          z-index: 10;
+          opacity: 0;
+        }
+        .checkbox-style {
+          &:hover {
+            cursor: pointer;
+          }
+          &:before {
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 1px;
+            z-index: 1;
+            width: 20px;
+            height: 20px;
+            border: 3px solid;
+            border-radius: 2px;
+            color: #E8E8E8;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            top: 1px;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+          }
+        }
+      }
+      .woffice-todo-action i.fa{
+        float: right;
+        padding-left: 20px;
+        position: relative;
+        font-size: 20px;
+      }
+      span.todo-date{
+        float: right;
+        font-size: 1.1em;
+        font-style: italic;
+      }
+      span.todo-urgent{
+        color: #cc5252;
+        float: right;
+        font-size: 1.3em;
+        margin-right: 10px;
+        position: relative;
+        top: -2px;
+      }
+      span.is-new{
+        .todo-assigned{
+          font-size: 1.3em;
+          top: -3px;
+          position: relative;
+          opacity: .6;
+        }
+      }
+      span i{
+        padding-right: 5px;
+      }
+      .woffice-loader {
+        font-size: 2em;
+        position: relative;
+        margin-top: -.4em;
+        float: right;
+        line-height: 1;
+      }
+    }
+    .todo-assigned{
+      display: inline-block;
+      float: right;
+      margin-left: 10px;
+      position: relative;
+      top: -3px;
+      img{
+        border-radius: 4px;
+        width: 25px;
+        height: 25px;
+      }
+    }
+    section{
+      border-radius: 0 0 5px 5px;
+      -webkit-box-shadow: inset 0px 0px 40px rgba(0,0,0,.02);
+      -moz-box-shadow: inset 0px 0px 40px rgba(0,0,0,.02);
+      -ms-box-shadow: inset 0px 0px 40px rgba(0,0,0,.02);
+      box-shadow: inset 0px 0px 40px rgba(0,0,0,.02);
+      border: 1px solid #f1f1f1;
+      padding: 30px 20px 20px 20px;
+      margin-top: -1px;
+      p{
+        margin: 0;
+        text-transform: none;
+      }
+    }
+  }
+  .woffice-task-form{
+    margin: 0;
+    .row:first-child{
+      margin-bottom: 20px;
+    }
+    label{
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+    button:focus{
+      outline: none;
+    }
+    input, select, textarea, .form-control{
+      margin-top: 8px;
+    }
+    .project-users{
+      list-style-type: none;
+      margin: 20px 0 0 0;
+      padding: 0;
+      li{
+        display: inline-block;
+        padding: 4px 8px;
+        background: $color;
+        border-radius: 3px;
+        color: #FFF;
+        margin: 0 10px 10px 0;
+        font-size: .9em;
+        a{
+          padding-left: 10px;
+          color: #FFF;
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .potential-users{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      box-shadow: 0px 2px 3px rgba(0,0,0,.2);
+      border-radius: 4px;
+      li{
+        padding: 10px;
+        border-top: 1px solid lighten($color, 50%);
+        /*&:last-child{
+          border-top: 0;
+        }*/
+        &:hover{
+          opacity: .8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .woffice-project-filters{
+    margin-bottom: 20px;
+    ul {
+      margin-left: 0;
+    }
+    li{
+      padding-left: 0;
+      padding-right: 10px;
+      a{
+        padding-bottom: 3px;
+        &:hover{
+          text-decoration: none;
+        }
+        &.is-on{
+          font-weight: bold;
+          border-bottom: 2px solid;
+        }
+      }
+    }
+    select{
+      margin: 0;
+      border: 0;
+      height: 40px;
+      position: relative;
+      top: -10px;
+      padding: 0;
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+}
+// Alerts
+.tiny-alert{
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 15px;
+  display: block;
+  width: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 4px;
+  i{
+    padding-right: 6px;
+  }
+  &.tiny-alert-success{background: #4fda4f;}
+  &.tiny-alert-error{background: #cc5252;}
+}
+// Animations
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+
+/* Assigned Tasks Widget */
+.project-assigned-head{text-align: center;}
+.project-assigned-head i.fa{font-size: 2.5em;margin-bottom: 10px;}
+.project-assigned-head .box-title h3 span{font-weight: bold;}
+#main-content li.assigned-task span.label {
+  margin-right: 10px;
+  margin-left: 0;
+  position: relative;
+  top: -1px;}
+.assigned-tasks-empty{text-align: center;}
+.assigned-tasks-empty p{display: block;}
+.widget.widget_woffice_tasks_assigned .intern-padding ul li{padding: 5px 0 5px 25px;}
+// Datepicker
+.datepicker-dropdown.datepicker-orient-bottom:after,
+.datepicker-dropdown.datepicker-orient-bottom:before{
+  display: none !important;
+}
+/*Assigned Tasks Shortcode*/
+.project-assigned-shortcode .project-assigned-head{ text-align: left;  }
+.project-assigned-shortcode .project-assigned-head h3 i.fa{
+  margin-right: 10px;
+  font-size: 1em;
+}
+.project-assigned-shortcode .assigned-tasks-list{
+  list-style-type: none;
+  padding-left: 0;
+}
+/*Sortable todo*/
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  z-index: 2000;
+}
+#woffice-project-todo .woffice-task:before {
+  position: absolute;
+}
+.todo-placeholder.placeholder{
+  opacity: .2;
+  font-size: 1.5em;
+}
+/* Wiki like Button */
+.wiki-like-container{text-align: right;}
+p.wiki-like {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 1.8em;
+  border-radius: 5px;
+  display: inline-block;
+  a {
+    opacity: .6;
+    &:hover {
+      text-decoration: none !important;
+      opacity: 1;
+      i {
+        -webkit-animation: vertical 3s ease infinite;
+        animation: vertical 3s ease infinite;
+      }
+    }
+  }
+  >* {
+    vertical-align: middle;
+  }
+  span.count {
+    margin-left: 10px;
+    display: inline-block;
+    font-size: .7em;
+    font-weight: bold;
+  }
+}
+p.wiki-like.voted {
+  >* {
+    color: #FFF !important;
+    opacity: 1 !important;
+  }
+}
+@keyframes vertical {
+  0% {
+    -webkit-transform: translate(0,-3px);
+    -ms-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+  4% {
+    -webkit-transform: translate(0,3px);
+    -ms-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+  8% {
+    -webkit-transform: translate(0,-3px);
+    -ms-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+  12% {
+    -webkit-transform: translate(0,3px);
+    -ms-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+  16% {
+    -webkit-transform: translate(0,-3px);
+    -ms-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+  20% {
+    -webkit-transform: translate(0,3px);
+    -ms-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+  22%, 100% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+.list-wiki .count.label .fa{padding-right: 3px;}
+
+.wiki-category-container .heading {
+  margin: 20px 0 5px !important;
+}
+
+#content-container div{
+  &.item-list-tabs-wiki,
+  &.item-list-tabs-project{
+    ul{
+      text-align: center;
+      font-size: 0;
+      margin: 0;
+      padding: 0;
+      li{
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 12px;
+        margin: 0;
+        list-style: none;
+        &.active {
+          a {
+            color: $white;
+            opacity: 1;
+
+            &:hover{
+              opacity: .4;
+              color: $white !important;
+              text-decoration: none;
+            }
+          }
+        }
+
+        a {
+          padding: 15px 15px;
+          font-weight: bold;
+          display: block;
+          text-transform: uppercase;
+          border-left: 1px solid;
+          text-align: center;
+          background: $white;
+
+          &:before{
+            font-family: $font-icon-solid;
+            padding-bottom: 5px;
+            padding-right: 0;
+            font-weight: initial;
+            display: block;
+            font-size: 2em;
+          }
+
+          span{
+            color: $white;
+            padding: 1px 8px;
+            border-radius: 20px;
+            margin-left: 10px;
+            display: inline-block;
+            line-height: normal;
+            font-size: 90%;
+            position: absolute;
+            right: 15px;
+            border: $white 3px solid;
+            top: 35px;
+          }
+        }
+      }
+    }
+  }
+}

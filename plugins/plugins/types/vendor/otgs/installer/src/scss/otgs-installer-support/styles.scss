@@ -1,0 +1,31 @@
+.otgs-installer-support-test-connection {
+	span.dashicons.dashicons-yes {
+		color: darkgreen;
+	}
+
+	span.dashicons.dashicons-no-alt {
+		color: darkred;
+	}
+
+	ul li {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.spinner {
+		float: left;
+		position: relative;
+		top: -5px;
+	}
+
+	.check-again {
+		position: relative;
+		top: -6px;
+		margin-left: 10px;
+	}
+}
+
+.installer-instances .active td {
+	color: darkgreen;
+	font-weight: bold;
+}

@@ -1,0 +1,137 @@
+.header {
+    color: #ee6e73;
+    font-weight: 300;
+}
+#TB_window{ z-index: 999999999 !important;}
+.addimgero {
+	margin-bottom: 25px;
+}
+
+#pickfiles:hover, #uploadfiles:hover {
+	color: white !important;
+}
+
+.questionResult i {
+    color: teal;
+    padding: 5px;
+}
+
+.wrongQuestion i {
+    color: pink !important;
+}
+
+#tblScore tr.current {
+    background-color: teal !important;
+    color: white;
+}
+
+#tblScore tbody tr:hover {
+     background-color: teal !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.nodisplay {
+    display: none !important;
+}
+
+#tblScore tr.current td {
+    color: white;
+}
+
+.attemptReport .item .type {
+    color: teal;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 13px;
+    font-weight: 300 !important;
+    left: 5px;
+    position: relative;
+    text-transform: uppercase;
+    top: 7px;
+}
+
+.question {
+     color: #ee6e73;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 18px;
+    font-weight: 300 !important;
+    position: relative;
+    text-transform: uppercase;
+    top: 8px;
+}
+
+#filelist {
+	background-color: white !important;
+	color: teal !important; 
+}
+
+#alerto {
+	position: relative;
+	top: -40px;
+	margin-bottom: -40px;
+}
+
+.statementRow .date {
+    color: #666666;
+    font-size: 14px !important;
+    padding: 20px !important;
+}
+
+.statement {
+    cursor: pointer;
+    padding: 12px;
+}
+
+#TCAPIQueryText {
+	background-color: white !important;
+    color: gray;
+    font-size: 14px;
+    height: 50px !important;
+    margin-bottom: 40px !important;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 100% !important;
+}
+
+#TCAPIQuery {
+	margin-top: 10px;
+}
+
+#theStatements {
+	width: 100% !important;
+}
+
+.normalfont {
+	text-shadow: none !important;
+
+}
+
+.lineheighter {
+	font-size: 19px !important;
+    line-height: 25px;
+}
+
+.linowrap {
+	margin-bottom: 0px !important;
+}
+
+.pointercur {
+	cursor: pointer;
+}
+
+#sidemenu a.current {
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	border-bottom: 2px solid #ee6e73;
+}
+
+#tab-upload a, #tab-quiz a {
+	color: #ee6e73 !important;
+    font-size: 14px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.28s ease 0s;
+}

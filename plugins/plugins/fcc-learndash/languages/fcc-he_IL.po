@@ -1,0 +1,1561 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fcc\n"
+"POT-Creation-Date: 2016-07-07 15:53+0300\n"
+"PO-Revision-Date: 2016-07-07 17:35+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: he_IL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: modules\n"
+
+#: fcc.php:40
+msgid ""
+"LearnDash LMS plugin is not active. In order to make the 'Frontend Course "
+"Creation' plugin work, you need to install and activate LearnDash LMS first."
+msgstr ""
+
+#: fcc.php:48
+msgid ""
+"Please Activate BuddyPress Plugin for Activating Frontend Course Creation "
+"plugin"
+msgstr ""
+
+#: fcc.php:56 fcc.php:59
+msgid "Frontend Course Creation"
+msgstr ""
+
+#: fcc.php:62
+msgid "WisdmLabs"
+msgstr ""
+
+#: fcc.php:109 modules/commission/commission.php:83
+msgid "Course Author"
+msgstr "מרצה "
+
+#: fcc.php:121
+msgid "Create Course"
+msgstr "צור קורס"
+
+#: fcc.php:135
+msgid "Course List"
+msgstr "רשימת הקורסים"
+
+#: fcc.php:149
+msgid "Create Lesson"
+msgstr "צור שיעור"
+
+#: fcc.php:163
+msgid "Lesson List"
+msgstr "רשימת השיעורים"
+
+#: fcc.php:178
+msgid "Create Topic"
+msgstr "צור נושא"
+
+#: fcc.php:192
+msgid "Topic List"
+msgstr "רשימת הנושאים"
+
+#: fcc.php:206
+msgid "Create Quiz"
+msgstr "צור מבחן"
+
+#: fcc.php:220
+msgid "Quiz List"
+msgstr "רשימת המבחנים"
+
+#: fcc.php:234
+msgid "Create Question"
+msgstr "צור שאלה"
+
+#: fcc.php:248
+msgid "Question List"
+msgstr "רשימת השאלות"
+
+#: fcc.php:340
+msgid "Tag already exist"
+msgstr "התג קיים "
+
+#: fcc.php:397 fcc.php:408
+msgid "Author"
+msgstr "כותב"
+
+#: modules/settings/wdm_course_setting.php:33
+msgid "Course Creation Setting"
+msgstr ""
+
+#: modules/settings/wdm_course_setting.php:97
+msgid "Select Course Publish Status :"
+msgstr "בחר את מצב הקורס המפורסם"
+
+#: modules/settings/wdm_course_setting.php:99
+msgid "Publish"
+msgstr "פרסם"
+
+#: modules/settings/wdm_course_setting.php:100
+msgid "Draft"
+msgstr "טיוטה"
+
+#: modules/settings/wdm_course_setting.php:108
+msgid "Save Settings"
+msgstr "שמור הגדרות"
+
+#: modules/templates/l_page_display.php:35
+msgid "Please enter license key."
+msgstr ""
+
+#: modules/templates/l_page_display.php:42
+msgid "Your license key is activated."
+msgstr ""
+
+#: modules/templates/l_page_display.php:46
+#: modules/templates/l_page_display.php:50
+msgid "Your license key has Expired. Please, Renew it."
+msgstr ""
+
+#: modules/templates/l_page_display.php:46
+#: modules/templates/l_page_display.php:58
+#: modules/templates/l_page_display.php:66
+msgid "Your License Key is already activated at : "
+msgstr ""
+
+#: modules/templates/l_page_display.php:54
+msgid "Your license key is Disabled."
+msgstr ""
+
+#: modules/templates/l_page_display.php:58
+#: modules/templates/l_page_display.php:66
+msgid ""
+"Please deactivate the license from one of the above site(s) to successfully "
+"activate it on your current site."
+msgstr ""
+
+#: modules/templates/l_page_display.php:62
+msgid "Please enter valid license key."
+msgstr ""
+
+#: modules/templates/l_page_display.php:70
+msgid "Site inactive(Press Activate license to activate plugin)"
+msgstr ""
+
+#: modules/templates/l_page_display.php:74
+msgid "License Key is deactivated"
+msgstr ""
+
+#: modules/templates/l_page_display.php:82
+msgid " License Options"
+msgstr ""
+
+#: modules/templates/l_page_display.php:89
+msgid "License Key"
+msgstr ""
+
+#: modules/templates/l_page_display.php:112
+msgid "License Status"
+msgstr ""
+
+#: modules/templates/l_page_display.php:116
+#: modules/templates/l_page_display.php:128
+msgid "Active"
+msgstr "פעיל"
+
+#: modules/templates/l_page_display.php:120
+#: modules/templates/l_page_display.php:124
+#: modules/templates/l_page_display.php:130
+#: modules/templates/l_page_display.php:136
+msgid "Not Active"
+msgstr "לא פעיל"
+
+#: modules/templates/l_page_display.php:147
+#: modules/templates/l_page_display.php:158
+#: modules/templates/l_page_display.php:174
+msgid "Activate License"
+msgstr ""
+
+#: modules/templates/l_page_display.php:153
+#: modules/templates/l_page_display.php:164
+msgid "Deactivate License"
+msgstr ""
+
+#: modules/templates/l_page_display.php:160
+#: modules/templates/l_page_display.php:166
+msgid "Renew License"
+msgstr ""
+
+#: modules/quiz/class_wdm_quiz.php:51 modules/quiz/class_wdm_quiz.php:351
+#: modules/question/class_wdm_question.php:68
+#: modules/question/class_wdm_question.php:266
+#: modules/lesson/class_wdm_lesson.php:45
+#: modules/lesson/class_wdm_lesson.php:220 modules/topic/class_wdm_topic.php:50
+#: modules/topic/class_wdm_topic.php:231 modules/course/class_wdm_course.php:48
+#: modules/course/class_wdm_course.php:247
+msgid "You do not have sufficient permissions to view this page."
+msgstr "אין לך הרשאה לראות את הדף הזה"
+
+#: modules/quiz/class_wdm_quiz.php:54 modules/quiz/class_wdm_quiz.php:354
+#: modules/question/class_wdm_question.php:71
+#: modules/question/class_wdm_question.php:269
+#: modules/lesson/class_wdm_lesson.php:48
+#: modules/lesson/class_wdm_lesson.php:223 modules/topic/class_wdm_topic.php:53
+#: modules/topic/class_wdm_topic.php:234 modules/course/class_wdm_course.php:51
+#: modules/course/class_wdm_course.php:250
+msgid "Please Login to view this page."
+msgstr "הכנס לאתר כדי לצפות בדף זה"
+
+#: modules/quiz/class_wdm_quiz.php:65 modules/lesson/class_wdm_lesson.php:59
+#: modules/topic/class_wdm_topic.php:64 modules/course/class_wdm_course.php:73
+msgid "ERROR: Title is Required"
+msgstr "טעות: נדרשת כותרת"
+
+#: modules/quiz/class_wdm_quiz.php:69 modules/lesson/class_wdm_lesson.php:63
+#: modules/topic/class_wdm_topic.php:68 modules/course/class_wdm_course.php:77
+msgid "ERROR: Description is Required"
+msgstr "טעות: נדרש תיאור"
+
+#: modules/quiz/wdm_quiz_creation.php:6 modules/quiz/wdm_quiz_creation.php:15
+#: modules/question/wdm_question_creation.php:15
+#: modules/question/wdm_question_creation.php:23
+#: modules/question/wdm_question_creation.php:33
+#: modules/question/wdm_question_creation.php:37
+#: modules/lesson/wdm_lesson_creation.php:5
+#: modules/lesson/wdm_lesson_creation.php:14
+#: modules/topic/wdm_topic_creation.php:6
+#: modules/topic/wdm_topic_creation.php:15
+#: modules/course/wdm_course_creation.php:9
+#: modules/course/wdm_course_creation.php:18
+msgid "Sorry, Something went wrong"
+msgstr "סליחה, משהו לא עבד"
+
+#: modules/quiz/wdm_quiz_creation.php:268
+msgid "Quiz Updated Successfully."
+msgstr "המבחן עודכן בהצלחה"
+
+#: modules/quiz/wdm_quiz_creation.php:270
+msgid "Quiz Added Successfully."
+msgstr "המבחן התווסף בהצלחה"
+
+#: modules/quiz/wdm_quiz_creation.php:291
+#: modules/lesson/wdm_lesson_creation.php:143
+#: modules/topic/wdm_topic_creation.php:151
+#: modules/course/wdm_course_creation.php:178
+msgid "Back"
+msgstr "חזור"
+
+#: modules/quiz/wdm_quiz_creation.php:293
+#: modules/lesson/wdm_lesson_creation.php:145
+#: modules/topic/wdm_topic_creation.php:153
+#: modules/course/wdm_course_creation.php:180
+msgid "Preview"
+msgstr "צפה"
+
+#: modules/quiz/wdm_quiz_creation.php:300
+#: modules/lesson/wdm_lesson_creation.php:151
+#: modules/lesson/wdm_lesson_creation.php:155
+#: modules/topic/wdm_topic_creation.php:159
+#: modules/topic/wdm_topic_creation.php:163
+msgid "Content"
+msgstr "תוכן"
+
+#: modules/quiz/wdm_quiz_creation.php:302 modules/quiz/wdm_quiz_list.php:15
+#: modules/quiz/wdm_quiz_list.php:24 modules/question/wdm_question_list.php:17
+#: modules/question/wdm_question_list.php:27
+#: modules/question/wdm_question_creation.php:141
+#: modules/lesson/wdm_lesson_list.php:15 modules/lesson/wdm_lesson_list.php:24
+#: modules/lesson/wdm_lesson_creation.php:153
+#: modules/topic/wdm_topic_creation.php:161 modules/topic/wdm_topic_list.php:15
+#: modules/topic/wdm_topic_list.php:25
+#: modules/course/wdm_course_creation.php:188
+#: modules/course/wdm_course_creation.php:388
+#: modules/course/wdm_course_list.php:15
+msgid "Title"
+msgstr "כותרת"
+
+#: modules/quiz/wdm_quiz_creation.php:315
+#: modules/lesson/wdm_lesson_creation.php:176
+#: modules/topic/wdm_topic_creation.php:184
+#: modules/course/wdm_course_creation.php:213
+msgid "Tags:"
+msgstr "תגים:"
+
+#: modules/quiz/wdm_quiz_creation.php:334
+msgid "Repeats"
+msgstr "חזור"
+
+#: modules/quiz/wdm_quiz_creation.php:337
+msgid "Number of repeats allowed for quiz"
+msgstr "מספר הפעמים המותרות לחזרה במבחן זה"
+
+#: modules/quiz/wdm_quiz_creation.php:342
+msgid "Certificate Threshold"
+msgstr "הסף לדיפלומה"
+
+#: modules/quiz/wdm_quiz_creation.php:345
+msgid ""
+"Minimum score required to award a certificate, between 0 and 1 where 1 = 100%"
+msgstr "הציון המינימלי הנדרש כדי להעניק דיפלומה, בין 0 ל1 כאשר 1=100%"
+
+#: modules/quiz/wdm_quiz_creation.php:350
+msgid "Passing Percentage"
+msgstr "אחוז עובר"
+
+#: modules/quiz/wdm_quiz_creation.php:353
+msgid ""
+"Passing percentage required to pass the quiz (number only). e.g. 80 for 80%"
+msgstr "אחוז מספיק כדי להצליח במבחן(מספר בלבד), לדוגמה 80 עבור 80%."
+
+#: modules/quiz/wdm_quiz_creation.php:358
+#: modules/lesson/wdm_lesson_creation.php:201
+#: modules/topic/wdm_topic_creation.php:208
+msgid "Associated Course"
+msgstr "קורס מקושר"
+
+#: modules/quiz/wdm_quiz_creation.php:372
+#: modules/lesson/wdm_lesson_creation.php:215
+#: modules/topic/wdm_topic_creation.php:222
+msgid "Associate with a course"
+msgstr "קשר את הקורס עם קורס."
+
+#: modules/quiz/wdm_quiz_creation.php:377
+#: modules/topic/wdm_topic_creation.php:227
+msgid "Associated Lesson"
+msgstr "שיעור מקושר"
+
+#: modules/quiz/wdm_quiz_creation.php:392
+#: modules/topic/wdm_topic_creation.php:241
+msgid "Optionally associate a quiz with a lesson"
+msgstr "אופציה לחבר בין מבחן לשיעור"
+
+#: modules/quiz/wdm_quiz_creation.php:397
+#: modules/course/wdm_course_creation.php:331
+msgid "Associated Certificate"
+msgstr "תעודה קשורה"
+
+#: modules/quiz/wdm_quiz_creation.php:411
+msgid "Optionally associate a quiz with a certificate"
+msgstr "אופציה לחבר בין מבחן לתעודה"
+
+#: modules/quiz/wdm_quiz_creation.php:417
+#: modules/lesson/wdm_lesson_creation.php:270
+#: modules/course/wdm_course_creation.php:347
+msgid "Settings"
+msgstr "הגדרות"
+
+#: modules/quiz/wdm_quiz_creation.php:440
+msgid "Hide quiz title"
+msgstr "החבא את כותרת המבחן"
+
+#: modules/quiz/wdm_quiz_creation.php:445
+msgid "Hide title"
+msgstr "החבא כותרת"
+
+#: modules/quiz/wdm_quiz_creation.php:448
+#: modules/quiz/wdm_quiz_creation.php:501
+#: modules/quiz/wdm_quiz_creation.php:516
+#: modules/quiz/wdm_quiz_creation.php:530
+#: modules/quiz/wdm_quiz_creation.php:564
+#: modules/quiz/wdm_quiz_creation.php:599
+#: modules/quiz/wdm_quiz_creation.php:638
+msgid "Activate"
+msgstr "הפעל"
+
+#: modules/quiz/wdm_quiz_creation.php:450
+msgid "The title serves as quiz heading"
+msgstr "הכותרת תהיה הכותרת של המבחן"
+
+#: modules/quiz/wdm_quiz_creation.php:457
+#: modules/quiz/wdm_quiz_creation.php:462
+msgid "Hide \"Restart quiz\" button"
+msgstr "הסתר את הכפתור \"התחל מבחן מחדש\" "
+
+#: modules/quiz/wdm_quiz_creation.php:468
+msgid "Hide the \"Restart quiz\" button in the Frontend"
+msgstr "הסתר את הכפתור \"התחל מבחן\" בקדמת האתר"
+
+#: modules/quiz/wdm_quiz_creation.php:474
+#: modules/quiz/wdm_quiz_creation.php:479
+msgid "Hide \"View question\" button"
+msgstr "החבא את כפתור \"ראה שאלה\""
+
+#: modules/quiz/wdm_quiz_creation.php:485
+msgid "Hide the \"View question\" button in the Frontend"
+msgstr "החבא את כפתור \"ראה שאלה\" בקדמת האתר"
+
+#: modules/quiz/wdm_quiz_creation.php:492
+#: modules/quiz/wdm_quiz_creation.php:497
+msgid "Display question randomly"
+msgstr "הצג שאלות באופן רנדומלי לנבחן"
+
+#: modules/quiz/wdm_quiz_creation.php:507
+#: modules/quiz/wdm_quiz_creation.php:512
+msgid "Display answers randomly"
+msgstr "הצג תשובות באופן רנדומלי לנבחן"
+
+#: modules/quiz/wdm_quiz_creation.php:522
+#: modules/quiz/wdm_quiz_creation.php:527
+msgid "Sort questions by category"
+msgstr "חפש שאלה לפי קטגוריה"
+
+#: modules/quiz/wdm_quiz_creation.php:532
+msgid "Also works in conjunction with the \"display randomly question\" option"
+msgstr "עובד גם במצב של \"אפשר שאלה רנדומלית\""
+
+#: modules/quiz/wdm_quiz_creation.php:538
+#: modules/quiz/wdm_quiz_creation.php:543
+msgid "Time limit"
+msgstr "הגבלת זמן"
+
+#: modules/quiz/wdm_quiz_creation.php:546
+msgid "Seconds"
+msgstr "שניות"
+
+#: modules/quiz/wdm_quiz_creation.php:548
+msgid "0 = no limit"
+msgstr "0 = לא מוגבל"
+
+#: modules/quiz/wdm_quiz_creation.php:555
+#: modules/quiz/wdm_quiz_creation.php:560
+msgid "Statistics"
+msgstr "סטטיסטיקות"
+
+#: modules/quiz/wdm_quiz_creation.php:566
+msgid ""
+"Statistics about right or wrong answers. Statistics will be saved by "
+"completed quiz, not after every question. The statistics is only visible "
+"over administration menu. (internal statistics)"
+msgstr ""
+"סטטיסטיקות על תשובות נכונות או שגויות. סטטיסטיקות ישמרו כאשר מבחן יסתיים, לא "
+"לאחר כל שאלה. הסטטיסטיקות יראה רק למנהל המבחן (סטטיסטיקות פנימיות)"
+
+#: modules/quiz/wdm_quiz_creation.php:572
+#: modules/quiz/wdm_quiz_creation.php:577
+msgid "Statistics IP-lock"
+msgstr "סטטיסטיקות נעילת IP"
+
+#: modules/quiz/wdm_quiz_creation.php:581
+msgid "in minutes (recommended 1440 minutes = 1 day)"
+msgstr "לכתוב את זה בדקות (מומלץ 1440 דקות = יום אחד)"
+
+#: modules/quiz/wdm_quiz_creation.php:583
+msgid ""
+"Protect the statistics from spam. Result will only be saved every X minutes "
+"from same IP. (0 = deactivated)"
+msgstr ""
+"הגן על הסטטיסטיקות מספאם. התשובות ישמרו רק אחרי X דקות מאותו IP.  (0= לא "
+"יחשב)"
+
+#: modules/quiz/wdm_quiz_creation.php:590
+#: modules/quiz/wdm_quiz_creation.php:595
+msgid "Execute quiz only once"
+msgstr "אפשר להשתתף במבחן פעם אחת בלבד"
+
+#: modules/quiz/wdm_quiz_creation.php:601
+msgid ""
+"If you activate this option, the user can complete the quiz only once. "
+"Afterwards the quiz is blocked for this user."
+msgstr ""
+"אם תאפשר את האופציה הזאת, המשתמש יוכל להשלים את המבחן פעם אחת בלבד. לאחר מכן "
+"המבחן יחסם עבור המשתמש הזה. "
+
+#: modules/quiz/wdm_quiz_creation.php:604
+msgid "This option applies to:"
+msgstr "האופציה הזאת מכוונת ל:"
+
+#: modules/quiz/wdm_quiz_creation.php:607
+msgid "all users"
+msgstr "כל המשתמשים"
+
+#: modules/quiz/wdm_quiz_creation.php:610
+msgid "registered users only"
+msgstr "למשתמשים רשומים בלבד"
+
+#: modules/quiz/wdm_quiz_creation.php:613
+msgid "anonymous users only"
+msgstr "רק משתמשים אנונימיים"
+
+#: modules/quiz/wdm_quiz_creation.php:617
+msgid "user identification by cookie"
+msgstr "המשתמש יסומן על ידי עוגיה (cookie)"
+
+#: modules/quiz/wdm_quiz_creation.php:619
+msgid ""
+"If you activate this option, a cookie is set additionally for unregistrated "
+"(anonymous) users. This ensures a longer assignment of the user than the "
+"simple assignment by the IP address."
+msgstr ""
+"אם תאפשר את האופציה הזאת, עוגיה תרשם במחשב של משתמשים אנונימיים. דבר זה "
+"יאפשר בקרה על יותר משתמשים אנונימיים מאשר רק על ידי כתובת IP"
+
+#: modules/quiz/wdm_quiz_creation.php:629
+#: modules/quiz/wdm_quiz_creation.php:634
+msgid "Show only specific number of questions"
+msgstr "הראה רק מספר מסוים של שאלות"
+
+#: modules/quiz/wdm_quiz_creation.php:640
+msgid ""
+"If you enable this option, maximum number of displayed questions will be X "
+"from X questions. (The output of questions is random)"
+msgstr ""
+"אם תאפשר את האופציה הזאת, מספר מקסימלי של שאלות יהיה מX מתוך X שאלות. (ההצגה "
+"של השאלות תהיה רנדומלית)"
+
+#: modules/quiz/wdm_quiz_creation.php:644
+msgid "How many questions should be displayed simultaneously:"
+msgstr "כמה שאלות יופיעו בבת אחת:"
+
+#: modules/quiz/wdm_quiz_creation.php:649
+msgid "in percent"
+msgstr "באחוזים:"
+
+#: modules/quiz/wdm_quiz_list.php:16 modules/quiz/wdm_quiz_list.php:25
+#: modules/lesson/wdm_lesson_list.php:16 modules/lesson/wdm_lesson_list.php:25
+#: modules/topic/wdm_topic_list.php:16 modules/topic/wdm_topic_list.php:26
+msgid "Assigned Course"
+msgstr "קורס מוקצה"
+
+#: modules/quiz/wdm_quiz_list.php:17 modules/quiz/wdm_quiz_list.php:26
+#: modules/topic/wdm_topic_list.php:17 modules/topic/wdm_topic_list.php:27
+msgid "Assigned Lesson"
+msgstr "שיעור מוקצה"
+
+#: modules/quiz/wdm_quiz_list.php:18 modules/quiz/wdm_quiz_list.php:27
+#: modules/question/wdm_question_list.php:21
+#: modules/question/wdm_question_list.php:31
+#: modules/lesson/wdm_lesson_list.php:18 modules/lesson/wdm_lesson_list.php:27
+#: modules/topic/wdm_topic_list.php:19 modules/topic/wdm_topic_list.php:29
+#: modules/course/wdm_course_list.php:18
+msgid "Edit"
+msgstr "ערוך"
+
+#: modules/quiz/wdm_quiz_list.php:19 modules/quiz/wdm_quiz_list.php:28
+#: modules/lesson/wdm_lesson_list.php:19 modules/lesson/wdm_lesson_list.php:28
+#: modules/topic/wdm_topic_list.php:20 modules/topic/wdm_topic_list.php:30
+#: modules/course/wdm_course_creation.php:389
+#: modules/course/wdm_course_list.php:19
+msgid "Date"
+msgstr "תאריך"
+
+#: modules/question/wdm_question_list.php:18
+#: modules/question/wdm_question_list.php:28
+msgid "Assigned Quiz"
+msgstr "משימות משוייכות"
+
+#: modules/question/wdm_question_list.php:19
+#: modules/question/wdm_question_list.php:29
+msgid "Category"
+msgstr "קטגוריה"
+
+#: modules/question/wdm_question_list.php:20
+#: modules/question/wdm_question_list.php:30
+#: modules/question/wdm_question_creation.php:155
+#: modules/question/wdm_question_creation.php:535
+#: modules/question/wdm_question_creation.php:583
+#: modules/question/wdm_question_creation.php:625
+#: modules/question/wdm_question_creation.php:673
+#: modules/question/wdm_question_creation.php:718
+msgid "Points"
+msgstr "נקודות"
+
+#: modules/question/wdm_question_creation.php:44
+msgid "Please Create Quiz"
+msgstr "צור מבחן"
+
+#: modules/question/wdm_question_creation.php:112
+msgid "Question Updated Successfully."
+msgstr "שאלתך עודכנה בהצלחה"
+
+#: modules/question/wdm_question_creation.php:115
+msgid "Question Added Successfully."
+msgstr "שאלה נוספה"
+
+#: modules/question/wdm_question_creation.php:128
+msgid "Select Quiz:"
+msgstr "בחר מבנה המבחן"
+
+#: modules/question/wdm_question_creation.php:144
+msgid "The title is used for overview, it is not visible in quiz"
+msgstr "הכותרת שניתנה למבחן לא נראית במבחן"
+
+#: modules/question/wdm_question_creation.php:149
+msgid "Points (required)"
+msgstr "נקודות (חובה)"
+
+#: modules/question/wdm_question_creation.php:153
+msgid "Points for this question (Standard is 1 point)"
+msgstr "מספר נקודות לשאלה זו (בדרך כלל נקודה אחת)"
+
+#: modules/question/wdm_question_creation.php:157
+msgid ""
+"This points will be rewarded, only if the user closes the question correctly"
+msgstr "הנקודות האלו ינתנו רק אם המשתמש יענה נכון על השאלה. "
+
+#: modules/question/wdm_question_creation.php:162
+msgid "Different points for each answer"
+msgstr "מספר נקודות שונה לכל תשובה. "
+
+#: modules/question/wdm_question_creation.php:164
+msgid ""
+"If you enable this option, you can enter different points for every answer"
+msgstr "אם תאפשר את האופציה הזאת, תוכל להכניס מספר נקודות שונה לכל תשובה."
+
+#: modules/question/wdm_question_creation.php:169
+msgid "Show reached points in the correct- and incorrect message?"
+msgstr "הראה את מספר הנקודות הנכונות והלא נכונות בהודעה?"
+
+#: modules/question/wdm_question_creation.php:174
+msgid "Category (optional)"
+msgstr "קטגוריה אופציונלית"
+
+#: modules/question/wdm_question_creation.php:177
+msgid ""
+"You can assign classify category for a question. Categories are e.g. visible "
+"in statistics function."
+msgstr "אתה יכול להוסיף קטגוריה בשביל השאלה. הקטגוריות הן נראות בסטטיסטיקות. "
+
+#: modules/question/wdm_question_creation.php:179
+msgid "You can manage categories in global settings."
+msgstr "אתה יכול לשלוט בקטגוריות בהגדרות הכלליות"
+
+#: modules/question/wdm_question_creation.php:182
+msgid "--- Create new category ----"
+msgstr "צור קטגוריה חדשה"
+
+#: modules/question/wdm_question_creation.php:183
+msgid "--- No category ---"
+msgstr "ללא קטגוריה"
+
+#: modules/question/wdm_question_creation.php:193
+msgid "Create new category"
+msgstr "צור קטגוריה חדשה"
+
+#: modules/question/wdm_question_creation.php:198
+msgid "Kategorie gespeichert"
+msgstr "קטגוריה"
+
+#: modules/question/wdm_question_creation.php:203
+msgid "Question (required)"
+msgstr "שאלות (נדרש)"
+
+#: modules/question/wdm_question_creation.php:221
+msgid "Message with the correct / incorrect answer"
+msgstr "הודעה עם תשובה נכונה/ לא נכונה"
+
+#: modules/question/wdm_question_creation.php:223
+msgid "Deactivated in quiz settings."
+msgstr "מנוטרל בהגדרות המבחן."
+
+#: modules/question/wdm_question_creation.php:227
+msgid "Message with the correct answer (optional)"
+msgstr "הודעה עם תשובה נכונה/ לא נכונה"
+
+#: modules/question/wdm_question_creation.php:230
+msgid ""
+"This text will be visible if answered correctly. It can be used as "
+"explanation for complex questions. The message \"Right\" or \"Wrong\" is "
+"always displayed automatically."
+msgstr ""
+"הטקסט הזה יראה אם התשובה תהיה נכונה. אפשר להשתמש בזה כהסבר לשאלות מסובכות. "
+"ההודעה \"נכון\" או \"לא נכון\" תמיד יראה אוטומטית. "
+
+#: modules/question/wdm_question_creation.php:233
+msgid "Same text for correct- and incorrect-message?"
+msgstr "לשים את אותו טקסט עבור תשובה נכונה ולא נכונה?"
+
+#: modules/question/wdm_question_creation.php:253
+msgid "Message with the incorrect answer (optional)"
+msgstr "הודעה עם תשובה נכונה/ לא נכונה"
+
+#: modules/question/wdm_question_creation.php:256
+msgid ""
+"This text will be visible if answered incorrectly. It can be used as "
+"explanation for complex questions. The message \"Right\" or \"Wrong\" is "
+"always displayed automatically."
+msgstr ""
+"הטקסט הזה יראה אם התשובה נכונה. אפשר להשתמש בטקסט כהסבר לשאלות מסובכות. "
+"ההודעה \"נכון\" או \"לא נכון\" יופיעו תמיד אוטומטית. "
+
+#: modules/question/wdm_question_creation.php:267
+msgid "Hint (optional)"
+msgstr "רמז (אופציונלי)"
+
+#: modules/question/wdm_question_creation.php:270
+msgid "Here you can enter solution hint."
+msgstr "כאן אפשר להוסיף רמז לתשובה הנכונה. "
+
+#: modules/question/wdm_question_creation.php:273
+msgid "Activate hint for this question?"
+msgstr "האם לאפשר רמז לשאלה?"
+
+#: modules/question/wdm_question_creation.php:288
+msgid "Answer type"
+msgstr "סוג תשובה"
+
+#: modules/question/wdm_question_creation.php:292
+msgid "Single choice"
+msgstr "בחירה בודדת"
+
+#: modules/question/wdm_question_creation.php:295
+msgid "Multiple choice"
+msgstr "ריבוי בחירות"
+
+#: modules/question/wdm_question_creation.php:298
+msgid "\"Free\" choice"
+msgstr "בחירה חופשית"
+
+#: modules/question/wdm_question_creation.php:301
+msgid "\"Sorting\" choice"
+msgstr "מיון בחירות"
+
+#: modules/question/wdm_question_creation.php:304
+msgid "\"Matrix Sorting\" choice"
+msgstr "בחירה דפוס מיון"
+
+#: modules/question/wdm_question_creation.php:307
+msgid "Cloze"
+msgstr "סגור"
+
+#: modules/question/wdm_question_creation.php:310
+msgid "Assessment"
+msgstr "הערכה"
+
+#: modules/question/wdm_question_creation.php:314
+msgid "Single choice options"
+msgstr "שאלה עם בחירה אחת"
+
+#: modules/question/wdm_question_creation.php:317
+msgid ""
+"If \"Different points for each answer\" is activated, you can activate a "
+"special mode.<br> This changes the calculation of the points"
+msgstr ""
+"אם \"יש מספר נקודות שונה לכל תשובה\" פעיל, אתה יכול להפעיל את המצב המיוחד. "
+"<br> זה משנה את החישוב של הנקודות."
+
+#: modules/question/wdm_question_creation.php:320
+msgid "Different points - modus 2 activate"
+msgstr "ניקוד שונה- מודול 2 הפעל"
+
+#: modules/question/wdm_question_creation.php:323
+msgid "Disables the distinction between correct and incorrect."
+msgstr "כבה את ההבדל בין נכון ולא נכון. "
+
+#: modules/question/wdm_question_creation.php:327
+msgid "disable correct and incorrent"
+msgstr "נטרל נכון ולא נכון"
+
+#: modules/question/wdm_question_creation.php:330
+msgid "Explanation of points calculation"
+msgstr "הסבר על חישוב הנקודות. "
+
+#: modules/question/wdm_question_creation.php:340
+#: modules/question/wdm_question_creation.php:344
+msgid "\"Different points for each answer\" enabled"
+msgstr "\"נקודות שונות לכל שאלה\" פעיל"
+
+#: modules/question/wdm_question_creation.php:342
+msgid "\"Different points - mode 2\" disable"
+msgstr "\"נקודות שונות\"- מצב 2\" לא פעיל"
+
+#: modules/question/wdm_question_creation.php:346
+msgid "\"Different points - mode 2\" enabled"
+msgstr "\"נקודות שונות - מצב 2\" פעיל"
+
+#: modules/question/wdm_question_creation.php:350
+msgid "Question - Single Choice - 3 Answers - Diff points mode"
+msgstr "שאלה- בחירה אחת-3 תשובות - מצב של ניקוד שונה"
+
+#: modules/question/wdm_question_creation.php:352
+#: modules/question/wdm_question_creation.php:362
+msgid "A=3 Points [correct]"
+msgstr "א- 3 נקודות (נכון)"
+
+#: modules/question/wdm_question_creation.php:353
+#: modules/question/wdm_question_creation.php:363
+msgid "B=2 Points [incorrect]"
+msgstr "ב= 2 נקודות (לא נכון)"
+
+#: modules/question/wdm_question_creation.php:354
+#: modules/question/wdm_question_creation.php:364
+msgid "C=1 Point [incorrect]"
+msgstr "ג-נקודה (לא נכון)"
+
+#: modules/question/wdm_question_creation.php:356
+msgid "= 6 Points"
+msgstr "= 6 נקודות"
+
+#: modules/question/wdm_question_creation.php:360
+msgid "Question - Single Choice - 3 Answers - Modus 2"
+msgstr "שאלה- בחירה אחת-3 תשובות - מודול 2"
+
+#: modules/question/wdm_question_creation.php:366
+msgid "= 3 Points"
+msgstr "= 3 נקודות"
+
+#: modules/question/wdm_question_creation.php:371
+#: modules/question/wdm_question_creation.php:386
+msgid "~~~ User 1: ~~~"
+msgstr "~~~משתמש 1:~~~"
+
+#: modules/question/wdm_question_creation.php:373
+#: modules/question/wdm_question_creation.php:388
+msgid "A=checked"
+msgstr "א= מסומן"
+
+#: modules/question/wdm_question_creation.php:374
+#: modules/question/wdm_question_creation.php:389
+#: modules/question/wdm_question_creation.php:434
+#: modules/question/wdm_question_creation.php:449
+#: modules/question/wdm_question_creation.php:464
+#: modules/question/wdm_question_creation.php:479
+msgid "B=unchecked"
+msgstr "ב=לא מסומן"
+
+#: modules/question/wdm_question_creation.php:375
+#: modules/question/wdm_question_creation.php:390
+#: modules/question/wdm_question_creation.php:405
+#: modules/question/wdm_question_creation.php:420
+#: modules/question/wdm_question_creation.php:465
+#: modules/question/wdm_question_creation.php:480
+msgid "C=unchecked"
+msgstr "ג=לא מסומן"
+
+#: modules/question/wdm_question_creation.php:377
+#: modules/question/wdm_question_creation.php:392
+#: modules/question/wdm_question_creation.php:407
+#: modules/question/wdm_question_creation.php:422
+#: modules/question/wdm_question_creation.php:437
+#: modules/question/wdm_question_creation.php:452
+#: modules/question/wdm_question_creation.php:467
+#: modules/question/wdm_question_creation.php:482
+msgid "Result:"
+msgstr "תוצאות:"
+
+#: modules/question/wdm_question_creation.php:378
+msgid "A=correct and checked (correct) = 3 Points"
+msgstr "א= נכון ומסומן (נכון) = 3 נקודות"
+
+#: modules/question/wdm_question_creation.php:379
+#: modules/question/wdm_question_creation.php:439
+#: modules/question/wdm_question_creation.php:469
+msgid "B=incorrect and unchecked (correct) = 2 Points"
+msgstr "ב= לא נכון ולא מסומן (נכון ) = 2 נקודות"
+
+#: modules/question/wdm_question_creation.php:380
+#: modules/question/wdm_question_creation.php:470
+msgid "C=incorrect and unchecked (correct) = 1 Points"
+msgstr "ג=לא נכון ולא מסומן (נכון) = נקודה אחת"
+
+#: modules/question/wdm_question_creation.php:382
+msgid "= 6 / 6 Points 100%"
+msgstr "= 6 / 6 נקודות 100%"
+
+#: modules/question/wdm_question_creation.php:393
+msgid "A=checked = 3 Points"
+msgstr "א=מסומן =3 נקודות"
+
+#: modules/question/wdm_question_creation.php:394
+#: modules/question/wdm_question_creation.php:454
+#: modules/question/wdm_question_creation.php:484
+msgid "B=unchecked = 0 Points"
+msgstr "ב=לא מסומן=0 נקודות"
+
+#: modules/question/wdm_question_creation.php:395
+#: modules/question/wdm_question_creation.php:485
+msgid "C=unchecked = 0 Points"
+msgstr "ג=לא מסומן=0 נקודות"
+
+#: modules/question/wdm_question_creation.php:397
+msgid "= 3 / 3 Points 100%"
+msgstr "= 3 / 3  נקודות 100%"
+
+#: modules/question/wdm_question_creation.php:401
+#: modules/question/wdm_question_creation.php:416
+msgid "~~~ User 2: ~~~"
+msgstr "~~~משתמש 2:~~~"
+
+#: modules/question/wdm_question_creation.php:403
+#: modules/question/wdm_question_creation.php:418
+#: modules/question/wdm_question_creation.php:433
+#: modules/question/wdm_question_creation.php:448
+#: modules/question/wdm_question_creation.php:463
+#: modules/question/wdm_question_creation.php:478
+msgid "A=unchecked"
+msgstr "א=לא מסומן"
+
+#: modules/question/wdm_question_creation.php:404
+#: modules/question/wdm_question_creation.php:419
+msgid "B=checked"
+msgstr "ב=מסומן"
+
+#: modules/question/wdm_question_creation.php:408
+#: modules/question/wdm_question_creation.php:438
+#: modules/question/wdm_question_creation.php:468
+msgid "A=correct and unchecked (incorrect) = 0 Points"
+msgstr "א=נכון ולא מסומן (לא נכון) = 0 נקודות"
+
+#: modules/question/wdm_question_creation.php:409
+msgid "B=incorrect and checked (incorrect) = 0 Points"
+msgstr "ב= לא נכון ומסומן (לא נכון) = 0 נקודות"
+
+#: modules/question/wdm_question_creation.php:410
+msgid "C=incorrect and uncecked (correct) = 1 Points"
+msgstr "ג= לא נכון ולא מסומן (נכון) = 1 נקודות"
+
+#: modules/question/wdm_question_creation.php:412
+msgid "= 1 / 6 Points 16.67%"
+msgstr "= 1 / 6 נקודות 16.67%"
+
+#: modules/question/wdm_question_creation.php:423
+#: modules/question/wdm_question_creation.php:453
+#: modules/question/wdm_question_creation.php:483
+msgid "A=unchecked = 0 Points"
+msgstr "א=לא מסומן = 0 נקודות"
+
+#: modules/question/wdm_question_creation.php:424
+msgid "B=checked = 2 Points"
+msgstr "ב=מסומן = 2 נקודות"
+
+#: modules/question/wdm_question_creation.php:425
+msgid "C=uncecked = 0 Points"
+msgstr "ג= לא מסומן = 0 נקודות"
+
+#: modules/question/wdm_question_creation.php:427
+msgid "= 2 / 3 Points 66,67%"
+msgstr "= 2 / 3 נקודות 66,67%"
+
+#: modules/question/wdm_question_creation.php:431
+#: modules/question/wdm_question_creation.php:446
+msgid "~~~ User 3: ~~~"
+msgstr "~~~משתמש 3~~~"
+
+#: modules/question/wdm_question_creation.php:435
+#: modules/question/wdm_question_creation.php:450
+msgid "C=checked"
+msgstr "ג=מסומן"
+
+#: modules/question/wdm_question_creation.php:440
+msgid "C=incorrect and checked (incorrect) = 0 Points"
+msgstr "ג= לא נכון ומסומן (לא נכון) = 0 נקודות"
+
+#: modules/question/wdm_question_creation.php:442
+msgid "= 2 / 6 Points 33.33%"
+msgstr "= 2 / 6 נקודות  33.33%"
+
+#: modules/question/wdm_question_creation.php:455
+msgid "C=checked = 1 Points"
+msgstr "ג=מסומן = נקודה אחת"
+
+#: modules/question/wdm_question_creation.php:457
+msgid "= 1 / 3 Points 33,33%"
+msgstr "= 1 / 3 נקודות 33,33%"
+
+#: modules/question/wdm_question_creation.php:461
+#: modules/question/wdm_question_creation.php:476
+msgid "~~~ User 4: ~~~"
+msgstr "~~~משתמש 4~~~"
+
+#: modules/question/wdm_question_creation.php:472
+msgid "= 3 / 6 Points 50%"
+msgstr "= 3 / 6 נקודות  50%"
+
+#: modules/question/wdm_question_creation.php:487
+msgid "= 0 / 3 Points 0%"
+msgstr "= 0 / 3 נקודות  0%"
+
+#: modules/question/wdm_question_creation.php:495
+msgid "Answers (required)"
+msgstr "תשובות (חובה)"
+
+#: modules/question/wdm_question_creation.php:500
+msgid ""
+"correct answers (one per line) (answers will be converted to lower case)"
+msgstr "תשובות נכונות, (אחד לכל שורה) "
+
+#: modules/question/wdm_question_creation.php:514
+msgid ""
+"Please sort the answers in right order with the \"Move\" - Button. The "
+"answers will be displayed randomly."
+msgstr "הכנס את התשובות בסדר הנכון עם כפתור \"move\" . התשובה תראה רנדומלית. "
+
+#: modules/question/wdm_question_creation.php:520
+#: modules/question/wdm_question_creation.php:562
+#: modules/question/wdm_question_creation.php:605
+#: modules/question/wdm_question_creation.php:663
+#: modules/question/wdm_question_creation.php:708
+msgid "Options"
+msgstr "אפשרויות"
+
+#: modules/question/wdm_question_creation.php:521
+#: modules/question/wdm_question_creation.php:563
+#: modules/question/wdm_question_creation.php:606
+msgid "Answer"
+msgstr "תשובה"
+
+#: modules/question/wdm_question_creation.php:530
+#: modules/question/wdm_question_creation.php:578
+#: modules/question/wdm_question_creation.php:620
+#: modules/question/wdm_question_creation.php:687
+#: modules/question/wdm_question_creation.php:692
+#: modules/question/wdm_question_creation.php:732
+#: modules/question/wdm_question_creation.php:737
+msgid "Allow HTML"
+msgstr "אפשר HTML"
+
+#: modules/question/wdm_question_creation.php:547
+#: modules/question/wdm_question_creation.php:637
+msgid "Move"
+msgstr "הזז"
+
+#: modules/question/wdm_question_creation.php:573
+#: modules/question/wdm_question_creation.php:615
+msgid "Correct"
+msgstr "נכון"
+
+#: modules/question/wdm_question_creation.php:646
+msgid ""
+"In this mode, not a list have to be sorted, but elements must be assigned to "
+"matching criterion."
+msgstr ""
+"במצב זה הרשימה לא צריכה להיות מסודרת, אבל אלמנטים חייבים להתאים לקריטריון "
+"הנכון."
+
+#: modules/question/wdm_question_creation.php:648
+msgid ""
+"You can create sort elements with empty criteria, which can't be assigned by "
+"user."
+msgstr "אתה יכול ליצר אלנטים עם קטריון פתוח, אבל שלא יהיה מיועד למשתמש."
+
+#: modules/question/wdm_question_creation.php:651
+msgid "Percentage width of criteria table column:"
+msgstr "אחוזים של רוחב העמודות בטבלה:"
+
+#: modules/question/wdm_question_creation.php:654
+msgid ""
+"Allows adjustment of the left column's width, and the right column will auto-"
+"fill the rest of the available space. Increase this to allow accommodate "
+"longer criterion text. Defaults to 20%."
+msgstr ""
+"אפשר התאמה בצד שמאל רוחב העמודה, ובצד ימין הרוחב יתמלא אוטומטית בשאר המקום. "
+"הגדל את העמודה כאשר יש צורך בהכנסת טקסט ארוך יותר. ברירת המחדל היא 20%."
+
+#: modules/question/wdm_question_creation.php:664
+#: modules/question/wdm_question_creation.php:709
+msgid "Criterion"
+msgstr "קרטריון"
+
+#: modules/question/wdm_question_creation.php:665
+#: modules/question/wdm_question_creation.php:710
+msgid "Sort elements"
+msgstr "מיין אלמנטים"
+
+#: modules/question/wdm_question_creation.php:753
+msgid ""
+"Enclose the searched words with { } e.g. \"I {play} soccer\". Capital and "
+"small letters will be ignored."
+msgstr "סגור את מילת החיפוש (מילת המפתח) עם {} לדוגמא \"אני {משחק} כדורגל\". "
+
+#: modules/question/wdm_question_creation.php:755
+msgid ""
+"You can specify multiple options for a search word. Enclose the word with "
+"[ ] e.g. "
+msgstr "ציין מגוון אפשרויות לחיפוש מילה. סגור את המילה עם [ ] e.g. "
+
+#: modules/question/wdm_question_creation.php:755
+msgid ""
+" \"I {[play][love][hate]} soccer\" </span>. In this case answers play, love "
+"OR hate are correct."
+msgstr ""
+
+#: modules/question/wdm_question_creation.php:757
+msgid ""
+"If mode \"Different points for every answer\" is activated, you can assign "
+"points with |POINTS. Otherwise 1 point will be awarded for every answer."
+msgstr ""
+"אם המצב של \"נקודות שונות לכל תשובה\" פועל, אתה יכול להחליט איזה נקודות עם |"
+"POINTS. אם לא אז לכל תשובה נכונה יתקבל הערך 1."
+
+#: modules/question/wdm_question_creation.php:759
+msgid ""
+"e.g. \"I {play} soccer, with a {ball|3}\" - \"play\" gives 1 point and \"ball"
+"\" 3 points."
+msgstr ""
+"e.g. \"אני {משחק} כדורגל עם  {כדורים|3}\" - התשובה \"משחק\" נותנת נקודה 1, "
+"והתשובה \"כדורים\" נותנת 3 נקודות."
+
+#: modules/question/wdm_question_creation.php:782
+msgid "Here you can create an assessment question."
+msgstr "כאן אתה יכול ליצר שאלת הערכה."
+
+#: modules/question/wdm_question_creation.php:784
+msgid ""
+"Enclose a assesment with {}. The individual assessments are marked with []."
+msgstr "סגור שאלת הערכה ב {}. שאלת הערכה יחידה מסומנת ב[]"
+
+#: modules/question/wdm_question_creation.php:785
+msgid "The number of options in the maximum score."
+msgstr "מספר האופציות בציון המלא"
+
+#: modules/question/wdm_question_creation.php:787
+msgid "Examples:"
+msgstr "דוגמאות:"
+
+#: modules/question/wdm_question_creation.php:788
+msgid "* less true { [1] [2] [3] [4] [5] } more true"
+msgstr "פחות נכון { [1] [2] [3] [4] [5] } יותר נכון"
+
+#: modules/question/wdm_question_creation.php:790
+#: modules/question/wdm_question_creation.php:798
+msgid "Demo"
+msgstr "הדגמה"
+
+#: modules/question/wdm_question_creation.php:796
+msgid "* less true { [a] [b] [c] } more true"
+msgstr "פחות נכון { [a] [b] [c] }יותר נכון"
+
+#: modules/commission/commission.php:66
+msgid "Course Author Commission"
+msgstr "עמלה של המרצה"
+
+#: modules/commission/commission.php:85
+msgid "Commission Report"
+msgstr "דוח עמלות"
+
+#: modules/commission/commission.php:86
+msgid "Export"
+msgstr "יצא"
+
+#: modules/commission/commission.php:118
+msgid "Invalid percentage"
+msgstr "אחוזים לא מתאימים"
+
+#: modules/commission/commission.php:135
+msgid "Name"
+msgstr "שם"
+
+#: modules/commission/commission.php:138
+msgid "User email"
+msgstr "מייל המשתמש"
+
+#: modules/commission/commission.php:141
+msgid "Commission %"
+msgstr "רווח באחוזים %"
+
+#: modules/commission/commission.php:144 modules/commission/commission.php:162
+msgid "Update"
+msgstr "עידכון"
+
+#: modules/commission/commission.php:188
+msgid "Updated successfully"
+msgstr "העידכון עבר בהצלחה"
+
+#: modules/commission/commission.php:190 modules/commission/commission.php:505
+#: modules/commission/commission.php:509 modules/commission/commission.php:520
+#: modules/commission/commission.php:524 modules/commission/commission.php:528
+#: modules/commission/commission.php:535 modules/commission/commission.php:544
+msgid "Oops something went wrong"
+msgstr "סליחה, משהו לא עבד"
+
+#: modules/commission/commission.php:289 modules/commission/commission.php:677
+msgid "No Course Author found"
+msgstr "לא נמצא מרצה"
+
+#: modules/commission/commission.php:296 modules/commission/commission.php:696
+msgid "Select Course Author:"
+msgstr "בחר מרצה:"
+
+#: modules/commission/commission.php:307 modules/commission/commission.php:722
+msgid "Submit"
+msgstr "הגש"
+
+#: modules/commission/commission.php:332
+msgid "Please Enter amount"
+msgstr "בבקשה הוסף כמות"
+
+#: modules/commission/commission.php:333
+msgid "Please enter amount less than amount to be paid"
+msgstr "אנא הזן סכום פחות מהסכום לתשלום"
+
+#: modules/commission/commission.php:334
+msgid "Record added successfully"
+msgstr "ההקלטה הוספה בהצלחה"
+
+#: modules/commission/commission.php:345 modules/commission/commission.php:766
+msgid "Order ID"
+msgstr "מזהה הזמנה"
+
+#: modules/commission/commission.php:348 modules/commission/commission.php:772
+msgid "Product / Course Name"
+msgstr "שם המוצר/הקורס"
+
+#: modules/commission/commission.php:351 modules/commission/commission.php:775
+msgid "Actual Price"
+msgstr "המחיר המלא"
+
+#: modules/commission/commission.php:354 modules/commission/commission.php:778
+msgid "Commission Price"
+msgstr "העמלה"
+
+#: modules/commission/commission.php:418 modules/commission/commission.php:458
+#: modules/commission/commission.php:625
+msgid "Paid Earnings"
+msgstr "רווחים ששולמו"
+
+#: modules/commission/commission.php:426 modules/commission/commission.php:466
+#: modules/commission/commission.php:634
+msgid "Unpaid Earnings"
+msgstr "רווחים שלא שולמו"
+
+#: modules/commission/commission.php:431 modules/commission/commission.php:484
+msgid "Pay"
+msgstr "שלם"
+
+#: modules/commission/commission.php:449
+msgid "Transaction"
+msgstr "עסקה"
+
+#: modules/commission/commission.php:474
+msgid "Enter amount"
+msgstr "הוסף כמות"
+
+#: modules/commission/commission.php:600 modules/commission/commission.php:889
+msgid "No data found"
+msgstr "לא נמצא מידע"
+
+#: modules/commission/commission.php:699
+msgid "All"
+msgstr "הכל "
+
+#: modules/commission/commission.php:709
+msgid "Start Date:"
+msgstr "תאריך התחלה:"
+
+#: modules/commission/commission.php:715
+msgid "End Date:"
+msgstr "תאריך סיום:"
+
+#: modules/commission/commission.php:758 modules/commission/commission.php:855
+msgid "Export CSV"
+msgstr "יצא לCSV"
+
+#: modules/commission/commission.php:769
+msgid "Username"
+msgstr "שם משתמש"
+
+#: modules/lesson/wdm_lesson_list.php:17 modules/lesson/wdm_lesson_list.php:26
+#: modules/topic/wdm_topic_list.php:18 modules/topic/wdm_topic_list.php:28
+#: modules/course/wdm_course_list.php:17
+msgid "Tags"
+msgstr "תגים"
+
+#: modules/lesson/wdm_lesson_creation.php:122
+msgid "Lesson Updated Successfully."
+msgstr "השיעור עודכן בהצלחה"
+
+#: modules/lesson/wdm_lesson_creation.php:125
+msgid "Lesson Added Successfully."
+msgstr "השיעור התווסף בהצלחה"
+
+#: modules/lesson/wdm_lesson_creation.php:167
+#: modules/course/wdm_course_creation.php:202
+msgid "Categories:"
+msgstr "קטגוריות:"
+
+#: modules/lesson/wdm_lesson_creation.php:190
+#: modules/topic/wdm_topic_creation.php:199
+#: modules/course/wdm_course_creation.php:349
+msgid "Featured Image:"
+msgstr "תמונה ראשית:"
+
+#: modules/lesson/wdm_lesson_creation.php:195
+#: modules/topic/wdm_topic_creation.php:204
+#: modules/course/wdm_course_creation.php:228
+msgid "Features"
+msgstr "תכונות"
+
+#: modules/lesson/wdm_lesson_creation.php:220
+msgid "Forced Lesson Timer"
+msgstr "טיימר כפוי לשיעורים"
+
+#: modules/lesson/wdm_lesson_creation.php:223
+msgid ""
+"Minimum time a user has to spend on Lesson page before it can be marked "
+"complete. Examples: 40 (for 40 seconds), 20s, 45sec, 2m 30s, 2min 30sec, 1h "
+"5m 10s, 1hr 5min 10sec"
+msgstr ""
+"מה המינימום זמן שהמשתמש צריך לשהות בדף השיעור לפני שהוא יכול לסמן את השיעור "
+"כהושלם. לדוגמא: 40 (for 40 שניות), 20s, 45sec, 2m 30s, 2min 30sec, 1h 5m "
+"10s, 1hr 5min 10sec"
+
+#: modules/lesson/wdm_lesson_creation.php:228
+#: modules/topic/wdm_topic_creation.php:254
+msgid "Upload Assignment"
+msgstr "העלה משימה"
+
+#: modules/lesson/wdm_lesson_creation.php:231
+#: modules/topic/wdm_topic_creation.php:257
+msgid "Check this if you want to make it mandatory to upload assignment"
+msgstr "בחר את האופציה הזאת אם אתה רוצה שהמשימת הגשה תהיה חובה"
+
+#: modules/lesson/wdm_lesson_creation.php:236
+#: modules/topic/wdm_topic_creation.php:262
+msgid "Auto Approve Assignment"
+msgstr "אשר הגשת משימה אוטומטית"
+
+#: modules/lesson/wdm_lesson_creation.php:239
+#: modules/topic/wdm_topic_creation.php:265
+msgid "Check this if you want to auto-approve the uploaded assignment"
+msgstr "בחר את זה אם אתה רוצה לאשר אוטומטית את העלאת המשימה לקורס"
+
+#: modules/lesson/wdm_lesson_creation.php:244
+msgid "Sample Lesson"
+msgstr "שיעור פתוח לדוגמא"
+
+#: modules/lesson/wdm_lesson_creation.php:247
+msgid ""
+"Check this if you want this lesson and all its topics to be available for "
+"free"
+msgstr ""
+"בחר את זה אם אתה רוצה שהשיעור והנושאים הקשורים אליו יהיו פתוחים לצפיה לדוגמא."
+
+#: modules/lesson/wdm_lesson_creation.php:252
+msgid "Make lesson visible X days after sign-up"
+msgstr "הפעל שיעור זה לאחר X ימים מהרישום"
+
+#: modules/lesson/wdm_lesson_creation.php:255
+msgid "Make lesson visible ____ days after sign-up"
+msgstr "הראה את השיעור הזה לאחר_ ימים מהרישום"
+
+#: modules/lesson/wdm_lesson_creation.php:260
+msgid "Make lesson visible on specific date"
+msgstr "הראה את השיעור בתאריך ספציפי"
+
+#: modules/lesson/wdm_lesson_creation.php:263
+msgid "Set the date that you would like this lesson to become available"
+msgstr "בחר את התאריך שבו תרצה שהשיעור יהיה פעיל"
+
+#: modules/topic/wdm_topic_creation.php:129
+msgid "Unit Updated Successfully."
+msgstr "היחידה עודכנה בהצלחה"
+
+#: modules/topic/wdm_topic_creation.php:132
+msgid "Unit Added Successfully."
+msgstr "היחידה הוספה בהצלחה"
+
+#: modules/topic/wdm_topic_creation.php:246
+msgid "Forced Topic Timer"
+msgstr "הכרח הוספת טיימר לנושא"
+
+#: modules/topic/wdm_topic_creation.php:249
+msgid ""
+"Minimum time a user has to spend on Topic page before it can be marked "
+"complete. Examples: 40 (for 40 seconds), 20s, 45sec, 2m 30s, 2min 30sec, 1h "
+"5m 10s, 1hr 5min 10sec"
+msgstr ""
+"מינימום זמן שמשתמש יכול להיות על נושא לפני שהוא יכול לסמן אותו כמסויים. "
+"לדוגמא: 40 (for 40 seconds), 20s, 45sec, 2m 30s, 2min 30sec, 1h 5m 10s, 1hr "
+"5min 10sec"
+
+#: modules/topic/class_wdm_topic.php:165
+#: modules/course/class_wdm_course.php:173
+msgid "ERROR: For featured image only .png and .jpg extensions are allowed"
+msgstr "טעות: לתמונה ראשית בלבד.png ו .jpg  הרחבות מותרות"
+
+#: modules/topic/class_wdm_topic.php:260
+msgid "-- Select a Lesson --"
+msgstr "--בחר שיעור--"
+
+#: modules/topic/class_wdm_topic.php:285
+msgid "-- Select a Lesson or Topic --"
+msgstr "בחר שיעור או נושא --"
+
+#: modules/course/wdm_course_creation.php:152
+msgid "Course Updated Successfully."
+msgstr "הקורס עודכן בהצלחה"
+
+#: modules/course/wdm_course_creation.php:154
+msgid "Course Added Successfully."
+msgstr "הקורס התווסף בהצלחה"
+
+#: modules/course/wdm_course_creation.php:190
+msgid "Description"
+msgstr "תיאור"
+
+#: modules/course/wdm_course_creation.php:236
+msgid "Course Materials"
+msgstr "החומרים לקורס"
+
+#: modules/course/wdm_course_creation.php:239
+msgid "Options for Course Materials"
+msgstr "אפשרויות לחומרים לקורס"
+
+#: modules/course/wdm_course_creation.php:244
+msgid "Course Price Type"
+msgstr "סוג מחיר של קורס"
+
+#: modules/course/wdm_course_creation.php:248
+msgid "Open"
+msgstr "פתוח"
+
+#: modules/course/wdm_course_creation.php:249
+msgid "Closed"
+msgstr "סגור"
+
+#: modules/course/wdm_course_creation.php:250
+msgid "Free"
+msgstr "חינם"
+
+#: modules/course/wdm_course_creation.php:251
+msgid "Buy Now"
+msgstr "קנה עכשיו"
+
+#: modules/course/wdm_course_creation.php:252
+msgid "Recurring"
+msgstr "תשלום מתחדש"
+
+#: modules/course/wdm_course_creation.php:255
+msgid ""
+"Is it open to all, free join, one time purchase, or a recurring subscription?"
+msgstr "האם זה פתוח לכולם, הצטרפות בחינם, תשלום חד פעמי, או תשלום מתמשך?"
+
+#: modules/course/wdm_course_creation.php:260
+msgid "Custom Button URL"
+msgstr "כפתור מותאם אישית"
+
+#: modules/course/wdm_course_creation.php:264
+msgid ""
+"Entering a URL in this field will enable the \"Take This Course\" button. "
+"The button will not display if this field is left empty"
+msgstr ""
+"הכנס את כתובת האתר כדי לאפשר את הכפתור \"קח את הקורס\". הכפתור לא יופיע אם "
+"השדה ישאר ריק. "
+
+#: modules/course/wdm_course_creation.php:269
+msgid "Price"
+msgstr "מחיר"
+
+#: modules/course/wdm_course_creation.php:273
+msgid "Enter course price here. Leave empty if the course is free."
+msgstr "הכנס את מחיר הקורס כאן. השאר ריק אם הקורס הוא חינם. "
+
+#: modules/course/wdm_course_creation.php:278
+msgid "Billing Cycle"
+msgstr "מחזור תשלומים"
+
+#: modules/course/wdm_course_creation.php:283
+msgid "day(s)"
+msgstr "יום/ימים"
+
+#: modules/course/wdm_course_creation.php:284
+msgid "week(s)"
+msgstr "שבוע/שבועות"
+
+#: modules/course/wdm_course_creation.php:285
+msgid "month(s)"
+msgstr "חודש/חודשים"
+
+#: modules/course/wdm_course_creation.php:286
+msgid "year(s)"
+msgstr "שנה/שנים"
+
+#: modules/course/wdm_course_creation.php:289
+msgid "Billing Cycle for the recurring payments in case of a subscription."
+msgstr "מחזור תשלומים מומלץ במקרה של חברות מתחדשת."
+
+#: modules/course/wdm_course_creation.php:294
+msgid "Course Access List"
+msgstr "רשימת גישה לקורס"
+
+#: modules/course/wdm_course_creation.php:297
+msgid ""
+"This field is auto-populated with the UserIDs of those who have access to "
+"this course."
+msgstr "השדה ממולא אוטומטית אם המידע של המשתמש לפי הרשאה שלו להכנס לקורס. "
+
+#: modules/course/wdm_course_creation.php:303
+msgid "Course Prerequisites"
+msgstr "חובות קדם הקורס"
+
+#: modules/course/wdm_course_creation.php:317
+msgid "Select a course as prerequisites to view this course"
+msgstr "בחר את חובות קדם הקורס כדי לצפות בקורס הזה. "
+
+#: modules/course/wdm_course_creation.php:322
+msgid "Disable Lesson Progression"
+msgstr "נטרל התקדמות בשיעור"
+
+#: modules/course/wdm_course_creation.php:326
+msgid ""
+"Disable the feature that allows attempting lessons only in allowed order"
+msgstr "נטרל את האפשרות שמאפשרת לעבור על השיעורים רק בסדר המותר."
+
+#: modules/course/wdm_course_creation.php:333
+msgid "-- Select a Certificate --"
+msgstr "-- בחר תעודה --"
+
+#: modules/course/wdm_course_creation.php:342
+msgid "Select a certificate to be awarded upon course completion (optional)."
+msgstr "בחר נתינת תעודה לפי השלמת הקורס (אופציונלי)"
+
+#: modules/course/wdm_course_creation.php:359
+msgid "Leave this field unchecked if access never expires"
+msgstr "השאר את השדה הזה לא מסומן אם התאריך לא פג אף פעם. "
+
+#: modules/course/wdm_course_creation.php:364
+msgid "Expire Access After (days)"
+msgstr "תפוגה אחרי מספר (ימים)"
+
+#: modules/course/wdm_course_creation.php:368
+msgid "Enter the number of days a user has access to this course"
+msgstr "הכנס את מספר הימים שבהם יש למשתמש זכות כניסה לקורס. "
+
+#: modules/course/wdm_course_creation.php:373
+msgid "Delete Course and Quiz Data After Expiration"
+msgstr "מחק את המידע על הקורס והמבחנים לאחר תאריך התפוגה של הקורס"
+
+#: modules/course/wdm_course_creation.php:378
+msgid ""
+"Select this option if you want the user's course progress to be deleted when "
+"their access expires"
+msgstr ""
+"בחר את האופציה הזאת אם תהליך ההתקדמות בקורס של המשתמש נמחק, כאשר הגישה "
+"נגמרה. "
+
+#: modules/course/wdm_course_creation.php:383
+msgid "Sort Lesson By"
+msgstr "מיין שיעורים לפי"
+
+#: modules/course/wdm_course_creation.php:387
+#: modules/course/wdm_course_creation.php:402
+msgid "Use Default"
+msgstr "השתמש בברירת המחדל"
+
+#: modules/course/wdm_course_creation.php:390
+msgid "Menu Order"
+msgstr "סדר התפריט"
+
+#: modules/course/wdm_course_creation.php:393
+#: modules/course/wdm_course_creation.php:407
+msgid "Choose the sort order of lessons in this course"
+msgstr "בחר את סדר המיון של שיעורים בקורס זה."
+
+#: modules/course/wdm_course_creation.php:398
+msgid "Sort Lesson Direction"
+msgstr "מיין את כיוון הקורס"
+
+#: modules/course/wdm_course_creation.php:403
+msgid "Ascending"
+msgstr "סדר עולה"
+
+#: modules/course/wdm_course_creation.php:404
+msgid "Descending"
+msgstr "סדר יורד"
+
+#: modules/course/wdm_course_list.php:16
+msgid "Categories"
+msgstr "קטגוריות"

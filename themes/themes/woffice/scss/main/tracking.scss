@@ -1,0 +1,91 @@
+/*---------------------------------------------------------
+**
+** Time Tracking
+**
+----------------------------------------------------------*/
+#page-wrapper {
+  .woffice-time-tracking {
+    position: relative;
+    &.is-loading{
+      &:before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        z-index: 12;
+        -webkit-animation: blink 2s infinite;
+        -moz-animation:    blink 2s infinite;
+        -o-animation:      blink 2s infinite;
+        animation:         blink 2s infinite;
+        animation-timing-function: ease-in-out;
+      }
+    }
+    .woffice-time-tracking-head {
+      text-align: center;
+      i {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+    }
+    .woffice-time-tracking-content{
+      margin-bottom: 20px;
+    }
+    .woffice-time-tracking-view {
+      .woffice-time-tracking_time-displayed {
+        font-weight: 300;
+        font-size: 3em;
+        text-align: center;
+      }
+      .woffice-time-tracking-day{
+        margin-bottom: 5px;
+      }
+    }
+    .woffice-time-tracking-actions {
+      a.btn.btn-default {
+        margin: 5px 0;
+      }
+    }
+
+    &.is-tracking {
+      .woffice-time-tracking_time-displayed {
+        -webkit-animation: toggle-second 1s infinite;
+        -moz-animation:    toggle-second 1s infinite;
+        -o-animation:      toggle-second 1s infinite;
+        animation:         toggle-second 1s infinite;
+      }
+    }
+  }
+}
+// Animations
+@-webkit-keyframes blink {
+  0% { background-color: rgba(255,255,255, 0.8); }
+  25% { background-color: rgba(255,255,255, 0.4); }
+  50% { background-color: rgba(255,255,255, 0.2); }
+  75% { background-color: rgba(255,255,255, 0.4); }
+  100% { background-color: rgba(255,255,255, 0.8); }
+}
+// Buttons
+body.woffice-2-x .woffice-time-tracking .btn.btn-default.btn-danger,
+body .woffice-time-tracking .btn.btn-default.btn-danger{
+  background: #e66666 !important;
+}
+body.woffice-2-x .woffice-time-tracking .btn.btn-default.btn-info,
+body .woffice-time-tracking .btn.btn-default.btn-info{
+  background: #1696c7 !important;
+}
+
+@-webkit-keyframes toggle-second {
+  0% {opacity: 1;}
+  30% {opacity: 0.6;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes toggle-second {
+  0% {opacity: 1;}
+  30% {opacity: 0.6;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
+}

@@ -1,0 +1,18 @@
+#content .uagb{
+  &-slick-carousel ul.slick-dots{
+    padding-left: 0;
+  }
+
+  &-post__inner-wrap,
+  &-timeline__events-inner-new {
+    border-radius: $border-radius;
+  }
+
+  &-post__image img {
+    border-radius: $border-radius $border-radius 0 0;
+  }
+
+  &-timeline__image img{
+    border-radius: $border-radius;
+  }
+}

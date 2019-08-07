@@ -1,0 +1,296 @@
+$new_grey: #EBECF0;
+#content-container {
+  a.dp_daily_event {text-decoration:none}
+  .pec_event_page_action,
+  .dp_pec_view{
+    text-shadow: none;
+    padding: 6px 10px;
+    font-size: 1em !important;
+    box-shadow: none;
+    background: darken($new_grey, 30%) !important;
+    border-color: darken($new_grey, 10%) !important;
+    color: $white !important;
+    i.fa.fa-chevron-down{
+      padding-left: 10px;
+      color: darken($new_grey, 20%) !important;
+    }
+    &:hover,
+    &.active{
+      background: $new_grey;
+    }
+  }
+  .pec-events {
+    a {
+      color: darken($new_grey, 40%) !important;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .dp_pec_user_rate .fa-star-o:before {
+    content: "\f005" !important;
+    opacity: .2;
+  }
+
+  .pec_event_page_book{
+    box-shadow: none;
+  }
+  .pec_event_page_date i,
+  .pec_event_page_location i,
+  .pec_event_page_facebook_url i,
+  .pec_event_page_phone i,
+  .pec_event_page_link i,
+  .pec_event_page_age_range i,
+  .pec_event_page_organizer i,
+  .pec_event_page_custom_fields i,
+  .pec_event_page_attendees i{
+    color: darken($new_grey, 10%) !important;
+    font-size: 18px;
+  }
+  .dp_pec_event_page_nav{
+    border-bottom: 1px solid $new_grey;
+    padding-bottom: 15px;
+  }
+
+  // Listing
+
+  .light.dp_pec_wrapper{
+    box-shadow: none;
+    border: 1px solid $new_grey;
+    background: #FFF;
+    border-radius: 4px;
+    input[type="text"],
+    input[type="password"],
+    input[type="file"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="url"]{
+      height: 42px;
+      font-size: 15px;
+      padding: 0 10px;
+    }
+    a{
+      &:hover{
+        text-decoration: none !important;
+      }
+    }
+    .dp_pec_dayname_item{
+      box-shadow: none;
+      background: lighten($new_grey, 1%) !important;
+      border: 1px solid darken($new_grey, 5%);
+      span{
+        color: darken($new_grey, 50%) !important;
+        text-shadow: none;
+      }
+    }
+    .dp_pec_layout a,
+    .dp_pec_nav a.dp_pec_search_btn{
+      background: darken($new_grey, 30%) !important;
+      text-shadow: none !important;
+    }
+    .dp_pec_nav{
+      border-bottom: 1px solid $new_grey;
+      margin: 0;
+      padding: 10px 20px;
+
+
+      .selectric-wrapper{
+        max-width: 120px;
+      }
+
+      span,
+      .selectric {
+        .label{
+          color: darken($new_grey, 30%);
+        }
+
+        .button {
+          height: 20px !important;
+        }
+      }
+    }
+    .dp_pec_options_nav{
+      background: lighten($new_grey, 5%) !important;
+      border-bottom: 1px solid $new_grey;
+      border-radius: 4px 4px 0 0;
+      padding: 20px;
+    }
+    .dp_pec_layout{
+      margin: 20px 25px 0 25px;
+    }
+    .dp_pec_layout .dp_pec_search_go{
+      margin-top: 0;
+    }
+    .selectricItems, .selectric-items{
+      background: $white;
+      border: 1px solid $new_grey;
+    }
+    .dp_pec_add_event .fa{
+      margin-right: 10px;
+    }
+    .dp_pec_content{
+      padding: 25px;
+      button {
+        margin: 0;
+      }
+      .dp_pec_date{
+        .dp_pec_date_item{
+          padding: 0;
+
+        }
+        .dp_daily_event{
+          background: darken($new_grey, 30%);
+          color: $white;
+          border-bottom: 0;
+        }
+        .dp_pec_date_item{
+          box-shadow: 0px 1px 1px rgba(0,0,0,.02);
+          border: 1px solid darken($new_grey, 5%) !important;
+        }
+        .dp_date_head{
+          background: lighten($new_grey, 5%) !important;
+          height: 100% !important;
+          text-align: center !important;
+          padding-top: .4rem !important;
+          border-right: 1px solid darken($new_grey, 5%) !important;
+          span{
+            color: darken($new_grey, 50%) !important;
+            text-shadow: none;
+          }
+        }
+      }
+      .dp_pec_date_block_wrap span.fa,
+      .dp_pec_date_block_wrap i.fa{
+        color: darken($new_grey, 10%) !important;
+      }
+      .dp_pec_date_block{
+        color: darken($new_grey, 40%) !important;
+        margin-top: 3px;
+      }
+      .dp_pec_event_description,
+      .dp_pec_event_description_full {
+        line-height: 1.4rem;
+        margin-top: 10px;
+        border: 0;
+        color: darken($new_grey, 50%) !important;
+        p{
+          color: darken($new_grey, 50%) !important;
+          border-top: 1px solid $new_grey;
+        }
+      }
+      .dp_pec_date_event{
+        border: 1px solid $new_grey;
+        box-shadow: none;
+        padding: 20px;
+        border-radius: 4px;
+        .pec_edit_event,
+        .pec_remove_event,
+        .pec_cancel_booking,
+        .pec_book_event{
+          margin-right: 0;
+          margin-left: 10px;
+          font-size: 16px;
+          height: 30px;
+          line-height: 22px;
+          width: 30px
+        }
+        .dp_pec_event_description_more{
+          color: darken($new_grey, 50%) !important;
+          font-weight: bold;
+        }
+        span{
+          color: darken($new_grey, 50%) !important;
+        }
+        .dp_pec_date_time{
+          background: darken($new_grey, 30%) !important;
+          color: $white !important;
+        }
+        .dp_pec_date_event_link{
+          background: darken($new_grey, 30%);
+          color: $white !important;
+          border-radius: 4px;
+          span{
+            color: $white !important;
+          }
+        }
+        h2.dp_pec_event_title .dp_pec_event_title_sp,
+        h2.dp_pec_event_title{
+          font-family: inherit;
+          text-transform: none;
+          font-weight: 300;
+          color: darken($new_grey, 40%) !important;
+          font-size: 1.4em;
+        }
+      }
+      .dp_pec_edit_remove_wrap{
+        top: 20px;
+        right: 20px;
+      }
+    }
+    .dpProEventCalendar_feed{
+      background: darken($new_grey, 30%);
+    }
+  }
+  .dp_pec_accordion_wrapper .dp_pec_accordion_event h2 a,
+  .dp_pec_countdown_wrapper h2 a{
+    color: $white !important;
+    text-transform: none;
+    font-size: 1.2em;
+    &:hover{
+      text-decoration: none!important;
+    }
+  }
+  .pec_monthlyDisplayEvents{
+    float: left;
+    position: relative;
+    top: -100%;
+    margin-top: 20px;
+  }
+}
+
+.dpProEventCalendar_eventform{
+   padding: 0 40px;
+   font-family: inherit;
+ }
+.dp_pec_new_event_wrapper .pec-add-footer{
+  padding: 20px 0 0;
+}
+.pec-add-footer{
+  background: transparent;
+}
+
+.dp_pec_compact_wrapper.dp_pec_wrapper.pec_skin_blue_grey .dp_pec_nav .dp_pec_wrap_month_year {
+  .pec_switch_month,
+  .pec_switch_year{
+    color: darken($new_grey, 40%) !important;
+  }
+}
+
+.dp_pec_form_desc{
+  margin-bottom: .3rem;
+}
+
+.dpProEventCalendarModal,
+.dpProEventCalendarModalEditEvent{
+  h2{
+    padding: 20px 40px;
+    color: darken($new_grey, 40%);
+  }
+}
+
+.dp_pec_new_event_wrapper .dp_pec_new_event_text{
+  background: $white;
+}
+
+.dp_pec_new_event_wrapper .dp_pec_submit_event,
+.dp_pec_new_event_wrapper .dp_pec_remove_event,
+.dp_pec_new_event_wrapper .dp_pec_cancel_booking,
+.pec_event_page_send_booking,
+.pec_action_btn{
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  @extend .btn;
+}

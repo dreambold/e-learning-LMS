@@ -1,0 +1,7 @@
+{
+  "name": "@toolset/common",
+  "description": "Toolset Gutenberg common elements",
+  "main": "index.js",
+  "version": "1.0.0",
+  "license": "MIT"
+}

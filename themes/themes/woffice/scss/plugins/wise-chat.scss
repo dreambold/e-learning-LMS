@@ -1,0 +1,124 @@
+/*---------------------------------------------------------
+**
+** WISE CHAT
+**
+----------------------------------------------------------*/
+.wcContainer {
+  .wcMessages{
+    margin: 0;border-radius: 3px;padding: 10px;
+    .wcMessage{
+      position: relative;
+      &.wcPlainMessage{
+        display: none;
+      }
+      &:nth-child(odd){
+        text-align: right;
+        .wcMessageTime{
+          left: inherit;
+          right: 0;
+        }
+        .wcMessageContent:before{
+          left: inherit;
+          right: 18px;
+        }
+      }
+      &.wcCurrentUserMessage .wcMessageContent{
+        color: #FFF;
+      }
+      .wcMessageTime{
+        position:absolute;
+        left:0;
+        top:14px;
+        font-size:11px;
+        font-style:italic;
+      }
+      .wcMessageContent{
+        border-bottom:0;
+        border-radius:20px;
+        padding:5px 17px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        position:relative;
+        max-width:100%;
+        word-wrap:break-word;
+        display:inline-block;
+        &:before{
+          font-family:$font-icon-solid;
+          content:"\f0d8";
+          font-size:18px;
+          position:absolute;
+          left:18px;
+          top: -14px;
+        }
+      }
+      .wcActionWrapper {
+        display: none;
+      }
+    }
+    .wcMessageUser{
+      display: inline-block;
+      margin-bottom: 14px;
+      width: 100%;
+    }
+  }
+  &.wcControlsButtonsIncluded{
+    .wcControls{
+      border: 0;
+      padding: 0 !important;
+      a.wcInsertEmoticonButton{
+        //display:none;
+      }
+      a.wcToolButton{
+        border-radius: 3px;
+        background-image: none;
+        height: initial;
+        line-height: initial;
+        text-align: center;
+        color: initial !important;
+        opacity: .4 !important;
+        border: 0 !important;
+        &:hover, &:focus{
+          opacity: .8 !important;
+          border: 0;
+          box-shadow: 0;
+          outline: none;
+        }
+        &:before{
+          font-family: $font-icon-solid;
+          font-size: 18px;
+        }
+        &.wcInsertEmoticonButton{
+          &:before{ content: "\f118";}
+        }
+        &.wcAddImageAttachment{
+          &:before{ content: "\f030";}
+        }
+        &.wcAddFileAttachment{
+          &:before{ content: "\f0c6";}
+        }
+      }
+      .wcInputContainer{
+        display: block;
+        margin: 10px 0 0 0;
+        padding: 0;
+        width: 100%;
+        .wcInput{
+          display: block;
+          margin-top: 0;
+        }
+      }
+      .wcMessageAttachments{
+        margin-top: 10px;
+      }
+    }
+  }
+}
+.wcEmoticonsLayer{
+  background: rgba(239, 239, 239, 0.62);
+  border-radius: 3px;
+  a{
+    border: 1px solid transparent;
+  }
+}
+.wcPoweredBy{display: none !important;}
+.wcPoweredBy,.wcContainer .wcControls .wcPoweredBy{display: none !important;}

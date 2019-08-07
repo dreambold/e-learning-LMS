@@ -1,0 +1,42 @@
+#content-container div.support_bs{
+  width: 100%;
+  padding: 20px 0px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.05);
+  &::after {
+    content: "";
+    clear: both;
+    overflow: hidden;
+    display: table;
+  }
+  #wpsp_user_welcome{
+    padding: 0 40px;
+  }
+  span.label.wpsp_title_label{
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 14px;
+  }
+  select{
+    height: 40px;
+    line-height: normal;
+    border: 0;
+  }
+  a{
+    color: #484646;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  .nav-tabs {
+    padding: 0 40px;
+  }
+  .tab-content > .tab-pane{
+    padding: 0 40px;
+  }
+  .pager li > a, .pager li > span{
+    color: #484646;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,12 @@
+/**
+* Core Paragraph Gutenberg block extension editor style.
+*
+* This file contains all the needed styles to be used inside Gutenberg editor when the core Paragraph Gutenberg
+* block is extended to include the Fields and Views button.
+*/
+
+.wpv-block-button {
+  span {
+    vertical-align: middle;
+  }
+}

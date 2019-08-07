@@ -1,0 +1,789 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multiverso - Advanced File Sharing Plugin\n"
+"POT-Creation-Date: 2015-05-14 11:55+0100\n"
+"PO-Revision-Date: 2015-05-14 11:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: WEBSELF: Alessio Marzo & Andrea Onori <assistenza@webself."
+"it>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/controller.php:92
+msgid "There was an error uploading your file. The error is: "
+msgstr ""
+
+#: ../inc/controller.php:105 ../inc/controller.php:158
+msgid "The file type that you've uploaded is not allowed."
+msgstr ""
+
+#: ../inc/controller.php:137
+msgid "Remote url is wrong, there isn't any file to upload."
+msgstr ""
+
+#: ../inc/controller.php:244
+msgid "You need to enter an ID for the file"
+msgstr ""
+
+#: ../inc/controller.php:256
+msgid "File doesn't exist"
+msgstr ""
+
+#: ../inc/controller.php:260
+msgid "You haven't the rights to access"
+msgstr ""
+
+#: ../inc/controller.php:325
+msgid "You need to enter an ID for the category"
+msgstr ""
+
+#: ../inc/download.php:50
+msgid "We are sorry but the File reached limit of downloads"
+msgstr ""
+
+#: ../inc/download.php:54
+msgid "File removed from server"
+msgstr ""
+
+#: ../inc/filters.php:22 ../inc/install.php:89
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/functions-html.php:311 ../inc/functions-html.php:352
+msgid "View details"
+msgstr ""
+
+#: ../inc/functions-html.php:312 ../inc/functions-html.php:314
+#: ../inc/functions-html.php:325
+msgid "Download file"
+msgstr ""
+
+#: ../inc/functions-html.php:314 ../inc/install.php:28 ../inc/install.php:248
+msgid "File"
+msgstr ""
+
+#: ../inc/functions-html.php:318 ../inc/functions-html.php:357
+#: ../inc/install.php:129
+msgid "Owner"
+msgstr ""
+
+#: ../inc/functions-html.php:325 ../inc/functions-html.php:364
+msgid "Download"
+msgstr ""
+
+#: ../inc/functions-html.php:330 ../inc/functions-html.php:369
+msgid "Details"
+msgstr ""
+
+#: ../inc/functions-html.php:354
+msgid "File: none"
+msgstr ""
+
+#: ../inc/functions-html.php:363
+msgid "No file uploaded yet"
+msgstr ""
+
+#: ../inc/functions.php:249 ../inc/install.php:258
+msgid "Current file:"
+msgstr ""
+
+#: ../inc/functions.php:250 ../inc/install.php:259
+msgid "Flag this to remove file (you need to update post)."
+msgstr ""
+
+#: ../inc/functions.php:257 ../inc/functions.php:506 ../inc/install.php:266
+msgid ""
+"<b>Upload a local file</b> <br><em>(if you fill this field system will "
+"ignore next two fields)</em>"
+msgstr ""
+
+#: ../inc/functions.php:261 ../inc/functions.php:509 ../inc/install.php:269
+msgid ""
+"<b>Upload a remote file</b> <br><em>(if you fill this field system will "
+"ignore next field)</em>"
+msgstr ""
+
+#: ../inc/functions.php:262 ../inc/functions.php:266 ../inc/functions.php:510
+#: ../inc/functions.php:513 ../inc/install.php:270 ../inc/install.php:273
+msgid "ex. http://www.domain.ext/filename.ext"
+msgstr ""
+
+#: ../inc/functions.php:265 ../inc/functions.php:512 ../inc/install.php:272
+msgid ""
+"<b>Direct link for the file</b> <br><em>(the file will not be uploaded on "
+"the server)</em>"
+msgstr ""
+
+#: ../inc/functions.php:269 ../inc/functions.php:515
+msgid "<b>Downloads Limit</b> <br><em>(set -1 for unlimited)</em>"
+msgstr ""
+
+#: ../inc/functions.php:284 ../inc/functions.php:528 ../inc/install.php:280
+msgid "<b>File Owner</b>"
+msgstr ""
+
+#: ../inc/functions.php:289 ../inc/functions.php:533 ../inc/install.php:303
+msgid "<b>File Access</b>"
+msgstr ""
+
+#: ../inc/functions.php:294 ../inc/functions.php:537 ../inc/install.php:308
+msgid "Public"
+msgstr ""
+
+#: ../inc/functions.php:295 ../inc/functions.php:538 ../inc/install.php:309
+msgid "Registered"
+msgstr ""
+
+#: ../inc/functions.php:296 ../inc/functions.php:539 ../inc/install.php:310
+msgid "Personal"
+msgstr ""
+
+#: ../inc/functions.php:300 ../inc/functions.php:542
+msgid ""
+"Note: If you select \"Personal\" only you will be able to access the file. "
+msgstr ""
+
+#: ../inc/functions.php:398 ../inc/functions.php:454
+msgid ""
+"<div class=\"mv_error\">The file type that you've uploaded is not allowed.</"
+"div>"
+msgstr ""
+
+#: ../inc/functions.php:431
+msgid ""
+"<div class=\"mv_error\">Remote url is wrong, there isn't any file to upload."
+"</div>"
+msgstr ""
+
+#: ../inc/functions.php:638 ../inc/functions.php:694
+msgid ""
+"<div class=\"mv_error\">The file type that you've uploaded is not allowed. "
+"Your data was saved but you need to edit the file from the list below to "
+"complete your insert.</div>"
+msgstr ""
+
+#: ../inc/functions.php:671
+msgid ""
+"<div class=\"mv_error\">Remote url is wrong, there isn't any file to upload. "
+"Your data was saved but you need to edit the file from the list below to "
+"complete your insert.</div>"
+msgstr ""
+
+#: ../inc/install.php:18
+msgid "Settings"
+msgstr ""
+
+#: ../inc/install.php:27 ../inc/install.php:39
+msgid "Multiverso"
+msgstr ""
+
+#: ../inc/install.php:29 ../inc/install.php:30
+msgid "Add New File"
+msgstr ""
+
+#: ../inc/install.php:31 ../shortcodes/manage-files.php:140
+msgid "Edit File"
+msgstr ""
+
+#: ../inc/install.php:32
+msgid "New File"
+msgstr ""
+
+#: ../inc/install.php:33
+msgid "All Files"
+msgstr ""
+
+#: ../inc/install.php:34
+msgid "View File"
+msgstr ""
+
+#: ../inc/install.php:35
+msgid "Search Files"
+msgstr ""
+
+#: ../inc/install.php:36
+msgid "No files found"
+msgstr ""
+
+#: ../inc/install.php:37
+msgid "No files found in Trash"
+msgstr ""
+
+#: ../inc/install.php:38
+msgid "Parent File:"
+msgstr ""
+
+#: ../inc/install.php:85
+msgid "Multiverso Categories"
+msgstr ""
+
+#: ../inc/install.php:86 ../shortcodes/manage-files.php:155
+#: ../shortcodes/manage-files.php:249
+msgid "Category"
+msgstr ""
+
+#: ../inc/install.php:87
+msgid "Search Categories"
+msgstr ""
+
+#: ../inc/install.php:88
+msgid "Popular Categories"
+msgstr ""
+
+#: ../inc/install.php:90
+msgid "Parent Category"
+msgstr ""
+
+#: ../inc/install.php:91
+msgid "Parent Category:"
+msgstr ""
+
+#: ../inc/install.php:92
+msgid "Edit Category"
+msgstr ""
+
+#: ../inc/install.php:93
+msgid "Update Category"
+msgstr ""
+
+#: ../inc/install.php:94
+msgid "Add New Category"
+msgstr ""
+
+#: ../inc/install.php:95
+msgid "New Category"
+msgstr ""
+
+#: ../inc/install.php:96
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../inc/install.php:97
+msgid "Add or remove categories"
+msgstr ""
+
+#: ../inc/install.php:98
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../inc/install.php:99
+msgid "File Categories"
+msgstr ""
+
+#: ../inc/install.php:169
+msgid "Access"
+msgstr ""
+
+#: ../inc/install.php:211 ../widgets/mv-category-files.php:25
+msgid "Categories"
+msgstr ""
+
+#: ../inc/install.php:275
+msgid ""
+"<b>Insert a limit for the downloads</b> <br><em>(set -1 for unlimited)</em>"
+msgstr ""
+
+#: ../inc/install.php:313
+msgid ""
+"Note: If you select \"Personal\" only file owner can will be able to access "
+"the file. "
+msgstr ""
+
+#: ../inc/install.php:389
+#, php-format
+msgid "View all file in %s"
+msgstr ""
+
+#: ../inc/install.php:391
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../inc/options.php:73
+msgid "Settings Saved"
+msgstr ""
+
+#: ../inc/options.php:255
+msgid "Multiverso Settings"
+msgstr ""
+
+#: ../inc/options.php:257
+msgid "File types"
+msgstr ""
+
+#: ../inc/options.php:258
+msgid "Enable/Disable file types you want accept in the uploading form"
+msgstr ""
+
+#: ../inc/options.php:293
+msgid ""
+"Add your MIME Types <b>comma separated</b>. For ex. <em>video/mp4,audio/"
+"mpeg</em> (if you can't find the mime in the web try to use something like "
+"<b>application/psd</b> replacing <b>psd</b> with the extension of your file)"
+msgstr ""
+
+#: ../inc/options.php:295
+msgid "File details Page"
+msgstr ""
+
+#: ../inc/options.php:296
+msgid ""
+"You can use your theme's <em>single.php</em> file to show the Multiverso's "
+"file details"
+msgstr ""
+
+#: ../inc/options.php:297
+msgid "Enable file details page"
+msgstr ""
+
+#: ../inc/options.php:300
+msgid "Manage Files Page"
+msgstr ""
+
+#: ../inc/options.php:301
+msgid ""
+"This page can be used to allow the subscriber to add and edit his files by "
+"<b>Frontend</b>"
+msgstr ""
+
+#: ../inc/options.php:317
+msgid "Choose the page with <code>[mv_managefiles]</code> tag"
+msgstr ""
+
+#: ../inc/options.php:320
+msgid "Category Page"
+msgstr ""
+
+#: ../inc/options.php:321
+msgid "This page is required to show your category view"
+msgstr ""
+
+#: ../inc/options.php:337
+msgid "Choose the page with <code>[mv_categories]</code> tag"
+msgstr ""
+
+#: ../inc/options.php:340
+msgid "Search Page"
+msgstr ""
+
+#: ../inc/options.php:341
+msgid "This page is required to show your search view"
+msgstr ""
+
+#: ../inc/options.php:357
+msgid "Choose the page with <code>[mv_search]</code> tag"
+msgstr ""
+
+#: ../inc/options.php:360
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../inc/options.php:362
+msgid "File Size Limit"
+msgstr ""
+
+#: ../inc/options.php:363
+msgid "bytes"
+msgstr ""
+
+#: ../inc/options.php:364
+msgid ""
+"Insert file size limit in bytes for upload (leave blank to use default "
+"server limit)"
+msgstr ""
+
+#: ../inc/options.php:365
+msgid ""
+"<b><em>Pay Attention: this limit is not able to override your server setup!</"
+"em></b>"
+msgstr ""
+
+#: ../inc/options.php:367
+msgid "Enable/Disable comments for file details page"
+msgstr ""
+
+#: ../inc/options.php:368
+msgid "Enable Comments"
+msgstr ""
+
+#: ../inc/options.php:370
+msgid "Custom Slugs"
+msgstr ""
+
+#: ../inc/options.php:371
+msgid ""
+"<b>Attention</b>: to change the slugs you need to save Multiverso's Settings "
+"and then the"
+msgstr ""
+
+#: ../inc/options.php:371
+msgid "Permalink's Settings"
+msgstr ""
+
+#: ../inc/options.php:373
+msgid "<b>Post Type Slug</b>"
+msgstr ""
+
+#: ../inc/options.php:374
+msgid ""
+"Name for the permalink folder in file view (ex. www.domain.ext/<b>files</b>/"
+"file-name). Leave blank for default name"
+msgstr ""
+
+#: ../inc/options.php:375
+msgid "<b>Taxonomy Slug</b>"
+msgstr ""
+
+#: ../inc/options.php:376
+msgid ""
+"Name for the permalink folder in category view (ex. www.domain.ext/<b>file-"
+"category</b>/category-name). Leave blank for default name"
+msgstr ""
+
+#: ../inc/options.php:379
+msgid "Theme Compatibility"
+msgstr ""
+
+#: ../inc/options.php:381
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/options.php:382
+msgid ""
+"Use Multiverso's classes to customize layouts with your <b>personal styles</"
+"b>"
+msgstr ""
+
+#: ../inc/options.php:385
+msgid "Before Templates"
+msgstr ""
+
+#: ../inc/options.php:386
+msgid "Write here the HTML code to add BEFORE templates's code "
+msgstr ""
+
+#: ../inc/options.php:389
+msgid "After Templates"
+msgstr ""
+
+#: ../inc/options.php:390
+msgid "Write here the HTML code to add AFTER templates's code "
+msgstr ""
+
+#: ../inc/options.php:394
+msgid "Save Changes"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:7
+msgid "You need to be logged to manage your files!"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:65 ../shortcodes/manage-files.php:229
+msgid "Add new File"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:79 ../shortcodes/manage-files.php:146
+#: ../shortcodes/manage-files.php:236 ../widgets/mv-login-register.php:37
+msgid "Title"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:80
+msgid "Category/Folder"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:81 ../shortcodes/manage-files.php:188
+#: ../shortcodes/manage-files.php:275
+msgid "Status"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:82
+msgid "Actions"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:100
+msgid "Are you sure you wish to trash the file: "
+msgstr ""
+
+#: ../shortcodes/manage-files.php:148 ../shortcodes/manage-files.php:243
+msgid "Description"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:190 ../shortcodes/manage-files.php:277
+msgid "Published"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:191 ../shortcodes/manage-files.php:278
+msgid "Pending Review"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:192 ../shortcodes/manage-files.php:279
+msgid "Draft"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:193 ../shortcodes/manage-files.php:280
+msgid "Trashed"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:211
+msgid "Update"
+msgstr ""
+
+#: ../shortcodes/manage-files.php:296
+msgid "Save"
+msgstr ""
+
+#: ../shortcodes/multiverso-category.php:74
+msgid ""
+"You can't directly access to this page, click on category in all files page "
+"or use the single category shortcode (using an existing category)."
+msgstr ""
+
+#: ../shortcodes/multiverso-file-theme.php:29
+msgid "File Details"
+msgstr ""
+
+#: ../shortcodes/multiverso-file-theme.php:32
+msgid "Uploaded"
+msgstr ""
+
+#: ../shortcodes/multiverso-file-theme.php:32
+msgid " ago"
+msgstr ""
+
+#: ../shortcodes/multiverso-file-theme.php:57
+msgid "You are not allowed to view this file"
+msgstr ""
+
+#: ../shortcodes/multiverso-search-files.php:19
+msgid "Results for: "
+msgstr ""
+
+#: ../shortcodes/multiverso-search-files.php:55
+msgid "No file found."
+msgstr ""
+
+#: ../shortcodes/multiverso-search-files.php:60
+msgid "<br>No results for your keyword."
+msgstr ""
+
+#: ../shortcodes/personalfiles.php:79 ../shortcodes/registeredfiles.php:80
+msgid "You must be logged to view this page."
+msgstr ""
+
+#: ../widgets/mv-category-files.php:18
+msgid "A list or dropdown of Multiverso categories"
+msgstr ""
+
+#: ../widgets/mv-category-files.php:19
+msgid "MV Categories"
+msgstr ""
+
+#: ../widgets/mv-category-files.php:70
+#: ../widgets/mv-personal-recent-files.php:114
+#: ../widgets/mv-recent-files.php:119
+#: ../widgets/mv-registered-recent-files.php:114 ../widgets/mv-search.php:47
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/mv-category-files.php:74
+msgid "Show hierarchy"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:15
+msgid "MV Login & Register"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:15
+msgid "Multiverso Login & Register widget"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:42
+msgid "Enable/Disable Tabs"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:45
+msgid "Login Tab"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:52
+msgid "Register Tab"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:59
+msgid "Forgot Tab"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:64
+msgid "Enable/Disable User links"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:68
+msgid "Profile link (backend)"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:74
+msgid "Manage your files link"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:126 ../widgets/mv-login-register.php:186
+msgid "Login"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:127
+msgid "Register"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:128
+msgid "Forgot?"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:159
+msgid ""
+"<h3>Success!</h3><p>Check your email for the password and then return to log "
+"in.</p>"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:163
+msgid "<h3>Success!</h3><p>Check your email to reset your password.</p>"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:167
+msgid "<h3>Have an account?</h3><p>Log in now.</p>"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:173 ../widgets/mv-login-register.php:201
+msgid "Username"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:177
+msgid "Password"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:183
+msgid "Remember me"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:197
+msgid "<h3>Do you need an Account?</h3><p>Sign up now.</p>"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:205
+msgid "Your Email"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:210
+msgid "Sign up!"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:211
+msgid "<p>Check your email for the password!</p>"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:225
+msgid ""
+"<h3>Lose something?</h3><p>Enter your username or email to reset your "
+"password.</p>"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:229
+msgid "Username or Email"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:234
+msgid "Reset my password"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:235
+msgid "<p>A message will be sent to your email address.</p>"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:261
+msgid "Howdy"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:270
+msgid "Your Profile"
+msgstr ""
+
+#: ../widgets/mv-login-register.php:276
+msgid "Manage Your Files"
+msgstr ""
+
+#: ../widgets/mv-personal-recent-files.php:13
+msgid "Displays only personal recent files"
+msgstr ""
+
+#: ../widgets/mv-personal-recent-files.php:14
+msgid "MV Personal Recent Files"
+msgstr ""
+
+#: ../widgets/mv-personal-recent-files.php:39
+msgid "Personal Recent Files"
+msgstr ""
+
+#: ../widgets/mv-personal-recent-files.php:76
+msgid "No Personal File Found"
+msgstr ""
+
+#: ../widgets/mv-personal-recent-files.php:117
+#: ../widgets/mv-recent-files.php:122
+#: ../widgets/mv-registered-recent-files.php:117
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../widgets/mv-personal-recent-files.php:121
+#: ../widgets/mv-recent-files.php:126
+#: ../widgets/mv-registered-recent-files.php:121
+msgid "Display post date?"
+msgstr ""
+
+#: ../widgets/mv-recent-files.php:13
+msgid "Displays recent files"
+msgstr ""
+
+#: ../widgets/mv-recent-files.php:14
+msgid "MV Recent Files"
+msgstr ""
+
+#: ../widgets/mv-recent-files.php:39
+msgid "Recent Files"
+msgstr ""
+
+#: ../widgets/mv-recent-files.php:79
+msgid "No File Found"
+msgstr ""
+
+#: ../widgets/mv-registered-recent-files.php:13
+msgid "Displays only registered recent files"
+msgstr ""
+
+#: ../widgets/mv-registered-recent-files.php:14
+msgid "MV Registered Recent Files"
+msgstr ""
+
+#: ../widgets/mv-registered-recent-files.php:39
+msgid "Registered Recent Files"
+msgstr ""
+
+#: ../widgets/mv-registered-recent-files.php:76
+msgid "No Registered File Found"
+msgstr ""
+
+#: ../widgets/mv-search.php:15
+msgid "A search form for your Multiverso files"
+msgstr ""
+
+#: ../widgets/mv-search.php:16
+msgid "MV Search"
+msgstr ""
+
+#: ../widgets/mv-search.php:29
+msgid "Search for:"
+msgstr ""
